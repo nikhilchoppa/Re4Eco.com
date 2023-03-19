@@ -1,0 +1,128 @@
+# BEGIN LSCACHE
+# END LSCACHE
+# BEGIN NON_LSCACHE
+# END NON_LSCACHE
+# BEGIN Webcraftic Hide My Wp
+# --------
+# Disable directory browsing
+Options All -Indexes
+# --------
+# Disable X-Powered-By
+<IfModule mod_headers.c>
+Header unset X-Powered-By
+</IfModule>
+# --------
+<IfModule mod_rewrite.c> 
+RewriteEngine On 
+RewriteBase / 
+
+RewriteCond %{HTTP_COOKIE} !(wordpress_logged_in_|wp-postpass_|wptouch_switch_toggle|comment_author_|comment_author_email_) [NC]
+RewriteCond %{QUERY_STRING} !hide_my_wp=kjagnizafb [NC]
+RewriteCond %{REQUEST_URI} error_log$ [NC,OR]
+RewriteCond %{REQUEST_URI} wp-config-sample\.php$ [NC,OR]
+RewriteCond %{REQUEST_URI} readme\.html$ [NC,OR]
+RewriteCond %{REQUEST_URI} readme\.txt$ [NC,OR]
+RewriteCond %{REQUEST_URI} license\.txt$ [NC,OR]
+RewriteCond %{REQUEST_URI} install\.php$ [NC,OR]
+RewriteCond %{REQUEST_URI} wp-config\.php$ [NC,OR]
+RewriteCond %{REQUEST_URI} php\.ini$ [NC,OR]
+RewriteCond %{REQUEST_URI} bb-config\.php$ [NC,OR]
+RewriteCond %{REQUEST_URI} ^/wp-content(/.*)? [NC,OR]
+RewriteCond %{REQUEST_URI} ^/wp-includes(/.*)? [NC,OR]
+RewriteCond %{REQUEST_URI} (admin-ajax\.php|wp-comments-post\.php) [NC]
+RewriteRule ^(.*)$  - [L,R=404]
+
+RewriteRule ^modules/a0a39675/(.*) wp-content/plugins/accelerated-mobile-pages/$1?hide_my_wp=kjagnizafb [QSA,L]
+RewriteRule ^modules/0e2d69d4/(.*) wp-content/plugins/akismet/$1?hide_my_wp=kjagnizafb [QSA,L]
+RewriteRule ^modules/24d18d26/(.*) wp-content/plugins/autoptimize/$1?hide_my_wp=kjagnizafb [QSA,L]
+RewriteRule ^modules/04e82349/(.*) wp-content/plugins/cartflows/$1?hide_my_wp=kjagnizafb [QSA,L]
+RewriteRule ^modules/506d43cf/(.*) wp-content/plugins/cloudflare/$1?hide_my_wp=kjagnizafb [QSA,L]
+RewriteRule ^modules/81779261/(.*) wp-content/plugins/coblocks/$1?hide_my_wp=kjagnizafb [QSA,L]
+RewriteRule ^modules/471138c9/(.*) wp-content/plugins/contact-form-7/$1?hide_my_wp=kjagnizafb [QSA,L]
+RewriteRule ^modules/d8e829c0/(.*) wp-content/plugins/daftplug-instantify/$1?hide_my_wp=kjagnizafb [QSA,L]
+RewriteRule ^modules/af03041b/(.*) wp-content/plugins/elementor/$1?hide_my_wp=kjagnizafb [QSA,L]
+RewriteRule ^modules/00ab4107/(.*) wp-content/plugins/flow-flow/$1?hide_my_wp=kjagnizafb [QSA,L]
+RewriteRule ^modules/0f2140fb/(.*) wp-content/plugins/fluentform/$1?hide_my_wp=kjagnizafb [QSA,L]
+RewriteRule ^modules/89b3693f/(.*) wp-content/plugins/fluentformpro/$1?hide_my_wp=kjagnizafb [QSA,L]
+RewriteRule ^modules/be719c7d/(.*) wp-content/plugins/siteorigin-panels/$1?hide_my_wp=kjagnizafb [QSA,L]
+RewriteRule ^modules/1f638958/(.*) wp-content/plugins/recycle-plugin/$1?hide_my_wp=kjagnizafb [QSA,L]
+RewriteRule ^modules/36b2b5cd/(.*) wp-content/plugins/resmushit-image-optimizer/$1?hide_my_wp=kjagnizafb [QSA,L]
+RewriteRule ^modules/efa1d3df/(.*) wp-content/plugins/shift8-cdn/$1?hide_my_wp=kjagnizafb [QSA,L]
+RewriteRule ^modules/ba9dd67a/(.*) wp-content/plugins/so-widgets-bundle/$1?hide_my_wp=kjagnizafb [QSA,L]
+RewriteRule ^modules/0f3fc17a/(.*) wp-content/plugins/revslider/$1?hide_my_wp=kjagnizafb [QSA,L]
+RewriteRule ^modules/7db1016d/(.*) wp-content/plugins/theme-junkie-custom-css/$1?hide_my_wp=kjagnizafb [QSA,L]
+RewriteRule ^modules/c1906607/(.*) wp-content/plugins/clearfy_package/$1?hide_my_wp=kjagnizafb [QSA,L]
+RewriteRule ^modules/666c6e74/(.*) wp-content/plugins/clearfy/$1?hide_my_wp=kjagnizafb [QSA,L]
+RewriteRule ^modules/7a03ad6f/(.*) wp-content/plugins/robin-image-optimizer/$1?hide_my_wp=kjagnizafb [QSA,L]
+RewriteRule ^modules/0f5a39b5/(.*) wp-content/plugins/whatsapp-for-wordpress/$1?hide_my_wp=kjagnizafb [QSA,L]
+RewriteRule ^modules/c2cc3216/(.*) wp-content/plugins/woocommerce/$1?hide_my_wp=kjagnizafb [QSA,L]
+RewriteRule ^modules/65a3b5dc/(.*) wp-content/plugins/WP_Estimation_Form/$1?hide_my_wp=kjagnizafb [QSA,L]
+RewriteRule ^modules/582c1a9d/(.*) wp-content/plugins/wpforms/$1?hide_my_wp=kjagnizafb [QSA,L]
+RewriteRule ^modules/(.*) wp-content/plugins/$1?hide_my_wp=kjagnizafb [QSA,L]
+RewriteRule ^template/base\.css wp-content/themes/recycle/style.css?hide_my_wp=kjagnizafb [QSA,L]
+RewriteRule ^template/(.*) wp-content/themes/recycle/$1?hide_my_wp=kjagnizafb [QSA,L]
+RewriteRule ^files/(.*) wp-content/uploads/$1?hide_my_wp=kjagnizafb [QSA,L]
+RewriteRule ^scripts-cache/(js|css)/(.*) wp-content/cache/wmac/$1/wmac_$2?hide_my_wp=kjagnizafb [QSA,L]
+RewriteRule ^inc/(.*) wp-content/$1?hide_my_wp=kjagnizafb [QSA,L]
+RewriteRule ^libs/(.*) wp-includes/$1?hide_my_wp=kjagnizafb [QSA,L]
+RewriteRule ^dynamic\.php wp-admin/admin-ajax.php?hide_my_wp=kjagnizafb [QSA,L]
+RewriteRule ^reviews\.php wp-comments-post.php?hide_my_wp=kjagnizafb [QSA,L]
+</IfModule>
+# END Webcraftic Hide My Wp
+# BEGIN SMART PUSH FAST BRIDGE
+RewriteEngine On
+RewriteRule ^push/([_0-9a-zA-Z-]+)/?(.*)?$ index.php?smpushcontrol=$1/$2&%{QUERY_STRING}
+RewriteCond %{QUERY_STRING} ^smpushcontrol=(get_archive|get_link|go)(.*)$
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ wp-content/plugins/smio-push-notification/bridge.php?%{QUERY_STRING} [L]
+# END SMART PUSH FAST BRIDGE
+#Redirection code starts
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+#Redirection code Ends
+# BEGIN WordPress
+# The directives (lines) between `BEGIN WordPress` and `END WordPress` are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+    		### START Custom rules by PWA plugin ###
+    	
+    		### END Custom rules by PWA plugin ###
+    	
+# END WordPress
+
+
+# Wordfence WAF
+<IfModule LiteSpeed>
+php_value auto_prepend_file '/home/g0na2vu18mqm/public_html/wordfence-waf.php'
+</IfModule>
+<IfModule lsapi_module>
+php_value auto_prepend_file '/home/g0na2vu18mqm/public_html/wordfence-waf.php'
+</IfModule>
+<Files ".user.ini">
+<IfModule mod_authz_core.c>
+	Require all denied
+</IfModule>
+<IfModule !mod_authz_core.c>
+	Order deny,allow
+	Deny from all
+</IfModule>
+</Files>
+
+# END Wordfence WAF
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php72” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php72 .php .php7 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit

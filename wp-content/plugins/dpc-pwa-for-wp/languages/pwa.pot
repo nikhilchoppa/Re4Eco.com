@@ -1,0 +1,886 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Progressive Web Apps For WordPress\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-18 19:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.2.0; wp-5.0.1"
+
+#: classes/class-optify.php:92
+#, php-format
+msgid "%1$s File, %2$s"
+msgid_plural "%1$s Files, %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/class-pushcredentials.php:102
+msgid "Access denied."
+msgstr ""
+
+#: inc/funcs.php:74
+msgid "Accessibility"
+msgstr ""
+
+#: classes/class-pushpost.php:85
+msgid ""
+"Add a meta box to the post edit screen from where you can easily send a push "
+"notifications to all users with this post details"
+msgstr ""
+
+#: classes/class-preloader.php:20
+msgid ""
+"Add a nice page preloader with bouncing website icon and background color"
+msgstr ""
+
+#: classes/class-pushpost.php:96
+#, php-format
+msgid "Add Meta Box For \"%s\""
+msgstr ""
+
+#: classes/class-push.php:104
+msgid "Add Notification Button"
+msgstr ""
+
+#: classes/class-pulltonavigate.php:20
+msgid "Add pull to navigate feature for iPhone and Android mobile users"
+msgstr ""
+
+#: classes/class-shake.php:20
+msgid "Add shake to refresh feature for iPhone and Android mobile users"
+msgstr ""
+
+#: classes/class-swipe.php:20
+msgid ""
+"Add swipe left to go back and swipe right to go forward feature for mobile "
+"users"
+msgstr ""
+
+#: inc/funcs.php:78
+msgid "Add To Home Screen"
+msgstr ""
+
+#: classes/class-addtohomescreen.php:240
+msgid "Add to Home Screen"
+msgstr ""
+
+#: classes/class-addtohomescreen.php:36
+msgid ""
+"Add to Home Screen, sometimes referred to as the web app install prompt, "
+"makes it easy for users to install your Progressive Web App on their mobile "
+"or desktop device. After the user accepts the prompt, your PWA will be added "
+"to their launcher, and it will run like any other installed app. Fill the "
+"information about your application such as its name, author, icon, and "
+"description."
+msgstr ""
+
+#: classes/class-push.php:101
+msgid "Adds \"Get Push Notifications\" button to your web app."
+msgstr ""
+
+#: classes/class-offlineusage.php:125
+msgid "Adds a little notice which will be displayed if the user is offline."
+msgstr ""
+
+#: classes/class-init.php:112
+msgid "An unexpected error occured"
+msgstr ""
+
+#: classes/class-addtohomescreen.php:239
+msgid "and choose"
+msgstr ""
+
+#: classes/class-toast.php:32
+msgid "Archive Opened"
+msgstr ""
+
+#: classes/class-pushpost.php:42
+msgid "Are you sure you want to send a new push notification?"
+msgstr ""
+
+#: classes/class-push.php:90
+msgid "Ask users to subscribe notifications on load"
+msgstr ""
+
+#: classes/class-status.php:64
+msgid "Attention!"
+msgstr ""
+
+#: classes/class-push.php:106 classes/class-addtohomescreen.php:78
+#: classes/class-pulltonavigate.php:24
+msgid "Background Color"
+msgstr ""
+
+#: classes/class-offlineusage.php:135
+msgid "Background-Color"
+msgstr ""
+
+#: classes/class-addtohomescreen.php:73
+msgid "Black bar with white text"
+msgstr ""
+
+#: classes/class-push.php:400
+msgid "Body"
+msgstr ""
+
+#: classes/class-addtohomescreen.php:66
+msgid "Both"
+msgstr ""
+
+#: classes/class-offlineusage.php:130
+msgid "Bottom"
+msgstr ""
+
+#: classes/class-push.php:108
+msgid "Bottom Left"
+msgstr ""
+
+#: classes/class-push.php:110
+msgid "Bottom Right"
+msgstr ""
+
+#: classes/class-push.php:136
+msgid "Browser"
+msgstr ""
+
+#: classes/class-addtohomescreen.php:244
+msgid "Cancel"
+msgstr ""
+
+#: classes/class-toast.php:31
+msgid "Category Opened"
+msgstr ""
+
+#: classes/class-optify.php:95
+msgid "clear"
+msgstr ""
+
+#: classes/class-pushcredentials.php:34
+msgid "Click \"Add Project\""
+msgstr ""
+
+#: classes/class-status.php:63
+msgid "contact form"
+msgstr ""
+
+#: classes/class-addtohomescreen.php:237
+msgid "Continue in browser"
+msgstr ""
+
+#: classes/class-pushcredentials.php:38
+msgid "Copy \"Server Key\" and \"Sender ID\" and paste it below"
+msgstr ""
+
+#: classes/class-push.php:544
+msgid "Could not write latest_push_json"
+msgstr ""
+
+#. Author of the plugin
+msgid "DaftPunKonsole"
+msgstr ""
+
+#: classes/class-status.php:69
+msgid "Debug Log"
+msgstr ""
+
+#: classes/class-addtohomescreen.php:46
+msgid "Description"
+msgstr ""
+
+#: classes/class-push.php:123
+msgid "Device"
+msgstr ""
+
+#: classes/class-optify.php:51
+msgid ""
+"Disable this options if you are already using another caching and "
+"optimization plugin. Also consider that \"Optimize JS Delivery\" option can "
+"cause to break your website if your other JavaScript code is not structured "
+"correctly, so try to disable this option if you are getting JS errors and "
+"your website doesn't work properly."
+msgstr ""
+
+#: classes/class-addtohomescreen.php:61
+msgid "Display mode"
+msgstr ""
+
+#: classes/class-push.php:354 classes/class-status.php:68
+msgid "Download Logfile"
+msgstr ""
+
+#: classes/class-offlineusage.php:127
+msgid "Enable Offline Notification"
+msgstr ""
+
+#: classes/class-offlineusage.php:28
+msgid "Enable Offline Usage"
+msgstr ""
+
+#: classes/class-preloader.php:23
+msgid "Enable Preloader"
+msgstr ""
+
+#: classes/class-pulltonavigate.php:23
+msgid "Enable Pull to Navigate"
+msgstr ""
+
+#: classes/class-reactify.php:23
+msgid "Enable Reactify"
+msgstr ""
+
+#: classes/class-shake.php:23
+msgid "Enable Shake to Refresh"
+msgstr ""
+
+#: classes/class-swipe.php:23
+msgid "Enable Swipe To Back/Forward"
+msgstr ""
+
+#: classes/class-toast.php:22
+msgid "Enable Toast Messages"
+msgstr ""
+
+#: classes/class-toast.php:19
+msgid "Enable toast messages for mobile phone users"
+msgstr ""
+
+#: classes/class-vibrate.php:19
+msgid "Enable vibrate on tapping for mobile users"
+msgstr ""
+
+#: classes/class-vibrate.php:22
+msgid "Enable Vibration"
+msgstr ""
+
+#: classes/class-push.php:370 classes/class-status.php:88
+msgid "Error"
+msgstr ""
+
+#. Every URL has to start with: [home_url]
+#: classes/class-offlineusage.php:43
+#, php-format
+msgid "Every URL has to start with: %1$s"
+msgstr ""
+
+#: classes/class-pushcredentials.php:35
+msgid "Follow the instructions to create your project"
+msgstr ""
+
+#: classes/class-addtohomescreen.php:56
+msgid "Fullscreen - App takes whole display"
+msgstr ""
+
+#. Go to url
+#: classes/class-pushcredentials.php:33
+#, php-format
+msgid "Go to %s"
+msgstr ""
+
+#: classes/class-push.php:96
+msgid "Has to be at least 92x92px"
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "http://minerbitco.in/wpdemo/"
+msgstr ""
+
+#: classes/class-status.php:189
+msgid "HTTPS"
+msgstr ""
+
+#: classes/class-addtohomescreen.php:53
+msgid "Icon"
+msgstr ""
+
+#: classes/class-push.php:105
+msgid "Icon Color"
+msgstr ""
+
+#: classes/class-push.php:408
+msgid "Image"
+msgstr ""
+
+#: classes/class-push.php:462
+msgid "Invalid firebase server key"
+msgstr ""
+
+#: classes/class-optify.php:114
+msgid "Invalid nonce"
+msgstr ""
+
+#: classes/class-addtohomescreen.php:71
+msgid "iOS Status Bar Style"
+msgstr ""
+
+#: classes/class-addtohomescreen.php:67
+msgid "Landscape"
+msgstr ""
+
+#: classes/class-push.php:355
+msgid "Latest Push Log"
+msgstr ""
+
+#: classes/class-push.php:367 classes/class-status.php:85
+msgid "Logfile could not be created"
+msgstr ""
+
+#: classes/class-status.php:159
+msgid "Manifest"
+msgstr ""
+
+#: classes/class-status.php:161
+msgid "Manifest generated successfully."
+msgstr ""
+
+#: classes/class-addtohomescreen.php:52
+#, php-format
+msgid "Manifest icon will be same as Site Icon -> %s"
+msgstr ""
+
+#: classes/class-status.php:162
+msgid "Manifest not generated."
+msgstr ""
+
+#: classes/class-addtohomescreen.php:41
+msgid "max. 12 Chars"
+msgstr ""
+
+#: classes/class-offlineusage.php:128
+msgid "Message"
+msgstr ""
+
+#: classes/class-optify.php:56
+msgid "Minify CSS and JS Files"
+msgstr ""
+
+#: classes/class-optify.php:54
+msgid "Minify your CSS and JS to load web app faster"
+msgstr ""
+
+#: classes/class-addtohomescreen.php:58
+msgid "Minimal browser controls"
+msgstr ""
+
+#: classes/class-swipe.php:27
+msgid "Moved Back"
+msgstr ""
+
+#: classes/class-swipe.php:28
+msgid "Moved Forward"
+msgstr ""
+
+#: classes/class-addtohomescreen.php:39
+msgid "Name"
+msgstr ""
+
+#: classes/class-pushcredentials.php:37
+msgid "Navigate to Cloud Messaging Tab"
+msgstr ""
+
+#: classes/class-push.php:126
+msgid "No devices registered"
+msgstr ""
+
+#: classes/class-push.php:491
+msgid "No devices set"
+msgstr ""
+
+#: classes/class-push.php:92
+msgid "Notification Bar Icon"
+msgstr ""
+
+#: classes/class-push.php:168
+msgid "Notifications are blocked!"
+msgstr ""
+
+#: classes/class-push.php:169
+msgid "Notifications are turned off!"
+msgstr ""
+
+#: classes/class-push.php:170
+msgid "Notifications are turned on!"
+msgstr ""
+
+#: classes/class-push.php:167
+msgid "Notifications could not be turned off!"
+msgstr ""
+
+#: classes/class-push.php:447
+msgid "Notifications have been sent"
+msgstr ""
+
+#: classes/class-pushcredentials.php:36
+msgid "Now navigate to Project settings page"
+msgstr ""
+
+#: classes/class-offlineusage.php:45
+msgid "Offline Content"
+msgstr ""
+
+#: classes/class-offlineusage.php:37
+msgid "Offline Page"
+msgstr ""
+
+#: inc/funcs.php:82
+msgid "Offline Usage"
+msgstr ""
+
+#: classes/class-offlineusage.php:25
+msgid ""
+"Offline usage adds offline support and reliable performance on your web app. "
+"This allows a visitor to load any previously viewed page while they are "
+"offline or on low connectivity network. The plugin also defines a special "
+"“offline page”, which allows you to customize a message and the experience "
+"if the app is offline and the page is not in the cache."
+msgstr ""
+
+#: inc/funcs.php:70
+msgid "Optimize"
+msgstr ""
+
+#: classes/class-optify.php:60
+msgid "Optimize CSS Delivery"
+msgstr ""
+
+#: classes/class-optify.php:61
+msgid "Optimize JS Delivery"
+msgstr ""
+
+#: classes/class-optify.php:58
+msgid "Optimize your CSS and JS delivery for better web app performance"
+msgstr ""
+
+#: classes/class-addtohomescreen.php:65
+msgid "Orientation"
+msgstr ""
+
+#: classes/class-toast.php:29
+msgid "Page Not Found!"
+msgstr ""
+
+#: classes/class-toast.php:28
+msgid "Page Opened"
+msgstr ""
+
+#: classes/class-offlineusage.php:41
+msgid ""
+"Pages and files that should be saved for offline usage on first interaction. "
+"One URL per line."
+msgstr ""
+
+#: classes/class-init.php:46
+msgid "PLEASE MAKE SURE THE STATUS BELOW IS ALL GREEN!"
+msgstr ""
+
+#: classes/class-addtohomescreen.php:68
+msgid "Portrait"
+msgstr ""
+
+#: classes/class-offlineusage.php:129 classes/class-push.php:107
+msgid "Position"
+msgstr ""
+
+#: classes/class-toast.php:27
+msgid "Post Opened"
+msgstr ""
+
+#: classes/class-init.php:13
+msgid "Progressive Apps"
+msgstr ""
+
+#. Name of the plugin
+msgid "Progressive Web Apps For WordPress"
+msgstr ""
+
+#: classes/class-pushpost.php:41
+msgid "Push notification has already been sent. Do you want to send it again?"
+msgstr ""
+
+#: inc/funcs.php:86 classes/class-status.php:177
+msgid "Push Notifications"
+msgstr ""
+
+#: classes/class-status.php:179
+msgid "Push Notifications are set successfully."
+msgstr ""
+
+#: classes/class-addtohomescreen.php:62
+msgid "Recommended mode"
+msgstr ""
+
+#: classes/class-push.php:123
+msgid "Registered"
+msgstr ""
+
+#: classes/class-serviceworker.php:62
+msgid "Registration failed"
+msgstr ""
+
+#: classes/class-pushcredentials.php:59
+msgid "remove credentials"
+msgstr ""
+
+#: classes/class-push.php:155
+msgid "Remove Device"
+msgstr ""
+
+#: classes/class-push.php:91
+msgid "Remove devices if failed to notify once"
+msgstr ""
+
+#: classes/class-push.php:434
+msgid "remove image"
+msgstr ""
+
+#: classes/class-addtohomescreen.php:243
+msgid "Restore"
+msgstr ""
+
+#: classes/class-addtohomescreen.php:241
+msgid "Restore Session"
+msgstr ""
+
+#: classes/class-status.php:183
+msgid "Root Folder"
+msgstr ""
+
+#: classes/class-status.php:186
+msgid "Root Folder is not writable."
+msgstr ""
+
+#: classes/class-status.php:185
+msgid "Root Folder is writable."
+msgstr ""
+
+#: classes/class-toast.php:30
+msgid "Search Results"
+msgstr ""
+
+#: classes/class-addtohomescreen.php:51
+msgid "Select Site Icon"
+msgstr ""
+
+#: classes/class-pushpost.php:42
+msgid "Send again"
+msgstr ""
+
+#: classes/class-push.php:445
+msgid "Send push"
+msgstr ""
+
+#: classes/class-push.php:422
+msgid "Send Push Notification"
+msgstr ""
+
+#: classes/class-push.php:117
+msgid "Send to all devices"
+msgstr ""
+
+#: classes/class-pushcredentials.php:21
+msgid "Sender ID"
+msgstr ""
+
+#: classes/class-pushcredentials.php:20
+msgid "Server Key"
+msgstr ""
+
+#: classes/class-pushcredentials.php:126
+msgid "Server Key or Sender ID could not be verified."
+msgstr ""
+
+#: classes/class-status.php:171
+msgid "ServiceWorker"
+msgstr ""
+
+#: classes/class-status.php:173
+msgid "ServiceWorker generated successfully."
+msgstr ""
+
+#: classes/class-status.php:174
+msgid "ServiceWorker not generated."
+msgstr ""
+
+#: classes/class-serviceworker.php:127
+msgid "ServiceWorker Regenerated"
+msgstr ""
+
+#: classes/Libs/class-settings.php:64
+msgid "Settings Saved."
+msgstr ""
+
+#: classes/class-addtohomescreen.php:40
+msgid "Short Name"
+msgstr ""
+
+#: classes/class-status.php:165
+msgid "Site Icon"
+msgstr ""
+
+#: classes/class-status.php:168
+msgid "Site Icon is not selected."
+msgstr ""
+
+#: classes/class-status.php:167
+msgid "Site Icon selected successfully."
+msgstr ""
+
+#: classes/class-reactify.php:20
+msgid ""
+"Speed up click events by removing 300ms delay to trigger immediately on "
+"mobile browsers"
+msgstr ""
+
+#: classes/class-addtohomescreen.php:57
+msgid "Standalone - Native app feeling"
+msgstr ""
+
+#: classes/class-addtohomescreen.php:44
+msgid "Start URL"
+msgstr ""
+
+#: inc/funcs.php:66
+msgid "Status"
+msgstr ""
+
+#: classes/class-status.php:63
+#, php-format
+msgid "Still not working? Please contact us through our Codecanyon profile %s."
+msgstr ""
+
+#: classes/class-offlineusage.php:134
+msgid "Textcolor"
+msgstr ""
+
+#: classes/class-status.php:64
+msgid "The Debug Log contains information that should not be public."
+msgstr ""
+
+#: classes/class-addtohomescreen.php:77
+msgid "Theme Color"
+msgstr ""
+
+#: classes/class-addtohomescreen.php:133
+#, php-format
+msgid ""
+"There was a problem generating your manifest file. Please check your "
+"permissions for %s"
+msgstr ""
+
+#: classes/class-serviceworker.php:119
+#, php-format
+msgid ""
+"There was a problem generating your serviceworker file. Please check your "
+"permissions for %s"
+msgstr ""
+
+#: classes/class-pushpost.php:36
+msgid "This function opens the push notification modal for this post."
+msgstr ""
+
+#: classes/class-push.php:96
+msgid ""
+"This image will represent the notification when there is not enough space to "
+"display the notification itself such as, for example, the Android "
+"Notification Bar. It will be automatically masked. For the best result use a "
+"single-color graphic with transparent background."
+msgstr ""
+
+#: classes/class-push.php:427
+msgid "This notification will be sent to the selected device."
+msgstr ""
+
+#: classes/class-offlineusage.php:38
+msgid ""
+"This page should contain a message explaining why the requested content is "
+"not available."
+msgstr ""
+
+#: classes/class-pushcredentials.php:30
+msgid "This plugin uses Firebase Cloud Messaging as a messaging service."
+msgstr ""
+
+#: classes/class-push.php:396
+msgid "Title"
+msgstr ""
+
+#: classes/class-addtohomescreen.php:238
+msgid "To install tap"
+msgstr ""
+
+#: classes/class-offlineusage.php:131
+msgid "Top"
+msgstr ""
+
+#: classes/class-push.php:109
+msgid "Top Left"
+msgstr ""
+
+#: classes/class-push.php:111
+msgid "Top Right"
+msgstr ""
+
+#: classes/class-addtohomescreen.php:74
+msgid "Transparent bar with white text"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Turn your website into a Progressive Web App and make it installable, send "
+"push notifications, offline ready and more."
+msgstr ""
+
+#: classes/class-push.php:434
+msgid "upload image"
+msgstr ""
+
+#: classes/class-push.php:404
+msgid "URL"
+msgstr ""
+
+#: inc/funcs.php:90
+msgid "UTM Tracking"
+msgstr ""
+
+#: classes/class-optify.php:51
+msgid "WARNING"
+msgstr ""
+
+#: classes/class-addtohomescreen.php:139
+msgid "Web App Manifest regenerated"
+msgstr ""
+
+#: classes/class-toast.php:26
+msgid "Welcome on Homepage"
+msgstr ""
+
+#: classes/class-addtohomescreen.php:72
+msgid "White bar with black text"
+msgstr ""
+
+#: classes/class-addtohomescreen.php:242
+msgid "Would you like to restore last page you were browsing?"
+msgstr ""
+
+#: classes/class-serviceworker.php:67
+msgid "Your browser does not support Progressive Web App functionality"
+msgstr ""
+
+#: classes/class-serviceworker.php:43
+msgid ""
+"Your site has to be served over https to use progressive web app features."
+msgstr ""
+
+#: classes/class-status.php:192
+msgid "Your site has to be served over HTTPS."
+msgstr ""
+
+#: classes/class-status.php:180
+msgid "Your site is not using Push Notifications."
+msgstr ""
+
+#: classes/class-status.php:191
+msgid "Your site is serverd over HTTPS."
+msgstr ""
+
+#: classes/class-serviceworker.php:54
+msgid ""
+"Your site needs to be served via HTTPS to use Progressive Web App "
+"functionality"
+msgstr ""
+
+#: progressive-wordpress.php:19
+#, php-format
+msgid ""
+"“%1$s” requires PHP %2$s (or newer) and WordPress %3$s (or newer) to "
+"function properly. Your site is using PHP %4$s and WordPress %5$s. Please "
+"upgrade. The plugin has been automatically deactivated."
+msgstr ""
+
+#: classes/class-reactify.php:21
+msgid "⏭ Reactify"
+msgstr ""
+
+#: classes/class-preloader.php:21
+msgid "⏱ Preloader"
+msgstr ""
+
+#: classes/class-optify.php:55
+msgid "♻️ Minify"
+msgstr ""
+
+#: classes/class-status.php:43
+msgid "✅ Status"
+msgstr ""
+
+#: classes/class-status.php:66
+msgid "🆘 Need Help?"
+msgstr ""
+
+#: classes/class-addtohomescreen.php:37
+msgid "🏠 Add To Home Screen"
+msgstr ""
+
+#: classes/class-offlineusage.php:126
+msgid "🏴 Offline Notification"
+msgstr ""
+
+#: classes/class-swipe.php:21
+msgid "👆🏻 Swipe To Back/Forward"
+msgstr ""
+
+#: classes/class-toast.php:20
+msgid "💡 Toast Messages"
+msgstr ""
+
+#: classes/class-pushpost.php:86
+msgid "📌 Push Notification Meta Box"
+msgstr ""
+
+#: classes/class-push.php:425
+msgid "📢 New Push Notification"
+msgstr ""
+
+#: classes/class-push.php:88
+msgid "📢 Push Notification Settings"
+msgstr ""
+
+#: classes/class-pushpost.php:29
+msgid "📢 Push Notifications"
+msgstr ""
+
+#: classes/class-push.php:163
+msgid "📲 Subscribed Devices"
+msgstr ""
+
+#: classes/class-shake.php:21
+msgid "📳 Shake To Refresh"
+msgstr ""
+
+#: classes/class-vibrate.php:20
+msgid "📳 Vibration"
+msgstr ""
+
+#: classes/class-offlineusage.php:26
+msgid "📴️ Offline Usage"
+msgstr ""
+
+#: classes/class-pulltonavigate.php:21
+msgid "🔄 Pull To Navigate"
+msgstr ""
+
+#: classes/class-push.php:102
+msgid "🔔 Push Notifications Button"
+msgstr ""
+
+#: classes/class-pushcredentials.php:42
+msgid "🔥 Firebase Credentials"
+msgstr ""

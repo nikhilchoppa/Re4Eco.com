@@ -1,0 +1,768 @@
+/* button styles */
+
+button, .btn, input[type="submit"] {
+  height: initial;
+  display: inline-block;
+  background: #fff;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: normal;
+  padding: 12px 30px;
+  font-size: 12px;
+  line-height: 24px;
+  border: none;
+  border-radius: 2px;
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.05);
+  color: #757575;
+  vertical-align: middle;
+  white-space: normal;
+  word-break: break-word; }
+  button:hover, button:active, button:focus, .btn:hover, .btn:active, .btn:focus, input[type="submit"]:hover, input[type="submit"]:active, input[type="submit"]:focus {
+    color: #fff; }
+  button.btn-wire:hover.icon-left span[class*="icon"]:after, button.btn-wire:hover.icon-left i:after, button.btn-wire:hover.icon-right span[class*="icon"]:after, button.btn-wire:hover.icon-right i:after, button.btn-wire:focus.icon-left span[class*="icon"]:after, button.btn-wire:focus.icon-left i:after, button.btn-wire:focus.icon-right span[class*="icon"]:after, button.btn-wire:focus.icon-right i:after, button.btn-wire:active.icon-left span[class*="icon"]:after, button.btn-wire:active.icon-left i:after, button.btn-wire:active.icon-right span[class*="icon"]:after, button.btn-wire:active.icon-right i:after, .btn.btn-wire:hover.icon-left span[class*="icon"]:after, .btn.btn-wire:hover.icon-left i:after, .btn.btn-wire:hover.icon-right span[class*="icon"]:after, .btn.btn-wire:hover.icon-right i:after, .btn.btn-wire:focus.icon-left span[class*="icon"]:after, .btn.btn-wire:focus.icon-left i:after, .btn.btn-wire:focus.icon-right span[class*="icon"]:after, .btn.btn-wire:focus.icon-right i:after, .btn.btn-wire:active.icon-left span[class*="icon"]:after, .btn.btn-wire:active.icon-left i:after, .btn.btn-wire:active.icon-right span[class*="icon"]:after, .btn.btn-wire:active.icon-right i:after, input[type="submit"].btn-wire:hover.icon-left span[class*="icon"]:after, input[type="submit"].btn-wire:hover.icon-left i:after, input[type="submit"].btn-wire:hover.icon-right span[class*="icon"]:after, input[type="submit"].btn-wire:hover.icon-right i:after, input[type="submit"].btn-wire:focus.icon-left span[class*="icon"]:after, input[type="submit"].btn-wire:focus.icon-left i:after, input[type="submit"].btn-wire:focus.icon-right span[class*="icon"]:after, input[type="submit"].btn-wire:focus.icon-right i:after, input[type="submit"].btn-wire:active.icon-left span[class*="icon"]:after, input[type="submit"].btn-wire:active.icon-left i:after, input[type="submit"].btn-wire:active.icon-right span[class*="icon"]:after, input[type="submit"].btn-wire:active.icon-right i:after {
+    display: none; }
+  button span[class*="icon"], button i, .btn span[class*="icon"], .btn i, input[type="submit"] span[class*="icon"], input[type="submit"] i {
+    font-size: 1.3em;
+    line-height: inherit;
+    vertical-align: middle;
+    margin-left: 5px;
+    margin-right: 5px;
+    -webkit-transform: translateY(-1px);
+    -ms-transform: translateY(-1px);
+    transform: translateY(-1px);
+    transition: none;
+    height: 100%; }
+    button span[class*="icon"]:before, button i:before, .btn span[class*="icon"]:before, .btn i:before, input[type="submit"] span[class*="icon"]:before, input[type="submit"] i:before {
+      margin-top: -50%;
+      -webkit-transform: translateY(50%);
+      -ms-transform: translateY(50%);
+      transform: translateY(50%);
+      height: 100%;
+      line-height: inherit; }
+    button span[class*="icon"]:after, button i:after, .btn span[class*="icon"]:after, .btn i:after, input[type="submit"] span[class*="icon"]:after, input[type="submit"] i:after {
+      height: auto; }
+  button.inset-left span[class*="icon"], button.inset-left i, .btn.inset-left span[class*="icon"], .btn.inset-left i, input[type="submit"].inset-left span[class*="icon"], input[type="submit"].inset-left i {
+    margin-left: 0px;
+    margin-right: 12px;
+    height: auto !important; }
+    button.inset-left span[class*="icon"]:before, button.inset-left i:before, .btn.inset-left span[class*="icon"]:before, .btn.inset-left i:before, input[type="submit"].inset-left span[class*="icon"]:before, input[type="submit"].inset-left i:before {
+      margin-top: 0;
+      -webkit-transform: translateY(0);
+      -ms-transform: translateY(0);
+      transform: translateY(0); }
+  button.inset-right span[class*="icon"], button.inset-right i, .btn.inset-right span[class*="icon"], .btn.inset-right i, input[type="submit"].inset-right span[class*="icon"], input[type="submit"].inset-right i {
+    margin-left: 12px;
+    margin-right: 0px;
+    height: auto !important; }
+    button.inset-right span[class*="icon"]:before, button.inset-right i:before, .btn.inset-right span[class*="icon"]:before, .btn.inset-right i:before, input[type="submit"].inset-right span[class*="icon"]:before, input[type="submit"].inset-right i:before {
+      margin-top: 0;
+      -webkit-transform: translateY(0);
+      -ms-transform: translateY(0);
+      transform: translateY(0); }
+  button.icon-left span[class*="icon"], button.icon-left i, .btn.icon-left span[class*="icon"], .btn.icon-left i, input[type="submit"].icon-left span[class*="icon"], input[type="submit"].icon-left i {
+    margin-left: 0; }
+  button.icon-right span[class*="icon"], button.icon-right i, .btn.icon-right span[class*="icon"], .btn.icon-right i, input[type="submit"].icon-right span[class*="icon"], input[type="submit"].icon-right i {
+    margin-right: 0; }
+  button.btn-round, .btn.btn-round, input[type="submit"].btn-round {
+    border-radius: 50px; }
+  button.block, .btn.block, input[type="submit"].block {
+    display: block; }
+    button.block span[class*="icon"]:before, button.block i:before, .btn.block span[class*="icon"]:before, .btn.block i:before, input[type="submit"].block span[class*="icon"]:before, input[type="submit"].block i:before {
+      display: inline-block;
+      margin-top: 0;
+      -webkit-transform: translateY(0);
+      -ms-transform: translateY(0);
+      transform: translateY(0); }
+  button.float-left, .btn.float-left, input[type="submit"].float-left {
+    float: left; }
+  button.float-right, .btn.float-right, input[type="submit"].float-right {
+    float: right; }
+
+.btn:active, .btn.active {
+  box-shadow: none; }
+
+.btn-xs, input.btn-xs[type="submit"] {
+  font-size: 11px;
+  line-height: 24px;
+  padding: 0px 12px; }
+
+.btn-sm, input.btn-sm[type="submit"] {
+  padding: 6px 18px;
+  font-size: 12px;
+  line-height: 24px; }
+
+.btn-md, input.btn-md[type="submit"] {
+  padding: 12px 30px;
+  font-size: 12px;
+  line-height: 24px; }
+
+.btn-lg, input.btn-lg[type="submit"] {
+  padding: 18px 36px;
+  font-size: 15px;
+  line-height: 24px;
+  border-radius: 4px; }
+
+.btn.icon.icon {
+  padding: 0;
+  text-align: center;
+  width: 48px;
+  height: 48px;
+  line-height: 48px;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  display: table; }
+  .btn.icon.icon span[class*="icon"], .btn.icon.icon i {
+    display: table-cell;
+    vertical-align: middle;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+    height: auto; }
+    .btn.icon.icon span[class*="icon"]:before, .btn.icon.icon i:before {
+      -webkit-transform: translateY(0);
+      -ms-transform: translateY(0);
+      transform: translateY(0);
+      margin-top: 0;
+      height: auto; }
+  .btn.icon.icon.btn-xs {
+    width: 24px;
+    height: 24px;
+    line-height: 24px; }
+  .btn.icon.icon.btn-sm {
+    width: 36px;
+    height: 36px;
+    line-height: 36px; }
+  .btn.icon.icon.btn-md {
+    width: 48px;
+    height: 48px;
+    line-height: 48px; }
+  .btn.icon.icon.btn-lg {
+    width: 60px;
+    height: 60px;
+    line-height: 60px; }
+
+.btn.icon-left {
+  position: relative;
+  padding-left: 78px; }
+  .btn.icon-left.btn-round {
+    padding-left: 64px; }
+  .btn.icon-left span[class*="icon"], .btn.icon-left i {
+    position: absolute;
+    top: 1px;
+    left: 0;
+    width: 48px;
+    height: 100%;
+    line-height: 48px; }
+    .btn.icon-left span[class*="icon"]:after, .btn.icon-left i:after {
+      content: "";
+      position: absolute;
+      right: 0;
+      height: auto;
+      top: 12px;
+      bottom: 12px;
+      width: 1px;
+      border-right: 1px solid rgba(0, 0, 0, 0.05); }
+  .btn.icon-left.btn-xs {
+    padding-left: 36px; }
+    .btn.icon-left.btn-xs.btn-round {
+      padding-left: 30px; }
+    .btn.icon-left.btn-xs span[class*="icon"], .btn.icon-left.btn-xs i {
+      width: 30px;
+      height: 100%;
+      line-height: inherit; }
+      .btn.icon-left.btn-xs span[class*="icon"]:after, .btn.icon-left.btn-xs i:after {
+        display: none; }
+    .btn.icon-left.btn-xs.btn-wire.inset-left span[class*="icon"], .btn.icon-left.btn-xs.btn-wire.inset-left i, .btn.icon-left.btn-xs.btn-wire.inset-right span[class*="icon"], .btn.icon-left.btn-xs.btn-wire.inset-right i {
+      line-height: 30px; }
+  .btn.icon-left.btn-sm {
+    padding-left: 54px; }
+    .btn.icon-left.btn-sm.btn-round {
+      padding-left: 46px; }
+    .btn.icon-left.btn-sm span[class*="icon"], .btn.icon-left.btn-sm i {
+      width: 36px;
+      height: 100%;
+      line-height: 36px; }
+      .btn.icon-left.btn-sm span[class*="icon"]:after, .btn.icon-left.btn-sm i:after {
+        height: auto;
+        top: 10px;
+        bottom: 10px; }
+  .btn.icon-left.btn-lg {
+    padding-left: 96px; }
+    .btn.icon-left.btn-lg.btn-round {
+      padding-left: 80px; }
+    .btn.icon-left.btn-lg span[class*="icon"], .btn.icon-left.btn-lg i {
+      width: 60px;
+      height: 100%;
+      line-height: 60px; }
+      .btn.icon-left.btn-lg span[class*="icon"]:after, .btn.icon-left.btn-lg i:after {
+        height: auto;
+        top: 16px;
+        bottom: 16px; }
+
+.btn.icon-left:not(.btn-round) span[class*="icon"], .btn.icon-left:not(.btn-round) i {
+  border-radius: 2px 0 0 2px; }
+
+.btn.icon-left:not(.btn-round).btn-lg span[class*="icon"], .btn.icon-left:not(.btn-round).btn-lg i {
+  border-radius: 4px 0 0 4px; }
+
+.btn.icon-right:not(.btn-round) span[class*="icon"], .btn.icon-right:not(.btn-round) i {
+  border-radius: 0 2px 2px 0; }
+
+.btn.icon-right:not(.btn-round).btn-lg span[class*="icon"], .btn.icon-right:not(.btn-round).btn-lg i {
+  border-radius: 0 4px 4px 0; }
+
+.btn.icon-left.btn-round span[class*="icon"], .btn.icon-left.btn-round i {
+  border-radius: 50px 0 0 50px; }
+
+.btn.icon-left.btn-round.btn-lg span[class*="icon"], .btn.icon-left.btn-round.btn-lg i {
+  border-radius: 50px 0 0 50px; }
+
+.btn.icon-right.btn-round span[class*="icon"], .btn.icon-right.btn-round i {
+  border-radius: 0 50px 50px 0; }
+
+.btn.icon-right.btn-round.btn-lg span[class*="icon"], .btn.icon-right.btn-round.btn-lg i {
+  border-radius: 0 50px 50px 0; }
+
+.btn.icon-right {
+  position: relative;
+  padding-right: 78px; }
+  .btn.icon-right.btn-round {
+    padding-right: 64px; }
+  .btn.icon-right span[class*="icon"], .btn.icon-right i {
+    position: absolute;
+    top: 1px;
+    right: 0;
+    width: 48px;
+    height: 100%;
+    line-height: 48px; }
+    .btn.icon-right span[class*="icon"]:after, .btn.icon-right i:after {
+      content: "";
+      position: absolute;
+      left: 0;
+      height: auto;
+      top: 12px;
+      bottom: 12px;
+      width: 1px;
+      border-left: 1px solid rgba(0, 0, 0, 0.05); }
+  .btn.icon-right.btn-xs {
+    padding-right: 36px; }
+    .btn.icon-right.btn-xs.btn-round {
+      padding-right: 30px; }
+    .btn.icon-right.btn-xs span[class*="icon"], .btn.icon-right.btn-xs i {
+      width: 30px;
+      height: 100%;
+      line-height: inherit; }
+      .btn.icon-right.btn-xs span[class*="icon"]:after, .btn.icon-right.btn-xs i:after {
+        display: none; }
+  .btn.icon-right.btn-sm {
+    padding-right: 54px; }
+    .btn.icon-right.btn-sm.btn-round {
+      padding-right: 46px; }
+    .btn.icon-right.btn-sm span[class*="icon"], .btn.icon-right.btn-sm i {
+      width: 36px;
+      height: 100%;
+      line-height: 36px; }
+      .btn.icon-right.btn-sm span[class*="icon"]:after, .btn.icon-right.btn-sm i:after {
+        height: auto;
+        top: 10px;
+        bottom: 10px; }
+  .btn.icon-right.btn-lg {
+    padding-right: 96px; }
+    .btn.icon-right.btn-lg.btn-round {
+      padding-right: 80px; }
+    .btn.icon-right.btn-lg span[class*="icon"], .btn.icon-right.btn-lg i {
+      width: 60px;
+      height: 100%;
+      line-height: 60px; }
+      .btn.icon-right.btn-lg span[class*="icon"]:after, .btn.icon-right.btn-lg i:after {
+        height: auto;
+        top: 16px;
+        bottom: 16px; }
+
+.btn-wire:not(:hover) {
+  color: #757575;
+  box-shadow: inset 0 0 0 1px #BABABA;
+  background-color: transparent; }
+  .btn-wire:not(:hover).icon-left span[class*="icon"]:after, .btn-wire:not(:hover).icon-left i:after, .btn-wire:not(:hover).icon-right span[class*="icon"]:after, .btn-wire:not(:hover).icon-right i:after {
+    border-color: #BABABA;
+    top: 0px;
+    height: 100%; }
+  .btn-wire:not(:hover).btn-sm.icon-left span[class*="icon"]:after, .btn-wire:not(:hover).btn-sm.icon-left i:after, .btn-wire:not(:hover).btn-sm.icon-right span[class*="icon"]:after, .btn-wire:not(:hover).btn-sm.icon-right i:after {
+    border-color: #BABABA;
+    top: 0px;
+    height: 100%; }
+  .btn-wire:not(:hover).btn-lg.icon-left span[class*="icon"]:after, .btn-wire:not(:hover).btn-lg.icon-left i:after, .btn-wire:not(:hover).btn-lg.icon-right span[class*="icon"]:after, .btn-wire:not(:hover).btn-lg.icon-right i:after {
+    border-color: #BABABA;
+    top: 0px;
+    height: 100%; }
+
+button.btn-white, .btn.btn-white, input.btn-white[type="submit"] {
+  background: #fff;
+  color: rgba(0,0,0,.8); }
+  button.btn-white.btn-wire:not(:hover), .btn.btn-white.btn-wire:not(:hover), input.btn-white[type="submit"].btn-wire:not(:hover) {
+    color: #fff;
+    background: transparent;
+    box-shadow: inset 0 0 0 1px #fff; }
+    button.btn-white.btn-wire:not(:hover) span[class*="icon"]:after, button.btn-white.btn-wire:not(:hover) i:after, .btn.btn-white.btn-wire:not(:hover) span[class*="icon"]:after, .btn.btn-white.btn-wire:not(:hover) i:after, input.btn-white[type="submit"].btn-wire:not(:hover) span[class*="icon"]:after, input.btn-white[type="submit"].btn-wire:not(:hover) i:after {
+      border-color: #fff; }
+  button.btn-white:hover, button.btn-white:focus, button.btn-white:active, .btn.btn-white:hover, .btn.btn-white:focus, .btn.btn-white:active, input.btn-white[type="submit"]:hover, input.btn-white[type="submit"]:focus, input.btn-white[type="submit"]:active {
+    background: #f2f2f2;
+    color: rgba(0,0,0,.8); }
+    button.btn-white:hover.icon-left span[class*="icon"], button.btn-white:hover.icon-left i, button.btn-white:hover.icon-right span[class*="icon"], button.btn-white:hover.icon-right i, button.btn-white:focus.icon-left span[class*="icon"], button.btn-white:focus.icon-left i, button.btn-white:focus.icon-right span[class*="icon"], button.btn-white:focus.icon-right i, button.btn-white:active.icon-left span[class*="icon"], button.btn-white:active.icon-left i, button.btn-white:active.icon-right span[class*="icon"], button.btn-white:active.icon-right i, .btn.btn-white:hover.icon-left span[class*="icon"], .btn.btn-white:hover.icon-left i, .btn.btn-white:hover.icon-right span[class*="icon"], .btn.btn-white:hover.icon-right i, .btn.btn-white:focus.icon-left span[class*="icon"], .btn.btn-white:focus.icon-left i, .btn.btn-white:focus.icon-right span[class*="icon"], .btn.btn-white:focus.icon-right i, .btn.btn-white:active.icon-left span[class*="icon"], .btn.btn-white:active.icon-left i, .btn.btn-white:active.icon-right span[class*="icon"], .btn.btn-white:active.icon-right i, input.btn-white[type="submit"]:hover.icon-left span[class*="icon"], input.btn-white[type="submit"]:hover.icon-left i, input.btn-white[type="submit"]:hover.icon-right span[class*="icon"], input.btn-white[type="submit"]:hover.icon-right i, input.btn-white[type="submit"]:focus.icon-left span[class*="icon"], input.btn-white[type="submit"]:focus.icon-left i, input.btn-white[type="submit"]:focus.icon-right span[class*="icon"], input.btn-white[type="submit"]:focus.icon-right i, input.btn-white[type="submit"]:active.icon-left span[class*="icon"], input.btn-white[type="submit"]:active.icon-left i, input.btn-white[type="submit"]:active.icon-right span[class*="icon"], input.btn-white[type="submit"]:active.icon-right i {
+      background: transparent; }
+  button.btn-white.btn-wire:hover, button.btn-white.btn-wire:focus, button.btn-white.btn-wire:active, .btn.btn-white.btn-wire:hover, .btn.btn-white.btn-wire:focus, .btn.btn-white.btn-wire:active, input.btn-white[type="submit"].btn-wire:hover, input.btn-white[type="submit"].btn-wire:focus, input.btn-white[type="submit"].btn-wire:active {
+    background: #fff; }
+    button.btn-white.btn-wire:hover.icon-left span[class*="icon"], button.btn-white.btn-wire:hover.icon-left i, button.btn-white.btn-wire:hover.icon-right span[class*="icon"], button.btn-white.btn-wire:hover.icon-right i, button.btn-white.btn-wire:focus.icon-left span[class*="icon"], button.btn-white.btn-wire:focus.icon-left i, button.btn-white.btn-wire:focus.icon-right span[class*="icon"], button.btn-white.btn-wire:focus.icon-right i, button.btn-white.btn-wire:active.icon-left span[class*="icon"], button.btn-white.btn-wire:active.icon-left i, button.btn-white.btn-wire:active.icon-right span[class*="icon"], button.btn-white.btn-wire:active.icon-right i, .btn.btn-white.btn-wire:hover.icon-left span[class*="icon"], .btn.btn-white.btn-wire:hover.icon-left i, .btn.btn-white.btn-wire:hover.icon-right span[class*="icon"], .btn.btn-white.btn-wire:hover.icon-right i, .btn.btn-white.btn-wire:focus.icon-left span[class*="icon"], .btn.btn-white.btn-wire:focus.icon-left i, .btn.btn-white.btn-wire:focus.icon-right span[class*="icon"], .btn.btn-white.btn-wire:focus.icon-right i, .btn.btn-white.btn-wire:active.icon-left span[class*="icon"], .btn.btn-white.btn-wire:active.icon-left i, .btn.btn-white.btn-wire:active.icon-right span[class*="icon"], .btn.btn-white.btn-wire:active.icon-right i, input.btn-white[type="submit"].btn-wire:hover.icon-left span[class*="icon"], input.btn-white[type="submit"].btn-wire:hover.icon-left i, input.btn-white[type="submit"].btn-wire:hover.icon-right span[class*="icon"], input.btn-white[type="submit"].btn-wire:hover.icon-right i, input.btn-white[type="submit"].btn-wire:focus.icon-left span[class*="icon"], input.btn-white[type="submit"].btn-wire:focus.icon-left i, input.btn-white[type="submit"].btn-wire:focus.icon-right span[class*="icon"], input.btn-white[type="submit"].btn-wire:focus.icon-right i, input.btn-white[type="submit"].btn-wire:active.icon-left span[class*="icon"], input.btn-white[type="submit"].btn-wire:active.icon-left i, input.btn-white[type="submit"].btn-wire:active.icon-right span[class*="icon"], input.btn-white[type="submit"].btn-wire:active.icon-right i {
+      background: #f2f2f2;
+      box-shadow: inset 0 0 0 1px #fff; }
+    button.btn-white.btn-wire:hover.icon-left:hover span[class*="icon"], button.btn-white.btn-wire:hover.icon-left:hover i, button.btn-white.btn-wire:hover.icon-left:focus span[class*="icon"], button.btn-white.btn-wire:hover.icon-left:focus i, button.btn-white.btn-wire:hover.icon-left:active span[class*="icon"], button.btn-white.btn-wire:hover.icon-left:active i, button.btn-white.btn-wire:hover.icon-right:hover span[class*="icon"], button.btn-white.btn-wire:hover.icon-right:hover i, button.btn-white.btn-wire:hover.icon-right:focus span[class*="icon"], button.btn-white.btn-wire:hover.icon-right:focus i, button.btn-white.btn-wire:hover.icon-right:active span[class*="icon"], button.btn-white.btn-wire:hover.icon-right:active i, button.btn-white.btn-wire:focus.icon-left:hover span[class*="icon"], button.btn-white.btn-wire:focus.icon-left:hover i, button.btn-white.btn-wire:focus.icon-left:focus span[class*="icon"], button.btn-white.btn-wire:focus.icon-left:focus i, button.btn-white.btn-wire:focus.icon-left:active span[class*="icon"], button.btn-white.btn-wire:focus.icon-left:active i, button.btn-white.btn-wire:focus.icon-right:hover span[class*="icon"], button.btn-white.btn-wire:focus.icon-right:hover i, button.btn-white.btn-wire:focus.icon-right:focus span[class*="icon"], button.btn-white.btn-wire:focus.icon-right:focus i, button.btn-white.btn-wire:focus.icon-right:active span[class*="icon"], button.btn-white.btn-wire:focus.icon-right:active i, button.btn-white.btn-wire:active.icon-left:hover span[class*="icon"], button.btn-white.btn-wire:active.icon-left:hover i, button.btn-white.btn-wire:active.icon-left:focus span[class*="icon"], button.btn-white.btn-wire:active.icon-left:focus i, button.btn-white.btn-wire:active.icon-left:active span[class*="icon"], button.btn-white.btn-wire:active.icon-left:active i, button.btn-white.btn-wire:active.icon-right:hover span[class*="icon"], button.btn-white.btn-wire:active.icon-right:hover i, button.btn-white.btn-wire:active.icon-right:focus span[class*="icon"], button.btn-white.btn-wire:active.icon-right:focus i, button.btn-white.btn-wire:active.icon-right:active span[class*="icon"], button.btn-white.btn-wire:active.icon-right:active i, .btn.btn-white.btn-wire:hover.icon-left:hover span[class*="icon"], .btn.btn-white.btn-wire:hover.icon-left:hover i, .btn.btn-white.btn-wire:hover.icon-left:focus span[class*="icon"], .btn.btn-white.btn-wire:hover.icon-left:focus i, .btn.btn-white.btn-wire:hover.icon-left:active span[class*="icon"], .btn.btn-white.btn-wire:hover.icon-left:active i, .btn.btn-white.btn-wire:hover.icon-right:hover span[class*="icon"], .btn.btn-white.btn-wire:hover.icon-right:hover i, .btn.btn-white.btn-wire:hover.icon-right:focus span[class*="icon"], .btn.btn-white.btn-wire:hover.icon-right:focus i, .btn.btn-white.btn-wire:hover.icon-right:active span[class*="icon"], .btn.btn-white.btn-wire:hover.icon-right:active i, .btn.btn-white.btn-wire:focus.icon-left:hover span[class*="icon"], .btn.btn-white.btn-wire:focus.icon-left:hover i, .btn.btn-white.btn-wire:focus.icon-left:focus span[class*="icon"], .btn.btn-white.btn-wire:focus.icon-left:focus i, .btn.btn-white.btn-wire:focus.icon-left:active span[class*="icon"], .btn.btn-white.btn-wire:focus.icon-left:active i, .btn.btn-white.btn-wire:focus.icon-right:hover span[class*="icon"], .btn.btn-white.btn-wire:focus.icon-right:hover i, .btn.btn-white.btn-wire:focus.icon-right:focus span[class*="icon"], .btn.btn-white.btn-wire:focus.icon-right:focus i, .btn.btn-white.btn-wire:focus.icon-right:active span[class*="icon"], .btn.btn-white.btn-wire:focus.icon-right:active i, .btn.btn-white.btn-wire:active.icon-left:hover span[class*="icon"], .btn.btn-white.btn-wire:active.icon-left:hover i, .btn.btn-white.btn-wire:active.icon-left:focus span[class*="icon"], .btn.btn-white.btn-wire:active.icon-left:focus i, .btn.btn-white.btn-wire:active.icon-left:active span[class*="icon"], .btn.btn-white.btn-wire:active.icon-left:active i, .btn.btn-white.btn-wire:active.icon-right:hover span[class*="icon"], .btn.btn-white.btn-wire:active.icon-right:hover i, .btn.btn-white.btn-wire:active.icon-right:focus span[class*="icon"], .btn.btn-white.btn-wire:active.icon-right:focus i, .btn.btn-white.btn-wire:active.icon-right:active span[class*="icon"], .btn.btn-white.btn-wire:active.icon-right:active i, input.btn-white[type="submit"].btn-wire:hover.icon-left:hover span[class*="icon"], input.btn-white[type="submit"].btn-wire:hover.icon-left:hover i, input.btn-white[type="submit"].btn-wire:hover.icon-left:focus span[class*="icon"], input.btn-white[type="submit"].btn-wire:hover.icon-left:focus i, input.btn-white[type="submit"].btn-wire:hover.icon-left:active span[class*="icon"], input.btn-white[type="submit"].btn-wire:hover.icon-left:active i, input.btn-white[type="submit"].btn-wire:hover.icon-right:hover span[class*="icon"], input.btn-white[type="submit"].btn-wire:hover.icon-right:hover i, input.btn-white[type="submit"].btn-wire:hover.icon-right:focus span[class*="icon"], input.btn-white[type="submit"].btn-wire:hover.icon-right:focus i, input.btn-white[type="submit"].btn-wire:hover.icon-right:active span[class*="icon"], input.btn-white[type="submit"].btn-wire:hover.icon-right:active i, input.btn-white[type="submit"].btn-wire:focus.icon-left:hover span[class*="icon"], input.btn-white[type="submit"].btn-wire:focus.icon-left:hover i, input.btn-white[type="submit"].btn-wire:focus.icon-left:focus span[class*="icon"], input.btn-white[type="submit"].btn-wire:focus.icon-left:focus i, input.btn-white[type="submit"].btn-wire:focus.icon-left:active span[class*="icon"], input.btn-white[type="submit"].btn-wire:focus.icon-left:active i, input.btn-white[type="submit"].btn-wire:focus.icon-right:hover span[class*="icon"], input.btn-white[type="submit"].btn-wire:focus.icon-right:hover i, input.btn-white[type="submit"].btn-wire:focus.icon-right:focus span[class*="icon"], input.btn-white[type="submit"].btn-wire:focus.icon-right:focus i, input.btn-white[type="submit"].btn-wire:focus.icon-right:active span[class*="icon"], input.btn-white[type="submit"].btn-wire:focus.icon-right:active i, input.btn-white[type="submit"].btn-wire:active.icon-left:hover span[class*="icon"], input.btn-white[type="submit"].btn-wire:active.icon-left:hover i, input.btn-white[type="submit"].btn-wire:active.icon-left:focus span[class*="icon"], input.btn-white[type="submit"].btn-wire:active.icon-left:focus i, input.btn-white[type="submit"].btn-wire:active.icon-left:active span[class*="icon"], input.btn-white[type="submit"].btn-wire:active.icon-left:active i, input.btn-white[type="submit"].btn-wire:active.icon-right:hover span[class*="icon"], input.btn-white[type="submit"].btn-wire:active.icon-right:hover i, input.btn-white[type="submit"].btn-wire:active.icon-right:focus span[class*="icon"], input.btn-white[type="submit"].btn-wire:active.icon-right:focus i, input.btn-white[type="submit"].btn-wire:active.icon-right:active span[class*="icon"], input.btn-white[type="submit"].btn-wire:active.icon-right:active i {
+      box-shadow: inset 0 0 0 1px #f2f2f2; }
+
+button.btn-flat.icon-left span[class*="icon"], button.btn-flat.icon-left i, button.btn-flat.icon-right span[class*="icon"], button.btn-flat.icon-right i, .btn.btn-flat.icon-left span[class*="icon"], .btn.btn-flat.icon-left i, .btn.btn-flat.icon-right span[class*="icon"], .btn.btn-flat.icon-right i, input[type="submit"].btn-flat.icon-left span[class*="icon"], input[type="submit"].btn-flat.icon-left i, input[type="submit"].btn-flat.icon-right span[class*="icon"], input[type="submit"].btn-flat.icon-right i {
+  height: calc(100% - 2px); }
+  button.btn-flat.icon-left span[class*="icon"]:after, button.btn-flat.icon-left i:after, button.btn-flat.icon-right span[class*="icon"]:after, button.btn-flat.icon-right i:after, .btn.btn-flat.icon-left span[class*="icon"]:after, .btn.btn-flat.icon-left i:after, .btn.btn-flat.icon-right span[class*="icon"]:after, .btn.btn-flat.icon-right i:after, input[type="submit"].btn-flat.icon-left span[class*="icon"]:after, input[type="submit"].btn-flat.icon-left i:after, input[type="submit"].btn-flat.icon-right span[class*="icon"]:after, input[type="submit"].btn-flat.icon-right i:after {
+    height: auto !important; }
+
+button.btn-flat.icon-left span[class*="icon"], button.btn-flat.icon-left i, .btn.btn-flat.icon-left span[class*="icon"], .btn.btn-flat.icon-left i, input[type="submit"].btn-flat.icon-left span[class*="icon"], input[type="submit"].btn-flat.icon-left i {
+  margin-top: 1px;
+  margin-left: 1px; }
+
+button.btn-flat.icon-right span[class*="icon"], button.btn-flat.icon-right i, .btn.btn-flat.icon-right span[class*="icon"], .btn.btn-flat.icon-right i, input[type="submit"].btn-flat.icon-right span[class*="icon"], input[type="submit"].btn-flat.icon-right i {
+  margin-top: 1px;
+  margin-right: 1px; }
+
+button.btn-black, .btn.btn-black, input.btn-black[type="submit"] {
+  background: rgba(0,0,0,.8);
+  color: #fff; }
+  button.btn-black.btn-wire:not(:hover), .btn.btn-black.btn-wire:not(:hover), input.btn-black[type="submit"].btn-wire:not(:hover) {
+    color: rgba(0,0,0,.8);
+    background: transparent;
+    box-shadow: inset 0 0 0 1px rgba(0,0,0,.8); }
+    button.btn-black.btn-wire:not(:hover) span[class*="icon"]:after, button.btn-black.btn-wire:not(:hover) i:after, .btn.btn-black.btn-wire:not(:hover) span[class*="icon"]:after, .btn.btn-black.btn-wire:not(:hover) i:after, input.btn-black[type="submit"].btn-wire:not(:hover) span[class*="icon"]:after, input.btn-black[type="submit"].btn-wire:not(:hover) i:after {
+      border-color: rgba(0,0,0,.8); }
+  button.btn-black:hover, button.btn-black:focus, button.btn-black:active, .btn.btn-black:hover, .btn.btn-black:focus, .btn.btn-black:active, input.btn-black[type="submit"]:hover, input.btn-black[type="submit"]:focus, input.btn-black[type="submit"]:active {
+    background: #424242; }
+    button.btn-black:hover.icon-left span[class*="icon"], button.btn-black:hover.icon-left i, button.btn-black:hover.icon-right span[class*="icon"], button.btn-black:hover.icon-right i, button.btn-black:focus.icon-left span[class*="icon"], button.btn-black:focus.icon-left i, button.btn-black:focus.icon-right span[class*="icon"], button.btn-black:focus.icon-right i, button.btn-black:active.icon-left span[class*="icon"], button.btn-black:active.icon-left i, button.btn-black:active.icon-right span[class*="icon"], button.btn-black:active.icon-right i, .btn.btn-black:hover.icon-left span[class*="icon"], .btn.btn-black:hover.icon-left i, .btn.btn-black:hover.icon-right span[class*="icon"], .btn.btn-black:hover.icon-right i, .btn.btn-black:focus.icon-left span[class*="icon"], .btn.btn-black:focus.icon-left i, .btn.btn-black:focus.icon-right span[class*="icon"], .btn.btn-black:focus.icon-right i, .btn.btn-black:active.icon-left span[class*="icon"], .btn.btn-black:active.icon-left i, .btn.btn-black:active.icon-right span[class*="icon"], .btn.btn-black:active.icon-right i, input.btn-black[type="submit"]:hover.icon-left span[class*="icon"], input.btn-black[type="submit"]:hover.icon-left i, input.btn-black[type="submit"]:hover.icon-right span[class*="icon"], input.btn-black[type="submit"]:hover.icon-right i, input.btn-black[type="submit"]:focus.icon-left span[class*="icon"], input.btn-black[type="submit"]:focus.icon-left i, input.btn-black[type="submit"]:focus.icon-right span[class*="icon"], input.btn-black[type="submit"]:focus.icon-right i, input.btn-black[type="submit"]:active.icon-left span[class*="icon"], input.btn-black[type="submit"]:active.icon-left i, input.btn-black[type="submit"]:active.icon-right span[class*="icon"], input.btn-black[type="submit"]:active.icon-right i {
+      background: rgba(0,0,0,.8); }
+      button.btn-black:hover.icon-left span[class*="icon"]:after, button.btn-black:hover.icon-left i:after, button.btn-black:hover.icon-right span[class*="icon"]:after, button.btn-black:hover.icon-right i:after, button.btn-black:focus.icon-left span[class*="icon"]:after, button.btn-black:focus.icon-left i:after, button.btn-black:focus.icon-right span[class*="icon"]:after, button.btn-black:focus.icon-right i:after, button.btn-black:active.icon-left span[class*="icon"]:after, button.btn-black:active.icon-left i:after, button.btn-black:active.icon-right span[class*="icon"]:after, button.btn-black:active.icon-right i:after, .btn.btn-black:hover.icon-left span[class*="icon"]:after, .btn.btn-black:hover.icon-left i:after, .btn.btn-black:hover.icon-right span[class*="icon"]:after, .btn.btn-black:hover.icon-right i:after, .btn.btn-black:focus.icon-left span[class*="icon"]:after, .btn.btn-black:focus.icon-left i:after, .btn.btn-black:focus.icon-right span[class*="icon"]:after, .btn.btn-black:focus.icon-right i:after, .btn.btn-black:active.icon-left span[class*="icon"]:after, .btn.btn-black:active.icon-left i:after, .btn.btn-black:active.icon-right span[class*="icon"]:after, .btn.btn-black:active.icon-right i:after, input.btn-black[type="submit"]:hover.icon-left span[class*="icon"]:after, input.btn-black[type="submit"]:hover.icon-left i:after, input.btn-black[type="submit"]:hover.icon-right span[class*="icon"]:after, input.btn-black[type="submit"]:hover.icon-right i:after, input.btn-black[type="submit"]:focus.icon-left span[class*="icon"]:after, input.btn-black[type="submit"]:focus.icon-left i:after, input.btn-black[type="submit"]:focus.icon-right span[class*="icon"]:after, input.btn-black[type="submit"]:focus.icon-right i:after, input.btn-black[type="submit"]:active.icon-left span[class*="icon"]:after, input.btn-black[type="submit"]:active.icon-left i:after, input.btn-black[type="submit"]:active.icon-right span[class*="icon"]:after, input.btn-black[type="submit"]:active.icon-right i:after {
+        display: none; }
+  button.btn-black.btn-wire:hover, button.btn-black.btn-wire:focus, button.btn-black.btn-wire:active, .btn.btn-black.btn-wire:hover, .btn.btn-black.btn-wire:focus, .btn.btn-black.btn-wire:active, input.btn-black[type="submit"].btn-wire:hover, input.btn-black[type="submit"].btn-wire:focus, input.btn-black[type="submit"].btn-wire:active {
+    background: rgba(0,0,0,.8); }
+    button.btn-black.btn-wire:hover.icon-left span[class*="icon"], button.btn-black.btn-wire:hover.icon-left i, button.btn-black.btn-wire:hover.icon-right span[class*="icon"], button.btn-black.btn-wire:hover.icon-right i, button.btn-black.btn-wire:focus.icon-left span[class*="icon"], button.btn-black.btn-wire:focus.icon-left i, button.btn-black.btn-wire:focus.icon-right span[class*="icon"], button.btn-black.btn-wire:focus.icon-right i, button.btn-black.btn-wire:active.icon-left span[class*="icon"], button.btn-black.btn-wire:active.icon-left i, button.btn-black.btn-wire:active.icon-right span[class*="icon"], button.btn-black.btn-wire:active.icon-right i, .btn.btn-black.btn-wire:hover.icon-left span[class*="icon"], .btn.btn-black.btn-wire:hover.icon-left i, .btn.btn-black.btn-wire:hover.icon-right span[class*="icon"], .btn.btn-black.btn-wire:hover.icon-right i, .btn.btn-black.btn-wire:focus.icon-left span[class*="icon"], .btn.btn-black.btn-wire:focus.icon-left i, .btn.btn-black.btn-wire:focus.icon-right span[class*="icon"], .btn.btn-black.btn-wire:focus.icon-right i, .btn.btn-black.btn-wire:active.icon-left span[class*="icon"], .btn.btn-black.btn-wire:active.icon-left i, .btn.btn-black.btn-wire:active.icon-right span[class*="icon"], .btn.btn-black.btn-wire:active.icon-right i, input.btn-black[type="submit"].btn-wire:hover.icon-left span[class*="icon"], input.btn-black[type="submit"].btn-wire:hover.icon-left i, input.btn-black[type="submit"].btn-wire:hover.icon-right span[class*="icon"], input.btn-black[type="submit"].btn-wire:hover.icon-right i, input.btn-black[type="submit"].btn-wire:focus.icon-left span[class*="icon"], input.btn-black[type="submit"].btn-wire:focus.icon-left i, input.btn-black[type="submit"].btn-wire:focus.icon-right span[class*="icon"], input.btn-black[type="submit"].btn-wire:focus.icon-right i, input.btn-black[type="submit"].btn-wire:active.icon-left span[class*="icon"], input.btn-black[type="submit"].btn-wire:active.icon-left i, input.btn-black[type="submit"].btn-wire:active.icon-right span[class*="icon"], input.btn-black[type="submit"].btn-wire:active.icon-right i {
+      background: #424242;
+      box-shadow: inset 0 0 0 1px rgba(0,0,0,.8); }
+
+button.btn-pink, .btn.btn-pink, input.btn-pink[type="submit"] {
+  background: #EC407A;
+  color: #fff; }
+  button.btn-pink.btn-wire:not(:hover), .btn.btn-pink.btn-wire:not(:hover), input.btn-pink[type="submit"].btn-wire:not(:hover) {
+    color: #EC407A;
+    background: transparent;
+    box-shadow: inset 0 0 0 1px #EC407A; }
+    button.btn-pink.btn-wire:not(:hover) span[class*="icon"]:after, button.btn-pink.btn-wire:not(:hover) i:after, .btn.btn-pink.btn-wire:not(:hover) span[class*="icon"]:after, .btn.btn-pink.btn-wire:not(:hover) i:after, input.btn-pink[type="submit"].btn-wire:not(:hover) span[class*="icon"]:after, input.btn-pink[type="submit"].btn-wire:not(:hover) i:after {
+      border-color: #EC407A; }
+  button.btn-pink:hover, button.btn-pink:focus, button.btn-pink:active, .btn.btn-pink:hover, .btn.btn-pink:focus, .btn.btn-pink:active, input.btn-pink[type="submit"]:hover, input.btn-pink[type="submit"]:focus, input.btn-pink[type="submit"]:active {
+    background: #F06292; }
+    button.btn-pink:hover.icon-left span[class*="icon"], button.btn-pink:hover.icon-left i, button.btn-pink:hover.icon-right span[class*="icon"], button.btn-pink:hover.icon-right i, button.btn-pink:focus.icon-left span[class*="icon"], button.btn-pink:focus.icon-left i, button.btn-pink:focus.icon-right span[class*="icon"], button.btn-pink:focus.icon-right i, button.btn-pink:active.icon-left span[class*="icon"], button.btn-pink:active.icon-left i, button.btn-pink:active.icon-right span[class*="icon"], button.btn-pink:active.icon-right i, .btn.btn-pink:hover.icon-left span[class*="icon"], .btn.btn-pink:hover.icon-left i, .btn.btn-pink:hover.icon-right span[class*="icon"], .btn.btn-pink:hover.icon-right i, .btn.btn-pink:focus.icon-left span[class*="icon"], .btn.btn-pink:focus.icon-left i, .btn.btn-pink:focus.icon-right span[class*="icon"], .btn.btn-pink:focus.icon-right i, .btn.btn-pink:active.icon-left span[class*="icon"], .btn.btn-pink:active.icon-left i, .btn.btn-pink:active.icon-right span[class*="icon"], .btn.btn-pink:active.icon-right i, input.btn-pink[type="submit"]:hover.icon-left span[class*="icon"], input.btn-pink[type="submit"]:hover.icon-left i, input.btn-pink[type="submit"]:hover.icon-right span[class*="icon"], input.btn-pink[type="submit"]:hover.icon-right i, input.btn-pink[type="submit"]:focus.icon-left span[class*="icon"], input.btn-pink[type="submit"]:focus.icon-left i, input.btn-pink[type="submit"]:focus.icon-right span[class*="icon"], input.btn-pink[type="submit"]:focus.icon-right i, input.btn-pink[type="submit"]:active.icon-left span[class*="icon"], input.btn-pink[type="submit"]:active.icon-left i, input.btn-pink[type="submit"]:active.icon-right span[class*="icon"], input.btn-pink[type="submit"]:active.icon-right i {
+      background: #EC407A; }
+      button.btn-pink:hover.icon-left span[class*="icon"]:after, button.btn-pink:hover.icon-left i:after, button.btn-pink:hover.icon-right span[class*="icon"]:after, button.btn-pink:hover.icon-right i:after, button.btn-pink:focus.icon-left span[class*="icon"]:after, button.btn-pink:focus.icon-left i:after, button.btn-pink:focus.icon-right span[class*="icon"]:after, button.btn-pink:focus.icon-right i:after, button.btn-pink:active.icon-left span[class*="icon"]:after, button.btn-pink:active.icon-left i:after, button.btn-pink:active.icon-right span[class*="icon"]:after, button.btn-pink:active.icon-right i:after, .btn.btn-pink:hover.icon-left span[class*="icon"]:after, .btn.btn-pink:hover.icon-left i:after, .btn.btn-pink:hover.icon-right span[class*="icon"]:after, .btn.btn-pink:hover.icon-right i:after, .btn.btn-pink:focus.icon-left span[class*="icon"]:after, .btn.btn-pink:focus.icon-left i:after, .btn.btn-pink:focus.icon-right span[class*="icon"]:after, .btn.btn-pink:focus.icon-right i:after, .btn.btn-pink:active.icon-left span[class*="icon"]:after, .btn.btn-pink:active.icon-left i:after, .btn.btn-pink:active.icon-right span[class*="icon"]:after, .btn.btn-pink:active.icon-right i:after, input.btn-pink[type="submit"]:hover.icon-left span[class*="icon"]:after, input.btn-pink[type="submit"]:hover.icon-left i:after, input.btn-pink[type="submit"]:hover.icon-right span[class*="icon"]:after, input.btn-pink[type="submit"]:hover.icon-right i:after, input.btn-pink[type="submit"]:focus.icon-left span[class*="icon"]:after, input.btn-pink[type="submit"]:focus.icon-left i:after, input.btn-pink[type="submit"]:focus.icon-right span[class*="icon"]:after, input.btn-pink[type="submit"]:focus.icon-right i:after, input.btn-pink[type="submit"]:active.icon-left span[class*="icon"]:after, input.btn-pink[type="submit"]:active.icon-left i:after, input.btn-pink[type="submit"]:active.icon-right span[class*="icon"]:after, input.btn-pink[type="submit"]:active.icon-right i:after {
+        display: none; }
+  button.btn-pink.btn-wire:hover, button.btn-pink.btn-wire:focus, button.btn-pink.btn-wire:active, .btn.btn-pink.btn-wire:hover, .btn.btn-pink.btn-wire:focus, .btn.btn-pink.btn-wire:active, input.btn-pink[type="submit"].btn-wire:hover, input.btn-pink[type="submit"].btn-wire:focus, input.btn-pink[type="submit"].btn-wire:active {
+    background: #EC407A; }
+    button.btn-pink.btn-wire:hover.icon-left span[class*="icon"], button.btn-pink.btn-wire:hover.icon-left i, button.btn-pink.btn-wire:hover.icon-right span[class*="icon"], button.btn-pink.btn-wire:hover.icon-right i, button.btn-pink.btn-wire:focus.icon-left span[class*="icon"], button.btn-pink.btn-wire:focus.icon-left i, button.btn-pink.btn-wire:focus.icon-right span[class*="icon"], button.btn-pink.btn-wire:focus.icon-right i, button.btn-pink.btn-wire:active.icon-left span[class*="icon"], button.btn-pink.btn-wire:active.icon-left i, button.btn-pink.btn-wire:active.icon-right span[class*="icon"], button.btn-pink.btn-wire:active.icon-right i, .btn.btn-pink.btn-wire:hover.icon-left span[class*="icon"], .btn.btn-pink.btn-wire:hover.icon-left i, .btn.btn-pink.btn-wire:hover.icon-right span[class*="icon"], .btn.btn-pink.btn-wire:hover.icon-right i, .btn.btn-pink.btn-wire:focus.icon-left span[class*="icon"], .btn.btn-pink.btn-wire:focus.icon-left i, .btn.btn-pink.btn-wire:focus.icon-right span[class*="icon"], .btn.btn-pink.btn-wire:focus.icon-right i, .btn.btn-pink.btn-wire:active.icon-left span[class*="icon"], .btn.btn-pink.btn-wire:active.icon-left i, .btn.btn-pink.btn-wire:active.icon-right span[class*="icon"], .btn.btn-pink.btn-wire:active.icon-right i, input.btn-pink[type="submit"].btn-wire:hover.icon-left span[class*="icon"], input.btn-pink[type="submit"].btn-wire:hover.icon-left i, input.btn-pink[type="submit"].btn-wire:hover.icon-right span[class*="icon"], input.btn-pink[type="submit"].btn-wire:hover.icon-right i, input.btn-pink[type="submit"].btn-wire:focus.icon-left span[class*="icon"], input.btn-pink[type="submit"].btn-wire:focus.icon-left i, input.btn-pink[type="submit"].btn-wire:focus.icon-right span[class*="icon"], input.btn-pink[type="submit"].btn-wire:focus.icon-right i, input.btn-pink[type="submit"].btn-wire:active.icon-left span[class*="icon"], input.btn-pink[type="submit"].btn-wire:active.icon-left i, input.btn-pink[type="submit"].btn-wire:active.icon-right span[class*="icon"], input.btn-pink[type="submit"].btn-wire:active.icon-right i {
+      background: #F06292;
+      box-shadow: inset 0 0 0 1px #EC407A; }
+
+button.btn-blue, .btn.btn-blue, input.btn-blue[type="submit"] {
+  background: #29B6F6;
+  color: #fff; }
+  button.btn-blue.btn-wire:not(:hover), .btn.btn-blue.btn-wire:not(:hover), input.btn-blue[type="submit"].btn-wire:not(:hover) {
+    color: #29B6F6;
+    background: transparent;
+    box-shadow: inset 0 0 0 1px #29B6F6; }
+    button.btn-blue.btn-wire:not(:hover) span[class*="icon"]:after, button.btn-blue.btn-wire:not(:hover) i:after, .btn.btn-blue.btn-wire:not(:hover) span[class*="icon"]:after, .btn.btn-blue.btn-wire:not(:hover) i:after, input.btn-blue[type="submit"].btn-wire:not(:hover) span[class*="icon"]:after, input.btn-blue[type="submit"].btn-wire:not(:hover) i:after {
+      border-color: #29B6F6; }
+  button.btn-blue:hover, button.btn-blue:focus, button.btn-blue:active, .btn.btn-blue:hover, .btn.btn-blue:focus, .btn.btn-blue:active, input.btn-blue[type="submit"]:hover, input.btn-blue[type="submit"]:focus, input.btn-blue[type="submit"]:active {
+    background: #4FC3F7; }
+    button.btn-blue:hover.icon-left span[class*="icon"], button.btn-blue:hover.icon-left i, button.btn-blue:hover.icon-right span[class*="icon"], button.btn-blue:hover.icon-right i, button.btn-blue:focus.icon-left span[class*="icon"], button.btn-blue:focus.icon-left i, button.btn-blue:focus.icon-right span[class*="icon"], button.btn-blue:focus.icon-right i, button.btn-blue:active.icon-left span[class*="icon"], button.btn-blue:active.icon-left i, button.btn-blue:active.icon-right span[class*="icon"], button.btn-blue:active.icon-right i, .btn.btn-blue:hover.icon-left span[class*="icon"], .btn.btn-blue:hover.icon-left i, .btn.btn-blue:hover.icon-right span[class*="icon"], .btn.btn-blue:hover.icon-right i, .btn.btn-blue:focus.icon-left span[class*="icon"], .btn.btn-blue:focus.icon-left i, .btn.btn-blue:focus.icon-right span[class*="icon"], .btn.btn-blue:focus.icon-right i, .btn.btn-blue:active.icon-left span[class*="icon"], .btn.btn-blue:active.icon-left i, .btn.btn-blue:active.icon-right span[class*="icon"], .btn.btn-blue:active.icon-right i, input.btn-blue[type="submit"]:hover.icon-left span[class*="icon"], input.btn-blue[type="submit"]:hover.icon-left i, input.btn-blue[type="submit"]:hover.icon-right span[class*="icon"], input.btn-blue[type="submit"]:hover.icon-right i, input.btn-blue[type="submit"]:focus.icon-left span[class*="icon"], input.btn-blue[type="submit"]:focus.icon-left i, input.btn-blue[type="submit"]:focus.icon-right span[class*="icon"], input.btn-blue[type="submit"]:focus.icon-right i, input.btn-blue[type="submit"]:active.icon-left span[class*="icon"], input.btn-blue[type="submit"]:active.icon-left i, input.btn-blue[type="submit"]:active.icon-right span[class*="icon"], input.btn-blue[type="submit"]:active.icon-right i {
+      background: #29B6F6; }
+      button.btn-blue:hover.icon-left span[class*="icon"]:after, button.btn-blue:hover.icon-left i:after, button.btn-blue:hover.icon-right span[class*="icon"]:after, button.btn-blue:hover.icon-right i:after, button.btn-blue:focus.icon-left span[class*="icon"]:after, button.btn-blue:focus.icon-left i:after, button.btn-blue:focus.icon-right span[class*="icon"]:after, button.btn-blue:focus.icon-right i:after, button.btn-blue:active.icon-left span[class*="icon"]:after, button.btn-blue:active.icon-left i:after, button.btn-blue:active.icon-right span[class*="icon"]:after, button.btn-blue:active.icon-right i:after, .btn.btn-blue:hover.icon-left span[class*="icon"]:after, .btn.btn-blue:hover.icon-left i:after, .btn.btn-blue:hover.icon-right span[class*="icon"]:after, .btn.btn-blue:hover.icon-right i:after, .btn.btn-blue:focus.icon-left span[class*="icon"]:after, .btn.btn-blue:focus.icon-left i:after, .btn.btn-blue:focus.icon-right span[class*="icon"]:after, .btn.btn-blue:focus.icon-right i:after, .btn.btn-blue:active.icon-left span[class*="icon"]:after, .btn.btn-blue:active.icon-left i:after, .btn.btn-blue:active.icon-right span[class*="icon"]:after, .btn.btn-blue:active.icon-right i:after, input.btn-blue[type="submit"]:hover.icon-left span[class*="icon"]:after, input.btn-blue[type="submit"]:hover.icon-left i:after, input.btn-blue[type="submit"]:hover.icon-right span[class*="icon"]:after, input.btn-blue[type="submit"]:hover.icon-right i:after, input.btn-blue[type="submit"]:focus.icon-left span[class*="icon"]:after, input.btn-blue[type="submit"]:focus.icon-left i:after, input.btn-blue[type="submit"]:focus.icon-right span[class*="icon"]:after, input.btn-blue[type="submit"]:focus.icon-right i:after, input.btn-blue[type="submit"]:active.icon-left span[class*="icon"]:after, input.btn-blue[type="submit"]:active.icon-left i:after, input.btn-blue[type="submit"]:active.icon-right span[class*="icon"]:after, input.btn-blue[type="submit"]:active.icon-right i:after {
+        display: none; }
+  button.btn-blue.btn-wire:hover, button.btn-blue.btn-wire:focus, button.btn-blue.btn-wire:active, .btn.btn-blue.btn-wire:hover, .btn.btn-blue.btn-wire:focus, .btn.btn-blue.btn-wire:active, input.btn-blue[type="submit"].btn-wire:hover, input.btn-blue[type="submit"].btn-wire:focus, input.btn-blue[type="submit"].btn-wire:active {
+    background: #29B6F6; }
+    button.btn-blue.btn-wire:hover.icon-left span[class*="icon"], button.btn-blue.btn-wire:hover.icon-left i, button.btn-blue.btn-wire:hover.icon-right span[class*="icon"], button.btn-blue.btn-wire:hover.icon-right i, button.btn-blue.btn-wire:focus.icon-left span[class*="icon"], button.btn-blue.btn-wire:focus.icon-left i, button.btn-blue.btn-wire:focus.icon-right span[class*="icon"], button.btn-blue.btn-wire:focus.icon-right i, button.btn-blue.btn-wire:active.icon-left span[class*="icon"], button.btn-blue.btn-wire:active.icon-left i, button.btn-blue.btn-wire:active.icon-right span[class*="icon"], button.btn-blue.btn-wire:active.icon-right i, .btn.btn-blue.btn-wire:hover.icon-left span[class*="icon"], .btn.btn-blue.btn-wire:hover.icon-left i, .btn.btn-blue.btn-wire:hover.icon-right span[class*="icon"], .btn.btn-blue.btn-wire:hover.icon-right i, .btn.btn-blue.btn-wire:focus.icon-left span[class*="icon"], .btn.btn-blue.btn-wire:focus.icon-left i, .btn.btn-blue.btn-wire:focus.icon-right span[class*="icon"], .btn.btn-blue.btn-wire:focus.icon-right i, .btn.btn-blue.btn-wire:active.icon-left span[class*="icon"], .btn.btn-blue.btn-wire:active.icon-left i, .btn.btn-blue.btn-wire:active.icon-right span[class*="icon"], .btn.btn-blue.btn-wire:active.icon-right i, input.btn-blue[type="submit"].btn-wire:hover.icon-left span[class*="icon"], input.btn-blue[type="submit"].btn-wire:hover.icon-left i, input.btn-blue[type="submit"].btn-wire:hover.icon-right span[class*="icon"], input.btn-blue[type="submit"].btn-wire:hover.icon-right i, input.btn-blue[type="submit"].btn-wire:focus.icon-left span[class*="icon"], input.btn-blue[type="submit"].btn-wire:focus.icon-left i, input.btn-blue[type="submit"].btn-wire:focus.icon-right span[class*="icon"], input.btn-blue[type="submit"].btn-wire:focus.icon-right i, input.btn-blue[type="submit"].btn-wire:active.icon-left span[class*="icon"], input.btn-blue[type="submit"].btn-wire:active.icon-left i, input.btn-blue[type="submit"].btn-wire:active.icon-right span[class*="icon"], input.btn-blue[type="submit"].btn-wire:active.icon-right i {
+      background: #4FC3F7;
+      box-shadow: inset 0 0 0 1px #29B6F6; }
+
+button.btn-green, .btn.btn-green, input.btn-green[type="submit"] {
+  background: #8bc34a;
+  color: #fff; }
+  button.btn-green.btn-wire:not(:hover), .btn.btn-green.btn-wire:not(:hover), input.btn-green[type="submit"].btn-wire:not(:hover) {
+    color: #8bc34a;
+    background: transparent;
+    box-shadow: inset 0 0 0 1px #8bc34a; }
+    button.btn-green.btn-wire:not(:hover) span[class*="icon"]:after, button.btn-green.btn-wire:not(:hover) i:after, .btn.btn-green.btn-wire:not(:hover) span[class*="icon"]:after, .btn.btn-green.btn-wire:not(:hover) i:after, input.btn-green[type="submit"].btn-wire:not(:hover) span[class*="icon"]:after, input.btn-green[type="submit"].btn-wire:not(:hover) i:after {
+      border-color: #8bc34a; }
+  button.btn-green:hover, button.btn-green:focus, button.btn-green:active, .btn.btn-green:hover, .btn.btn-green:focus, .btn.btn-green:active, input.btn-green[type="submit"]:hover, input.btn-green[type="submit"]:focus, input.btn-green[type="submit"]:active {
+    background: #9CCC65; }
+    button.btn-green:hover.icon-left span[class*="icon"], button.btn-green:hover.icon-left i, button.btn-green:hover.icon-right span[class*="icon"], button.btn-green:hover.icon-right i, button.btn-green:focus.icon-left span[class*="icon"], button.btn-green:focus.icon-left i, button.btn-green:focus.icon-right span[class*="icon"], button.btn-green:focus.icon-right i, button.btn-green:active.icon-left span[class*="icon"], button.btn-green:active.icon-left i, button.btn-green:active.icon-right span[class*="icon"], button.btn-green:active.icon-right i, .btn.btn-green:hover.icon-left span[class*="icon"], .btn.btn-green:hover.icon-left i, .btn.btn-green:hover.icon-right span[class*="icon"], .btn.btn-green:hover.icon-right i, .btn.btn-green:focus.icon-left span[class*="icon"], .btn.btn-green:focus.icon-left i, .btn.btn-green:focus.icon-right span[class*="icon"], .btn.btn-green:focus.icon-right i, .btn.btn-green:active.icon-left span[class*="icon"], .btn.btn-green:active.icon-left i, .btn.btn-green:active.icon-right span[class*="icon"], .btn.btn-green:active.icon-right i, input.btn-green[type="submit"]:hover.icon-left span[class*="icon"], input.btn-green[type="submit"]:hover.icon-left i, input.btn-green[type="submit"]:hover.icon-right span[class*="icon"], input.btn-green[type="submit"]:hover.icon-right i, input.btn-green[type="submit"]:focus.icon-left span[class*="icon"], input.btn-green[type="submit"]:focus.icon-left i, input.btn-green[type="submit"]:focus.icon-right span[class*="icon"], input.btn-green[type="submit"]:focus.icon-right i, input.btn-green[type="submit"]:active.icon-left span[class*="icon"], input.btn-green[type="submit"]:active.icon-left i, input.btn-green[type="submit"]:active.icon-right span[class*="icon"], input.btn-green[type="submit"]:active.icon-right i {
+      background: #8bc34a; }
+      button.btn-green:hover.icon-left span[class*="icon"]:after, button.btn-green:hover.icon-left i:after, button.btn-green:hover.icon-right span[class*="icon"]:after, button.btn-green:hover.icon-right i:after, button.btn-green:focus.icon-left span[class*="icon"]:after, button.btn-green:focus.icon-left i:after, button.btn-green:focus.icon-right span[class*="icon"]:after, button.btn-green:focus.icon-right i:after, button.btn-green:active.icon-left span[class*="icon"]:after, button.btn-green:active.icon-left i:after, button.btn-green:active.icon-right span[class*="icon"]:after, button.btn-green:active.icon-right i:after, .btn.btn-green:hover.icon-left span[class*="icon"]:after, .btn.btn-green:hover.icon-left i:after, .btn.btn-green:hover.icon-right span[class*="icon"]:after, .btn.btn-green:hover.icon-right i:after, .btn.btn-green:focus.icon-left span[class*="icon"]:after, .btn.btn-green:focus.icon-left i:after, .btn.btn-green:focus.icon-right span[class*="icon"]:after, .btn.btn-green:focus.icon-right i:after, .btn.btn-green:active.icon-left span[class*="icon"]:after, .btn.btn-green:active.icon-left i:after, .btn.btn-green:active.icon-right span[class*="icon"]:after, .btn.btn-green:active.icon-right i:after, input.btn-green[type="submit"]:hover.icon-left span[class*="icon"]:after, input.btn-green[type="submit"]:hover.icon-left i:after, input.btn-green[type="submit"]:hover.icon-right span[class*="icon"]:after, input.btn-green[type="submit"]:hover.icon-right i:after, input.btn-green[type="submit"]:focus.icon-left span[class*="icon"]:after, input.btn-green[type="submit"]:focus.icon-left i:after, input.btn-green[type="submit"]:focus.icon-right span[class*="icon"]:after, input.btn-green[type="submit"]:focus.icon-right i:after, input.btn-green[type="submit"]:active.icon-left span[class*="icon"]:after, input.btn-green[type="submit"]:active.icon-left i:after, input.btn-green[type="submit"]:active.icon-right span[class*="icon"]:after, input.btn-green[type="submit"]:active.icon-right i:after {
+        display: none; }
+  button.btn-green.btn-wire:hover, button.btn-green.btn-wire:focus, button.btn-green.btn-wire:active, .btn.btn-green.btn-wire:hover, .btn.btn-green.btn-wire:focus, .btn.btn-green.btn-wire:active, input.btn-green[type="submit"].btn-wire:hover, input.btn-green[type="submit"].btn-wire:focus, input.btn-green[type="submit"].btn-wire:active {
+    background: #8bc34a; }
+    button.btn-green.btn-wire:hover.icon-left span[class*="icon"], button.btn-green.btn-wire:hover.icon-left i, button.btn-green.btn-wire:hover.icon-right span[class*="icon"], button.btn-green.btn-wire:hover.icon-right i, button.btn-green.btn-wire:focus.icon-left span[class*="icon"], button.btn-green.btn-wire:focus.icon-left i, button.btn-green.btn-wire:focus.icon-right span[class*="icon"], button.btn-green.btn-wire:focus.icon-right i, button.btn-green.btn-wire:active.icon-left span[class*="icon"], button.btn-green.btn-wire:active.icon-left i, button.btn-green.btn-wire:active.icon-right span[class*="icon"], button.btn-green.btn-wire:active.icon-right i, .btn.btn-green.btn-wire:hover.icon-left span[class*="icon"], .btn.btn-green.btn-wire:hover.icon-left i, .btn.btn-green.btn-wire:hover.icon-right span[class*="icon"], .btn.btn-green.btn-wire:hover.icon-right i, .btn.btn-green.btn-wire:focus.icon-left span[class*="icon"], .btn.btn-green.btn-wire:focus.icon-left i, .btn.btn-green.btn-wire:focus.icon-right span[class*="icon"], .btn.btn-green.btn-wire:focus.icon-right i, .btn.btn-green.btn-wire:active.icon-left span[class*="icon"], .btn.btn-green.btn-wire:active.icon-left i, .btn.btn-green.btn-wire:active.icon-right span[class*="icon"], .btn.btn-green.btn-wire:active.icon-right i, input.btn-green[type="submit"].btn-wire:hover.icon-left span[class*="icon"], input.btn-green[type="submit"].btn-wire:hover.icon-left i, input.btn-green[type="submit"].btn-wire:hover.icon-right span[class*="icon"], input.btn-green[type="submit"].btn-wire:hover.icon-right i, input.btn-green[type="submit"].btn-wire:focus.icon-left span[class*="icon"], input.btn-green[type="submit"].btn-wire:focus.icon-left i, input.btn-green[type="submit"].btn-wire:focus.icon-right span[class*="icon"], input.btn-green[type="submit"].btn-wire:focus.icon-right i, input.btn-green[type="submit"].btn-wire:active.icon-left span[class*="icon"], input.btn-green[type="submit"].btn-wire:active.icon-left i, input.btn-green[type="submit"].btn-wire:active.icon-right span[class*="icon"], input.btn-green[type="submit"].btn-wire:active.icon-right i {
+      background: #9CCC65;
+      box-shadow: inset 0 0 0 1px #8bc34a; }
+
+button.btn-orange, .btn.btn-orange, input.btn-orange[type="submit"] {
+  background: #FFA726;
+  color: #fff; }
+  button.btn-orange.btn-wire:not(:hover), .btn.btn-orange.btn-wire:not(:hover), input.btn-orange[type="submit"].btn-wire:not(:hover) {
+    color: #FFA726;
+    background: transparent;
+    box-shadow: inset 0 0 0 1px #FFA726; }
+    button.btn-orange.btn-wire:not(:hover) span[class*="icon"]:after, button.btn-orange.btn-wire:not(:hover) i:after, .btn.btn-orange.btn-wire:not(:hover) span[class*="icon"]:after, .btn.btn-orange.btn-wire:not(:hover) i:after, input.btn-orange[type="submit"].btn-wire:not(:hover) span[class*="icon"]:after, input.btn-orange[type="submit"].btn-wire:not(:hover) i:after {
+      border-color: #FFA726; }
+  button.btn-orange:hover, button.btn-orange:focus, button.btn-orange:active, .btn.btn-orange:hover, .btn.btn-orange:focus, .btn.btn-orange:active, input.btn-orange[type="submit"]:hover, input.btn-orange[type="submit"]:focus, input.btn-orange[type="submit"]:active {
+    background: #FFB74D; }
+    button.btn-orange:hover.icon-left span[class*="icon"], button.btn-orange:hover.icon-left i, button.btn-orange:hover.icon-right span[class*="icon"], button.btn-orange:hover.icon-right i, button.btn-orange:focus.icon-left span[class*="icon"], button.btn-orange:focus.icon-left i, button.btn-orange:focus.icon-right span[class*="icon"], button.btn-orange:focus.icon-right i, button.btn-orange:active.icon-left span[class*="icon"], button.btn-orange:active.icon-left i, button.btn-orange:active.icon-right span[class*="icon"], button.btn-orange:active.icon-right i, .btn.btn-orange:hover.icon-left span[class*="icon"], .btn.btn-orange:hover.icon-left i, .btn.btn-orange:hover.icon-right span[class*="icon"], .btn.btn-orange:hover.icon-right i, .btn.btn-orange:focus.icon-left span[class*="icon"], .btn.btn-orange:focus.icon-left i, .btn.btn-orange:focus.icon-right span[class*="icon"], .btn.btn-orange:focus.icon-right i, .btn.btn-orange:active.icon-left span[class*="icon"], .btn.btn-orange:active.icon-left i, .btn.btn-orange:active.icon-right span[class*="icon"], .btn.btn-orange:active.icon-right i, input.btn-orange[type="submit"]:hover.icon-left span[class*="icon"], input.btn-orange[type="submit"]:hover.icon-left i, input.btn-orange[type="submit"]:hover.icon-right span[class*="icon"], input.btn-orange[type="submit"]:hover.icon-right i, input.btn-orange[type="submit"]:focus.icon-left span[class*="icon"], input.btn-orange[type="submit"]:focus.icon-left i, input.btn-orange[type="submit"]:focus.icon-right span[class*="icon"], input.btn-orange[type="submit"]:focus.icon-right i, input.btn-orange[type="submit"]:active.icon-left span[class*="icon"], input.btn-orange[type="submit"]:active.icon-left i, input.btn-orange[type="submit"]:active.icon-right span[class*="icon"], input.btn-orange[type="submit"]:active.icon-right i {
+      background: #FFA726; }
+      button.btn-orange:hover.icon-left span[class*="icon"]:after, button.btn-orange:hover.icon-left i:after, button.btn-orange:hover.icon-right span[class*="icon"]:after, button.btn-orange:hover.icon-right i:after, button.btn-orange:focus.icon-left span[class*="icon"]:after, button.btn-orange:focus.icon-left i:after, button.btn-orange:focus.icon-right span[class*="icon"]:after, button.btn-orange:focus.icon-right i:after, button.btn-orange:active.icon-left span[class*="icon"]:after, button.btn-orange:active.icon-left i:after, button.btn-orange:active.icon-right span[class*="icon"]:after, button.btn-orange:active.icon-right i:after, .btn.btn-orange:hover.icon-left span[class*="icon"]:after, .btn.btn-orange:hover.icon-left i:after, .btn.btn-orange:hover.icon-right span[class*="icon"]:after, .btn.btn-orange:hover.icon-right i:after, .btn.btn-orange:focus.icon-left span[class*="icon"]:after, .btn.btn-orange:focus.icon-left i:after, .btn.btn-orange:focus.icon-right span[class*="icon"]:after, .btn.btn-orange:focus.icon-right i:after, .btn.btn-orange:active.icon-left span[class*="icon"]:after, .btn.btn-orange:active.icon-left i:after, .btn.btn-orange:active.icon-right span[class*="icon"]:after, .btn.btn-orange:active.icon-right i:after, input.btn-orange[type="submit"]:hover.icon-left span[class*="icon"]:after, input.btn-orange[type="submit"]:hover.icon-left i:after, input.btn-orange[type="submit"]:hover.icon-right span[class*="icon"]:after, input.btn-orange[type="submit"]:hover.icon-right i:after, input.btn-orange[type="submit"]:focus.icon-left span[class*="icon"]:after, input.btn-orange[type="submit"]:focus.icon-left i:after, input.btn-orange[type="submit"]:focus.icon-right span[class*="icon"]:after, input.btn-orange[type="submit"]:focus.icon-right i:after, input.btn-orange[type="submit"]:active.icon-left span[class*="icon"]:after, input.btn-orange[type="submit"]:active.icon-left i:after, input.btn-orange[type="submit"]:active.icon-right span[class*="icon"]:after, input.btn-orange[type="submit"]:active.icon-right i:after {
+        display: none; }
+  button.btn-orange.btn-wire:hover, button.btn-orange.btn-wire:focus, button.btn-orange.btn-wire:active, .btn.btn-orange.btn-wire:hover, .btn.btn-orange.btn-wire:focus, .btn.btn-orange.btn-wire:active, input.btn-orange[type="submit"].btn-wire:hover, input.btn-orange[type="submit"].btn-wire:focus, input.btn-orange[type="submit"].btn-wire:active {
+    background: #FFA726; }
+    button.btn-orange.btn-wire:hover.icon-left span[class*="icon"], button.btn-orange.btn-wire:hover.icon-left i, button.btn-orange.btn-wire:hover.icon-right span[class*="icon"], button.btn-orange.btn-wire:hover.icon-right i, button.btn-orange.btn-wire:focus.icon-left span[class*="icon"], button.btn-orange.btn-wire:focus.icon-left i, button.btn-orange.btn-wire:focus.icon-right span[class*="icon"], button.btn-orange.btn-wire:focus.icon-right i, button.btn-orange.btn-wire:active.icon-left span[class*="icon"], button.btn-orange.btn-wire:active.icon-left i, button.btn-orange.btn-wire:active.icon-right span[class*="icon"], button.btn-orange.btn-wire:active.icon-right i, .btn.btn-orange.btn-wire:hover.icon-left span[class*="icon"], .btn.btn-orange.btn-wire:hover.icon-left i, .btn.btn-orange.btn-wire:hover.icon-right span[class*="icon"], .btn.btn-orange.btn-wire:hover.icon-right i, .btn.btn-orange.btn-wire:focus.icon-left span[class*="icon"], .btn.btn-orange.btn-wire:focus.icon-left i, .btn.btn-orange.btn-wire:focus.icon-right span[class*="icon"], .btn.btn-orange.btn-wire:focus.icon-right i, .btn.btn-orange.btn-wire:active.icon-left span[class*="icon"], .btn.btn-orange.btn-wire:active.icon-left i, .btn.btn-orange.btn-wire:active.icon-right span[class*="icon"], .btn.btn-orange.btn-wire:active.icon-right i, input.btn-orange[type="submit"].btn-wire:hover.icon-left span[class*="icon"], input.btn-orange[type="submit"].btn-wire:hover.icon-left i, input.btn-orange[type="submit"].btn-wire:hover.icon-right span[class*="icon"], input.btn-orange[type="submit"].btn-wire:hover.icon-right i, input.btn-orange[type="submit"].btn-wire:focus.icon-left span[class*="icon"], input.btn-orange[type="submit"].btn-wire:focus.icon-left i, input.btn-orange[type="submit"].btn-wire:focus.icon-right span[class*="icon"], input.btn-orange[type="submit"].btn-wire:focus.icon-right i, input.btn-orange[type="submit"].btn-wire:active.icon-left span[class*="icon"], input.btn-orange[type="submit"].btn-wire:active.icon-left i, input.btn-orange[type="submit"].btn-wire:active.icon-right span[class*="icon"], input.btn-orange[type="submit"].btn-wire:active.icon-right i {
+      background: #FFB74D;
+      box-shadow: inset 0 0 0 1px #FFA726; }
+
+button.btn-empty, .btn.btn-empty, input.btn-empty[type="submit"] {
+  background: transparent !important;
+  box-shadow: none !important;
+  padding-left: 0;
+  position: relative; }
+  button.btn-empty span[class*="icon"], button.btn-empty i, .btn.btn-empty span[class*="icon"], .btn.btn-empty i, input.btn-empty[type="submit"] span[class*="icon"], input.btn-empty[type="submit"] i {
+    position: relative;
+    height: 100%; }
+    button.btn-empty span[class*="icon"]:after, button.btn-empty i:after, .btn.btn-empty span[class*="icon"]:after, .btn.btn-empty i:after, input.btn-empty[type="submit"] span[class*="icon"]:after, input.btn-empty[type="submit"] i:after {
+      display: none; }
+    button.btn-empty span[class*="icon"]:before, button.btn-empty i:before, .btn.btn-empty span[class*="icon"]:before, .btn.btn-empty i:before, input.btn-empty[type="submit"] span[class*="icon"]:before, input.btn-empty[type="submit"] i:before {
+      height: 100%;
+      width: auto; }
+  button.btn-empty:hover span[class*="icon"], button.btn-empty:hover i, button.btn-empty:active span[class*="icon"], button.btn-empty:active i, button.btn-empty:focus span[class*="icon"], button.btn-empty:focus i, .btn.btn-empty:hover span[class*="icon"], .btn.btn-empty:hover i, .btn.btn-empty:active span[class*="icon"], .btn.btn-empty:active i, .btn.btn-empty:focus span[class*="icon"], .btn.btn-empty:focus i, input.btn-empty[type="submit"]:hover span[class*="icon"], input.btn-empty[type="submit"]:hover i, input.btn-empty[type="submit"]:active span[class*="icon"], input.btn-empty[type="submit"]:active i, input.btn-empty[type="submit"]:focus span[class*="icon"], input.btn-empty[type="submit"]:focus i {
+    background: transparent !important; }
+  button.btn-empty.icon-left, .btn.btn-empty.icon-left, input.btn-empty[type="submit"].icon-left {
+    text-align: left;
+    padding-left: 48px; }
+    button.btn-empty.icon-left.btn-xs, .btn.btn-empty.icon-left.btn-xs, input.btn-empty[type="submit"].icon-left.btn-xs {
+      padding-left: 24px; }
+    button.btn-empty.icon-left.btn-sm, .btn.btn-empty.icon-left.btn-sm, input.btn-empty[type="submit"].icon-left.btn-sm {
+      padding-left: 36px; }
+    button.btn-empty.icon-left.btn-md, .btn.btn-empty.icon-left.btn-md, input.btn-empty[type="submit"].icon-left.btn-md {
+      padding-left: 48px; }
+    button.btn-empty.icon-left.btn-lg, .btn.btn-empty.icon-left.btn-lg, input.btn-empty[type="submit"].icon-left.btn-lg {
+      padding-left: 60px; }
+    button.btn-empty.icon-left span[class*="icon"], button.btn-empty.icon-left i, .btn.btn-empty.icon-left span[class*="icon"], .btn.btn-empty.icon-left i, input.btn-empty[type="submit"].icon-left span[class*="icon"], input.btn-empty[type="submit"].icon-left i {
+      text-align: center;
+      position: absolute;
+      margin-left: 0;
+      margin-right: 0; }
+  button.btn-empty.icon-right, .btn.btn-empty.icon-right, input.btn-empty[type="submit"].icon-right {
+    text-align: right;
+    padding-right: 48px; }
+    button.btn-empty.icon-right.btn-xs, .btn.btn-empty.icon-right.btn-xs, input.btn-empty[type="submit"].icon-right.btn-xs {
+      padding-right: 24px; }
+    button.btn-empty.icon-right.btn-sm, .btn.btn-empty.icon-right.btn-sm, input.btn-empty[type="submit"].icon-right.btn-sm {
+      padding-right: 36px; }
+    button.btn-empty.icon-right.btn-md, .btn.btn-empty.icon-right.btn-md, input.btn-empty[type="submit"].icon-right.btn-md {
+      padding-right: 48px; }
+    button.btn-empty.icon-right.btn-lg, .btn.btn-empty.icon-right.btn-lg, input.btn-empty[type="submit"].icon-right.btn-lg {
+      padding-right: 60px; }
+    button.btn-empty.icon-right span[class*="icon"], button.btn-empty.icon-right i, .btn.btn-empty.icon-right span[class*="icon"], .btn.btn-empty.icon-right i, input.btn-empty[type="submit"].icon-right span[class*="icon"], input.btn-empty[type="submit"].icon-right i {
+      text-align: center;
+      position: absolute;
+      margin-left: 0;
+      margin-right: 0; }
+  button.btn-empty.btn-wire:not(:hover), .btn.btn-empty.btn-wire:not(:hover), input.btn-empty[type="submit"].btn-wire:not(:hover) {
+    background: transparent;
+    box-shadow: none; }
+  button.btn-empty:not(.btn-black):hover, .btn.btn-empty:not(.btn-black):hover, input.btn-empty[type="submit"]:not(.btn-black):hover {
+    color: rgba(0,0,0,.8) !important; }
+  button.btn-empty.btn-black:hover, .btn.btn-empty.btn-black:hover, input.btn-empty[type="submit"].btn-black:hover {
+    color: #424242; }
+
+button.btn-black.btn-empty:not(:hover), .btn.btn-black.btn-empty:not(:hover), input.btn-black.btn-empty[type="submit"]:not(:hover) {
+  color: rgba(0,0,0,.8); }
+
+button.btn-white.btn-empty:not(:hover), .btn.btn-white.btn-empty:not(:hover), input.btn-white.btn-empty[type="submit"]:not(:hover) {
+  color: #fff; }
+
+button.btn-pink.btn-empty:not(:hover), .btn.btn-pink.btn-empty:not(:hover), input.btn-pink.btn-empty[type="submit"]:not(:hover) {
+  color: #EC407A; }
+
+button.btn-blue.btn-empty:not(:hover), .btn.btn-blue.btn-empty:not(:hover), input.btn-blue.btn-empty[type="submit"]:not(:hover) {
+  color: #29B6F6; }
+
+button.btn-green.btn-empty:not(:hover), .btn.btn-green.btn-empty:not(:hover), input.btn-green.btn-empty[type="submit"]:not(:hover) {
+  color: #8bc34a; }
+
+button.btn-orange.btn-empty:not(:hover), .btn.btn-orange.btn-empty:not(:hover), input.btn-orange.btn-empty[type="submit"]:not(:hover) {
+  color: #FFA726; }
+
+/* inset button fix */
+.btn.inset-right span[class*="icon"] {
+  float: right; }
+
+.btn.inset-right span[class*="icon"], .btn.inset-right.btn-lg span[class*="icon"]:before, .btn.inset-right .btn .sow-icon-fontawesome {
+  line-height: 24px; }
+
+.btn.inset-left span[class*="icon"] {
+  float: left; }
+
+.btn.inset-left span[class*="icon"], .btn.inset-left.btn-lg span[class*="icon"]:before, .btn.inset-left .btn .sow-icon-fontawesome {
+  line-height: 24px; }
+
+/* transition fix */
+.btn span[class*="icon"] {
+  transition: none; }
+
+/* block buttons fix */
+.btn.block.icon-right {
+  text-align: left; }
+  .btn.block.icon-right span[class*="icon"] {
+    text-align: center; }
+
+.btn.block.icon-left {
+  text-align: right; }
+  .btn.block.icon-left span[class*="icon"] {
+    text-align: center; }
+
+.btn.block.btn-wire.icon-left span[class*="icon"]:before, .btn.block.btn-wire.icon-right span[class*="icon"]:before, .btn.block.btn-flat.icon-left span[class*="icon"]:before, .btn.block.btn-flat.icon-right span[class*="icon"]:before {
+  display: inline-block; }
+
+/* inset button fix */
+.btn.btn-wire.inset-left span[class*="icon"], .btn.btn-wire.inset-right span[class*="icon"], .btn.btn-flat.inset-left span[class*="icon"], .btn.btn-flat.inset-right span[class*="icon"] {
+  float: none; }
+
+.btn-flat:not(.block) .icon-right span[class*="icon"]:before, .btn-flat:not(.block) .icon-left span[class*="icon"]:before {
+  display: block; }
+
+/* small empty button fix: */
+.btn.btn-xs.btn-empty .icon-left, .btn.btn-xs.btn-empty .icon-right {
+  line-height: 24px; }
+
+
+button:hover,
+button:focus,
+.btn:hover,
+.btn:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+    background-color: #22AA86;
+}
+button.btn-c1,
+.btn.btn-c1,
+input.btn-c1[type="submit"] {
+    background: #22AA86;
+    color: #fff;
+}
+.btn:focus,
+.btn:active,
+.btn.active {
+    color: #fff;
+    background: #22AA86;
+    box-shadow: none;
+    outline: none;
+}
+.icon-left.btn-wire:hover span[class*="icon"],
+.icon-left.btn-wire:focus span[class*="icon"],
+.icon-left.btn-wire:active span[class*="icon"],
+.icon-right.btn-wire:hover span[class*="icon"],
+.icon-right.btn-wire:focus span[class*="icon"],
+.icon-right.btn-wire:active span[class*="icon"] {
+    background: #0fcbe3;
+    box-shadow: inset 0 0 0 1px #22AA86;
+}
+button.btn-c1.btn-wire:not(:hover),
+.btn.btn-c1.btn-wire:not(:hover),
+input.btn-c1.btn-wire[type="submit"]:not(:hover) {
+    color: #22AA86;
+    background: transparent;
+    box-shadow: inset 0 0 0 1px #22AA86;
+}
+button.btn-c1.btn-wire:not(:hover) span[class*="icon"]:after,
+button.btn-c1.btn-wire:not(:hover) i:after,
+.btn.btn-c1.btn-wire:not(:hover) span[class*="icon"]:after,
+.btn.btn-c1.btn-wire:not(:hover) i:after,
+input.btn-c1.btn-wire[type="submit"]:not(:hover) span[class*="icon"]:after,
+input.btn-c1.btn-wire[type="submit"]:not(:hover) i:after {
+    border-color: #22AA86;
+}
+button.btn-c1:hover,
+.btn.btn-c1:hover,
+input.btn-c1[type="submit"]:hover {
+    background: #0fcbe3;
+    color: #fff;
+}
+.btn-c1.icon-left:hover span[class*="icon"],
+.btn-c1.icon-left:focus span[class*="icon"],
+.btn-c1.icon-left:active span[class*="icon"] {
+    background: #22AA86;
+}
+button.btn-c1.btn-wire:hover,
+.btn.btn-c1.btn-wire:hover,
+input.btn-c1.btn-wire[type="submit"]:hover {
+    background: #22AA86;
+}
+.btn-c1.icon-left.btn-wire:hover span[class*="icon"],
+.btn-c1.icon-left.btn-wire:focus span[class*="icon"],
+.btn-c1.icon-left.btn-wire:active span[class*="icon"],
+.btn-c1.icon-right.btn-wire:hover span[class*="icon"],
+.btn-c1.icon-right.btn-wire:focus span[class*="icon"],
+.btn-c1.icon-right.btn-wire:active span[class*="icon"] {
+    background: #0fcbe3;
+    box-shadow: inset 0 0 0 1px #22AA86;
+}
+.btn-c1.icon-left:hover span[class*="icon"]:after {
+    display: none;
+}
+button.btn-c2,
+.btn.btn-c2,
+input.btn-c2[type="submit"] {
+    background: #9CC026;
+    color: #fff;
+}
+button.btn-c2.btn-wire:not(:hover),
+.btn.btn-c2.btn-wire:not(:hover),
+input.btn-c2.btn-wire[type="submit"]:not(:hover) {
+    color: #9CC026;
+    background: transparent;
+    box-shadow: inset 0 0 0 1px #9CC026;
+}
+button.btn-c2.btn-wire:not(:hover) span[class*="icon"]:after,
+button.btn-c2.btn-wire:not(:hover) i:after,
+.btn.btn-c2.btn-wire:not(:hover) span[class*="icon"]:after,
+.btn.btn-c2.btn-wire:not(:hover) i:after,
+input.btn-c2.btn-wire[type="submit"]:not(:hover) span[class*="icon"]:after,
+input.btn-c2.btn-wire[type="submit"]:not(:hover) i:after {
+    border-color: #9CC026;
+}
+button.btn-c2:hover,
+.btn.btn-c2:hover,
+input.btn-c2[type="submit"]:hover {
+    background: #4e60c4;
+    color: #fff;
+}
+.btn-c2.icon-left:hover span[class*="icon"],
+.btn-c2.icon-left:focus span[class*="icon"],
+.btn-c2.icon-left:active span[class*="icon"] {
+    background: #9CC026;
+}
+button.btn-c2.btn-wire:hover,
+.btn.btn-c2.btn-wire:hover,
+input.btn-c2.btn-wire[type="submit"]:hover {
+    background: #9CC026;
+    color: #fff;
+}
+.btn-c2.icon-left.btn-wire:hover span[class*="icon"],
+.btn-c2.icon-left.btn-wire:focus span[class*="icon"],
+.btn-c2.icon-left.btn-wire:active span[class*="icon"],
+.btn-c2.icon-right.btn-wire:hover span[class*="icon"],
+.btn-c2.icon-right.btn-wire:focus span[class*="icon"],
+.btn-c2.icon-right.btn-wire:active span[class*="icon"] {
+    background: #4e60c4;
+    box-shadow: inset 0 0 0 1px #9CC026;
+}
+.btn-c2.icon-left:hover span[class*="icon"]:after {
+    display: none;
+}
+button.btn-c3,
+.btn.btn-c3,
+input.btn-c3[type="submit"] {
+    background: #44514E;
+    color: #fff;
+}
+button.btn-c3.btn-wire:not(:hover),
+.btn.btn-c3.btn-wire:not(:hover),
+input.btn-c3.btn-wire[type="submit"]:not(:hover) {
+    color: #44514E;
+    background: transparent;
+    box-shadow: inset 0 0 0 1px #44514E;
+}
+button.btn-c3.btn-wire:not(:hover) span[class*="icon"]:after,
+button.btn-c3.btn-wire:not(:hover) i:after,
+.btn.btn-c3.btn-wire:not(:hover) span[class*="icon"]:after,
+.btn.btn-c3.btn-wire:not(:hover) i:after,
+input.btn-c3.btn-wire[type="submit"]:not(:hover) span[class*="icon"]:after,
+input.btn-c3.btn-wire[type="submit"]:not(:hover) i:after {
+    border-color: #44514E;
+}
+button.btn-c3:hover,
+.btn.btn-c3:hover,
+input.btn-c3[type="submit"]:hover {
+    background: #3a445a;
+    color: #fff;
+}
+.btn-c3.icon-left:hover span[class*="icon"],
+.btn-c3.icon-left:focus span[class*="icon"],
+.btn-c3.icon-left:active span[class*="icon"] {
+    background: #44514E;
+}
+button.btn-c3.btn-wire:hover,
+.btn.btn-c3.btn-wire:hover,
+input.btn-c3.btn-wire[type="submit"]:hover {
+    background: #44514E;
+}
+.btn-c3.icon-left.btn-wire:hover span[class*="icon"],
+.btn-c3.icon-left.btn-wire:focus span[class*="icon"],
+.btn-c3.icon-left.btn-wire:active span[class*="icon"],
+.btn-c3.icon-right.btn-wire:hover span[class*="icon"],
+.btn-c3.icon-right.btn-wire:focus span[class*="icon"],
+.btn-c3.icon-right.btn-wire:active span[class*="icon"] {
+    background: #3a445a;
+    box-shadow: inset 0 0 0 1px #44514E;
+}
+.btn-c3.icon-left:hover span[class*="icon"]:after {
+    display: none;
+}
+button.btn-empty:not(:hover),
+.btn.btn-empty:not(:hover),
+input.btn-empty[type="submit"]:not(:hover) {
+    color: #22AA86;
+}
+button.btn-c2.btn-empty:not(:hover),
+.btn.btn-c2.btn-empty:not(:hover),
+input.btn-c2.btn-empty[type="submit"]:not(:hover) {
+    color: #9CC026;
+}
+button.btn-c3.btn-empty:not(:hover),
+.btn.btn-c3.btn-empty:not(:hover),
+input.btn-c3.btn-empty[type="submit"]:not(:hover) {
+    color: #44514E;
+}
+
+.multi-column-2 {
+   column-count: 2;
+}
+.multi-column-3 {
+   column-count: 3;
+}
+.multi-column-4 {
+   column-count: 4;
+}
+.multi-column-2, .multi-column-3, .multi-column-4 {
+  column-gap: 30px;
+  background: #f7f7f7;
+  padding: 20px;
+}
+
+.dropcap {
+    float: left;
+    font-size: 48px;
+    padding-right: 10px;
+    line-height: 48px;
+    font-weight: bold;
+    background: #f7f7f7;
+}

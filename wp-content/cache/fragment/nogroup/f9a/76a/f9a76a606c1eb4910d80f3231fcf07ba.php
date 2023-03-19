@@ -1,0 +1,1 @@
+g‰¢^<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":5:{s:7:"success";b:0;s:7:"license";s:7:"invalid";s:7:"item_id";b:0;s:9:"item_name";s:0:"";s:8:"checksum";s:32:"7a74a5385487cb8510957fd5acab0c25";}}

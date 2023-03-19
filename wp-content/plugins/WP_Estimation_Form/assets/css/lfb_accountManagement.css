@@ -1,0 +1,159 @@
+#estimation_popup.wpe_bootstraped #lfb_custAccountLoginPanel {
+    background-color: #bdc3c7;
+    padding: 24px;
+    max-width: 480px;
+    margin: 0 auto;
+    color: white;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    text-align: left;
+}
+#estimation_popup.wpe_bootstraped #lfb_custAccountForgotPassLink {
+    font-size: 12px;
+    margin-top: 4px;
+}
+#estimation_popup.wpe_bootstraped .text-center{
+    text-align: center !important;
+}
+#estimation_popup.wpe_bootstraped .text-right{
+    text-align: right !important;
+}
+#estimation_popup.wpe_bootstraped.lfb_customerAccount .tooltip {
+    pointer-events: none !important;
+}
+#estimation_popup.wpe_bootstraped.lfb_customerAccount #lfb_winPass {
+   /* position: absolute !important;*/
+}
+#estimation_popup.wpe_bootstraped.lfb_customerAccount .form-group .input-group-addon span {
+    font-size: 16px;
+}
+#estimation_popup.wpe_bootstraped .modal-header {
+    padding: 10px;    
+}
+#estimation_popup.wpe_bootstraped .modal-header .modal-title{
+    font-size: 16px;
+    font-weight: normal;    
+    color: white;
+}
+#estimation_popup.wpe_bootstraped.lfb_customerAccount a {
+    text-decoration: none !important;
+    box-shadow: none;
+}
+#estimation_popup.wpe_bootstraped .modal-header .modal-title .close {
+    color: white;    
+}
+#estimation_popup.wpe_bootstraped .modal-header .modal-title .fas{
+    margin-right: 8px;
+}
+#estimation_popup.wpe_bootstraped #lfb_passLostConfirmation span.fas {
+    font-size: 28px;
+}
+#estimation_popup.wpe_bootstraped #lfb_customerOrdersTable {
+    font-size: 16px;
+}
+#estimation_popup.wpe_bootstraped table th,
+#estimation_popup.wpe_bootstraped table td{
+    text-align: left;    
+}
+#estimation_popup.wpe_bootstraped table th.lfb_actionTh,
+#estimation_popup.wpe_bootstraped table td.lfb_actionTh {
+    max-width: 128px;
+    text-align: right;
+}
+#estimation_popup.wpe_bootstraped table .lfb_actionTh > a:not(:first-child) {
+    margin-left: 6px;
+}
+#estimation_popup.wpe_bootstraped.lfb_customerAccount {
+    text-align: left;
+}
+#estimation_popup.wpe_bootstraped.lfb_customerAccount .form-group,
+#estimation_popup.wpe_bootstraped.lfb_customerAccount .form-group label{
+    text-align: left;
+}
+#estimation_popup.wpe_bootstraped.lfb_customerAccount #lfb_customerOrdersTable td {
+    min-height: 43px;
+    line-height: 43px;
+}
+#estimation_popup.wpe_bootstraped h5{
+    text-align: left;
+    border-bottom: 1px solid #aaa;
+    color: #aaa;
+    padding-bottom: 8px;
+}
+#estimation_popup.wpe_bootstraped #lfb_viewFormPanel {
+   text-align: left;
+    padding: 38px;
+    overflow: auto;
+   font-size: 15px;    
+}
+#estimation_popup.wpe_bootstraped #lfb_viewFormPanel p{
+   text-align: left;
+   font-size: 15px;    
+}
+#estimation_popup.wpe_bootstraped #lfb_viewFormPanel h2 {
+    font-size: 32px;
+}
+#estimation_popup.wpe_bootstraped .modal  {
+    
+}
+#lfb_accountInfosBtnsContainer {    
+    padding-right: 16px;
+}
+#lfb_accountInfosBtnsContainer #lfb_accountBtnsLeft {
+     float: left;
+    margin-top: 8px;
+}
+#lfb_accountInfosBtnsContainer #lfb_accountBtnsLeft a {
+    margin-left:4px;
+    margin-right: 4px;
+}
+#lfb_accountInfosBtnsContainer #lfb_accountBtnsLeft a:first-child{
+    margin-left: 0px;
+}
+#lfb_accountInfosBtnsContainer a[data-action="deleteCustomerData"]{
+    float: left;
+    font-size: 13px;
+    color: #c0392b !important;
+}
+#lfb_accountInfosBtnsContainer a[data-action="downloadCustomerData"],
+#lfb_accountInfosBtnsContainer a[data-action="downloadCustomerData"]:hover{    
+    font-size: 13px;
+    color: #bdc3c7!important;
+}
+
+#estimation_popup.wpe_bootstraped #lfb_winPass .modal-content {
+    top: 78px;
+}
+
+#estimation_popup.wpe_bootstraped #lfb_winPass.show {
+    opacity: 1 !important;
+}
+
+#estimation_popup.wpe_bootstraped #lfb_winPass .btn > span.glyphicon {
+    margin-right: 8px;
+}
+#estimation_popup #lfb_delDataForm {
+    display: none;
+    margin-top: 12px;
+}
+#estimation_popup #lfb_delDataForm .alert {
+    font-size: 15px;
+}
+#estimation_popup .btn:not(.btn-circle) > span {
+    margin-right: 6px;
+}
+
+#estimation_popup #lfb_viewFormModal{
+    overflow-y: auto!important;
+}
+#estimation_popup #lfb_viewFormModal .close {
+       font-size: 30px;
+    position: absolute;
+    right: 8px;
+    top: 4px;
+}
+#estimation_popup.lfb_customerAccount .input-group {
+    width: 100% !important;	
+} 
+#estimation_popup.lfb_customerAccount .modal-dialog .modal-header a.close {
+    margin-top: -24px !important;	
+}

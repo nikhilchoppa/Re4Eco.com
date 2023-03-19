@@ -1,0 +1,73 @@
+/* redux */
+
+.redux-main {
+  background: rgb(238, 238, 238);
+}
+
+.redux-main h2 {
+color: #32373c;
+margin-bottom: 0;}
+
+.redux-main .form-table tr {
+    background: #ffffff;
+    border: 1px solid #E7E7E7;
+    border-left: 2px solid #E7E7E7;
+    border-top: 0;
+}
+
+.redux-main .form-table th {
+    background: #f8f8f8;
+    padding: 20px;
+}
+
+.redux-main .redux-field-container {
+    padding: 20px;
+}
+
+.redux-notice-field {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px 0 0 0;
+  border: 1px solid #E7E7E7;
+  border-left: 2px solid #E7E7E7;
+  box-shadow: none;
+  border-radius: 0; }
+
+.redux-notice-field p {
+  margin: 0;
+  padding: 0;
+ }
+
+ .redux-notice-field b {
+  color: #5B9DDC;
+  font-size: 14px; }
+
+.redux_field_th span:first-child, .redux-notice-field p, .redux-main .field-desc {
+    color: rgba(0,0,0,0.7);
+    font-size: 12px;
+    line-height: 20px;
+    font-family: helvetica; }
+
+#recycle-pattern li.redux-image-select {
+  max-width: 64px;
+  margin: 10px !important;
+  height: auto; }
+
+tr.fold th:first-child {
+    padding-left: 20px;
+    background: #f8f8f8;
+    border-left: 2px solid #5B9DDC;
+}
+
+.redux-field.wbc_importer {
+  background: rgb(238, 238, 238);
+}
+
+.theme-browser .theme .theme-actions, .theme-browser .theme.active .theme-actions {
+  bottom: 0;
+  top: auto;
+  -webkit-transform: translateY(0); 
+  transform: translateY(0); 
+}
+
+/* end of redux */

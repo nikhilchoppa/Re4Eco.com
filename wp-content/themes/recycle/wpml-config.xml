@@ -1,0 +1,16 @@
+<wpml-config>
+  <custom-types>
+    <custom-type translate="1">team-member</custom-type>
+    <custom-type translate="1">static_blocks</custom-type>
+  </custom-types>
+  <taxonomies>
+    <taxonomy translate="1">department</taxonomy>
+  </taxonomies>
+  <admin-texts>
+    <key name="recycle">
+      <key name="text_logo"/>
+      <key name="button_text"/>
+      <key name="button_link_url"/>
+    </key>
+  </admin-texts>
+</wpml-config>

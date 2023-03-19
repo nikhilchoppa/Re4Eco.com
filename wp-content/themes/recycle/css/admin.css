@@ -1,0 +1,205 @@
+/************************************* O.o *************************************/
+/*                                  Admin scss                                 */
+/*******************************************************************************/
+.megabaricon {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  cursor: pointer;
+  position: relative; }
+
+.megabaricon:before {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 100%;
+  font-size: 24px;
+  top: 10px; }
+
+.megabaricon {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  cursor: pointer;
+  position: relative; }
+
+.megabaricon:before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  font-size: 24px;
+  background: #ccc; }
+
+.megabar-icons .siteorigin-widget-icon-selector-current > p > label {
+  line-height: 24px;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  padding: 7px 15px; }
+
+.select2-container {
+  min-width: 100% !important; }
+
+/* mega menu clearfix */
+.menu-item-settings:before {
+  display: table;
+  content: ""; }
+
+.menu-item-settings:after {
+  display: table;
+  content: "";
+  clear: both; }
+
+.redux-notice-field {
+  margin: 0;
+  background-color: #0073aa;
+  border-left: 24px solid #00a0d2;
+  padding: 12px;
+  color: #fff;
+  border-radius: 4px;
+  margin-top: -1px;
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.1); }
+
+.redux-notice-field p {
+  margin: 0;
+  padding: 0; }
+
+.redux_field_th {
+  padding: 36px 36px 36px 0px; }
+
+.redux-main .redux-field-container {
+  padding: 36px 0; }
+
+#recycle-pattern li.redux-image-select {
+  max-width: 64px;
+  margin: 10px !important;
+  height: auto; }
+
+.widget-type-wrapper {
+  position: relative; }
+
+span.widget-icon.orion:before {
+  color: #c91d48;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  left: 0;
+  top: 0;
+  display: block;
+  line-height: 36px;
+  position: absolute; }
+
+span.widget-icon.orion:after {
+  content: 'OrionThemes.com';
+  color: #ccc;
+  font-size: 10px;
+  right: 5px;
+  bottom: 5px;
+  display: block;
+  line-height: 12px;
+  position: absolute;
+  font-family: "Open Sans",sans-serif;
+  font-weight: bold; }
+
+.find-image-button {
+  display: none !important; }
+
+/* revolution slider */
+.rs-update-notice-wrap {
+  display: none; }
+
+/* video url */
+.siteorigin-widget-form-main-orion-responsive-video-w .select-content-button {
+  display: none; }
+
+/* redux */
+.redux-main {
+  background: #eeeeee; }
+
+.redux-main h2 {
+  color: #32373c;
+  margin-bottom: 0; }
+
+.redux-main .form-table tr {
+  background: #ffffff;
+  border: 1px solid #E7E7E7;
+  border-left: 2px solid #E7E7E7;
+  border-top: 0; }
+
+.redux-main .form-table th {
+  background: #f8f8f8;
+  padding: 20px; }
+
+.redux-main .redux-field-container {
+  padding: 20px; }
+
+.redux-notice-field {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px 0 0 0;
+  border: 1px solid #E7E7E7;
+  border-left: 2px solid #E7E7E7;
+  box-shadow: none;
+  border-radius: 0; }
+
+.redux-notice-field p {
+  margin: 0;
+  padding: 0; }
+
+.redux-notice-field b {
+  color: #5B9DDC;
+  font-size: 14px; }
+
+.redux_field_th span:first-child, .redux-notice-field p, .redux-main .field-desc {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 12px;
+  line-height: 20px;
+  font-family: helvetica; }
+
+#recycle-pattern li.redux-image-select {
+  max-width: 64px;
+  margin: 10px !important;
+  height: auto; }
+
+tr.fold th:first-child {
+  padding-left: 20px;
+  background: #f8f8f8;
+  border-left: 2px solid #5B9DDC; }
+
+.redux-field.wbc_importer {
+  background: #eeeeee; }
+
+#recycle-pattern li.redux-image-select {
+  max-width: 80px;
+  margin: 10px !important;
+  height: auto; }
+
+.redux-notice-field p {
+  margin: 0;
+  padding: 0; }
+
+/* custom css */
+.redux-container-ace_editor .ace-editor-area {
+  min-height: 350px; }
+
+/* end of redux */
+/* menus */
+.orion-mega-column .menu-item-handle {
+  background-color: #fff; }
+
+.orion-mega-error .menu-item-handle {
+  background-color: rgba(255, 0, 0, 0.2); }
+
+.menu.ui-sortable .menu-item .orion-no-link, .menu.ui-sortable .menu-item .orion-hide-title, .menu.ui-sortable .menu-item .orion-sidebars, .menu.ui-sortable .menu-item .orion-column-size {
+  display: none; }
+
+.menu.ui-sortable .menu-item.orion-mega-column .orion-no-link, .menu.ui-sortable .menu-item.orion-mega-column .orion-hide-title, .menu.ui-sortable .menu-item.orion-mega-column .orion-sidebars, .menu.ui-sortable .menu-item.orion-mega-column .orion-column-size {
+  display: block; }
+
+.menu.ui-sortable .menu-item.orion-mega-column .field-css-classes, .menu.ui-sortable .menu-item.orion-mega-column .field-move {
+  display: none !important; }
+
+.menu.ui-sortable .menu-item.orion-mega-column .mega-menu-label {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 20px;
+  display: block; }

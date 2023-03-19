@@ -1,0 +1,3934 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-11-17 08:24+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: functions.php:173 framework/meta/orion_meta_2.php:179
+msgid "Container width"
+msgstr ""
+
+#: functions.php:174 framework/meta/orion_meta_2.php:181
+#: widgets/so-widgets/orion-portfolio-w/orion-portfolio-w.php:125
+#: widgets/so-widgets/orion-image-w/orion-image-w.php:65
+#: widgets/so-widgets/orion-simple-gallery/orion-simple-gallery.php:158
+#: widgets/so-widgets/orion-team-w/orion-team-w.php:183
+msgid "3:2 ratio"
+msgstr ""
+
+#: functions.php:175
+msgid "Tablet width"
+msgstr ""
+
+#: functions.php:176 framework/meta/orion_meta_2.php:175
+#: widgets/so-widgets/orion-portfolio-w/orion-portfolio-w.php:124
+#: widgets/so-widgets/orion-image-w/orion-image-w.php:64
+#: widgets/so-widgets/orion-icon-text-w/orion-icon-text-w.php:109
+#: widgets/so-widgets/orion-simple-gallery/orion-simple-gallery.php:157
+#: widgets/so-widgets/orion-team-w/orion-team-w.php:182
+msgid "Square"
+msgstr ""
+
+#: 404.php:39
+msgid "The page you are looking for could not be found."
+msgstr ""
+
+#: 404.php:40
+msgid ""
+"If you think this is a technical issue, please contact the site "
+"administrator."
+msgstr ""
+
+#: 404.php:43
+msgid "Return home"
+msgstr ""
+
+#: comments.php:4
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: comments.php:10
+msgid "Comment on "
+msgstr ""
+
+#: comments.php:30
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:37 widgets/so-widgets/orion-team-w/orion-team-w.php:102
+#: widgets/so-widgets/orion-testimonial-w/orion-testimonial-w.php:51
+msgid "Name"
+msgstr ""
+
+#: comments.php:39
+msgid "E-mail"
+msgstr ""
+
+#: comments.php:54
+msgid "Write your comment here"
+msgstr ""
+
+#: comments.php:56
+msgid "Post comment"
+msgstr ""
+
+#: comments.php:57
+msgid "Leave comment"
+msgstr ""
+
+#: comments.php:65
+msgid "Comment"
+msgstr ""
+
+#: comments.php:66 comments.php:67
+msgid "Leave a reply"
+msgstr ""
+
+#. Name of the template
+msgid "Page"
+msgstr ""
+
+#. Name of the template
+#. Name of the template
+msgid "Single Team member"
+msgstr ""
+
+#. Name of the template
+msgid "Search Page"
+msgstr ""
+
+#: search.php:19
+msgid "results found for: "
+msgstr ""
+
+#: search.php:28 templates/posts/content-archive-grid.php:41
+#: templates/blog/content-blog-classic.php:26
+msgid "read more"
+msgstr ""
+
+#: search.php:38
+msgid "No results found for:"
+msgstr ""
+
+#: search.php:38
+msgid "Modify your search query and try again."
+msgstr ""
+
+#: footer.php:125
+#, php-format
+msgid ""
+"<p class=\"text-center font-2\"><small>Made with <i class=\"fa fa-heart\">"
+"</i> by <a href=\" %s \" target=\"_blank\">OrionThemes</a></small></p>"
+msgstr ""
+
+#. Name of the template
+msgid "Single post"
+msgstr ""
+
+#. Name of the template
+msgid "Single Portfolio"
+msgstr ""
+
+#: searchform.php:4 templates/header/header-search.php:12
+msgid "Search"
+msgstr ""
+
+#: recycle-plugin/recycle-plugin.php:89
+#: widgets/so-widgets/orion-portfolio-w/orion-portfolio-w.php:122
+#: widgets/so-widgets/orion-image-w/orion-image-w.php:62
+#: widgets/so-widgets/orion-simple-gallery/orion-simple-gallery.php:155
+#: widgets/so-widgets/orion-team-w/orion-team-w.php:180
+msgid "Portrait"
+msgstr ""
+
+#: recycle-plugin/post_types.php:26 recycle-plugin/post_types.php:27
+msgid "Static Blocks"
+msgstr ""
+
+#: recycle-plugin/post_types.php:28
+msgid "Item Archives"
+msgstr ""
+
+#: recycle-plugin/post_types.php:29
+msgid "Item Attributes"
+msgstr ""
+
+#: recycle-plugin/post_types.php:30 recycle-plugin/post_types.php:220
+#: recycle-plugin/post_types.php:260
+msgid "Parent Item:"
+msgstr ""
+
+#: recycle-plugin/post_types.php:31 recycle-plugin/post_types.php:218
+#: recycle-plugin/post_types.php:258
+msgid "All Items"
+msgstr ""
+
+#: recycle-plugin/post_types.php:32 recycle-plugin/post_types.php:222
+#: recycle-plugin/post_types.php:262
+msgid "Add New Item"
+msgstr ""
+
+#: recycle-plugin/post_types.php:33 recycle-plugin/post_types.php:167
+msgid "Add New"
+msgstr ""
+
+#: recycle-plugin/post_types.php:34
+msgid "New Item"
+msgstr ""
+
+#: recycle-plugin/post_types.php:35 recycle-plugin/post_types.php:223
+#: recycle-plugin/post_types.php:263
+msgid "Edit Item"
+msgstr ""
+
+#: recycle-plugin/post_types.php:36 recycle-plugin/post_types.php:224
+#: recycle-plugin/post_types.php:264
+msgid "Update Item"
+msgstr ""
+
+#: recycle-plugin/post_types.php:37 recycle-plugin/post_types.php:225
+#: recycle-plugin/post_types.php:265
+msgid "View Item"
+msgstr ""
+
+#: recycle-plugin/post_types.php:38
+msgid "View Items"
+msgstr ""
+
+#: recycle-plugin/post_types.php:39
+msgid "Search Item"
+msgstr ""
+
+#: recycle-plugin/post_types.php:40 recycle-plugin/post_types.php:174
+msgid "Not found"
+msgstr ""
+
+#: recycle-plugin/post_types.php:41 recycle-plugin/post_types.php:175
+msgid "Not found in Trash"
+msgstr ""
+
+#: recycle-plugin/post_types.php:42 recycle-plugin/post_types.php:176
+msgid "Featured Image"
+msgstr ""
+
+#: recycle-plugin/post_types.php:43 recycle-plugin/post_types.php:177
+msgid "Set featured image"
+msgstr ""
+
+#: recycle-plugin/post_types.php:44 recycle-plugin/post_types.php:178
+msgid "Remove featured image"
+msgstr ""
+
+#: recycle-plugin/post_types.php:45 recycle-plugin/post_types.php:179
+msgid "Use as featured image"
+msgstr ""
+
+#: recycle-plugin/post_types.php:46 recycle-plugin/post_types.php:180
+msgid "Insert into item"
+msgstr ""
+
+#: recycle-plugin/post_types.php:47 recycle-plugin/post_types.php:181
+msgid "Uploaded to this item"
+msgstr ""
+
+#: recycle-plugin/post_types.php:48 recycle-plugin/post_types.php:182
+#: recycle-plugin/post_types.php:233 recycle-plugin/post_types.php:273
+msgid "Items list"
+msgstr ""
+
+#: recycle-plugin/post_types.php:49 recycle-plugin/post_types.php:183
+#: recycle-plugin/post_types.php:234 recycle-plugin/post_types.php:274
+msgid "Items list navigation"
+msgstr ""
+
+#: recycle-plugin/post_types.php:50 recycle-plugin/post_types.php:184
+msgid "Filter items list"
+msgstr ""
+
+#: recycle-plugin/post_types.php:54
+msgid "Static Block"
+msgstr ""
+
+#: recycle-plugin/post_types.php:55
+msgid "Content blocks, which can be loaded anywhere."
+msgstr ""
+
+#: recycle-plugin/post_types.php:86 recycle-plugin/post_types.php:88
+#: recycle-plugin/post_types.php:89 recycle-plugin/post_types.php:99
+msgid "Team"
+msgstr ""
+
+#: recycle-plugin/post_types.php:87
+msgid "Team member"
+msgstr ""
+
+#: recycle-plugin/post_types.php:90
+msgid "Add new member"
+msgstr ""
+
+#: recycle-plugin/post_types.php:91
+msgid "Edit Team Member"
+msgstr ""
+
+#: recycle-plugin/post_types.php:92
+msgid "New Team Member"
+msgstr ""
+
+#: recycle-plugin/post_types.php:93
+msgid "View Team Member"
+msgstr ""
+
+#: recycle-plugin/post_types.php:94
+msgid "Search Team Members"
+msgstr ""
+
+#: recycle-plugin/post_types.php:95
+msgid "No Team Members found"
+msgstr ""
+
+#: recycle-plugin/post_types.php:126 recycle-plugin/post_types.php:127
+msgid "Department"
+msgstr ""
+
+#: recycle-plugin/post_types.php:128
+msgid "Separate multiple departments with comma."
+msgstr ""
+
+#: recycle-plugin/post_types.php:129
+msgid "Choose from the most used."
+msgstr ""
+
+#: recycle-plugin/post_types.php:133
+msgid "Departments"
+msgstr ""
+
+#: recycle-plugin/post_types.php:160 recycle-plugin/post_types.php:161
+#: recycle-plugin/post_types.php:187
+msgid "Portfolio"
+msgstr ""
+
+#: recycle-plugin/post_types.php:162
+msgid "Portfolio Archives"
+msgstr ""
+
+#: recycle-plugin/post_types.php:163
+msgid "Portfolio Attributes"
+msgstr ""
+
+#: recycle-plugin/post_types.php:164
+msgid "Parent Project:"
+msgstr ""
+
+#: recycle-plugin/post_types.php:165
+msgid "All Projects"
+msgstr ""
+
+#: recycle-plugin/post_types.php:166
+msgid "Add New Project"
+msgstr ""
+
+#: recycle-plugin/post_types.php:168
+msgid "New Project"
+msgstr ""
+
+#: recycle-plugin/post_types.php:169
+msgid "Edit Project"
+msgstr ""
+
+#: recycle-plugin/post_types.php:170
+msgid "Update Project"
+msgstr ""
+
+#: recycle-plugin/post_types.php:171
+msgid "View Project"
+msgstr ""
+
+#: recycle-plugin/post_types.php:172
+msgid "View Projects"
+msgstr ""
+
+#: recycle-plugin/post_types.php:173
+msgid "Search Projects"
+msgstr ""
+
+#: recycle-plugin/post_types.php:188
+msgid "Display Projects"
+msgstr ""
+
+#: recycle-plugin/post_types.php:217
+msgid "Portfolio Categories"
+msgstr ""
+
+#: recycle-plugin/post_types.php:219 recycle-plugin/post_types.php:259
+msgid "Parent Item"
+msgstr ""
+
+#: recycle-plugin/post_types.php:221 recycle-plugin/post_types.php:261
+msgid "New Item Name"
+msgstr ""
+
+#: recycle-plugin/post_types.php:226 recycle-plugin/post_types.php:266
+msgid "Separate items with commas"
+msgstr ""
+
+#: recycle-plugin/post_types.php:227 recycle-plugin/post_types.php:267
+msgid "Add or remove items"
+msgstr ""
+
+#: recycle-plugin/post_types.php:228 recycle-plugin/post_types.php:268
+msgid "Choose from the most used"
+msgstr ""
+
+#: recycle-plugin/post_types.php:229 recycle-plugin/post_types.php:269
+msgid "Popular Items"
+msgstr ""
+
+#: recycle-plugin/post_types.php:230 recycle-plugin/post_types.php:270
+msgid "Search Items"
+msgstr ""
+
+#: recycle-plugin/post_types.php:231 recycle-plugin/post_types.php:271
+msgid "Not Found"
+msgstr ""
+
+#: recycle-plugin/post_types.php:232 recycle-plugin/post_types.php:272
+msgid "No items"
+msgstr ""
+
+#: recycle-plugin/post_types.php:257
+msgid "Portfolio Tags"
+msgstr ""
+
+#: framework/init.php:50
+msgid "Primary Menu"
+msgstr ""
+
+#: framework/sobuilder.php:57
+msgid "Stretched, with padding "
+msgstr ""
+
+#: framework/sobuilder.php:58
+msgid "Standard, no padding"
+msgstr ""
+
+#: framework/sobuilder.php:67 framework/meta/orion_meta_2.php:423
+msgid "Fixed"
+msgstr ""
+
+#: framework/sobuilder.php:68 framework/meta/orion_meta_2.php:424
+msgid "Parallax Top to bottom"
+msgstr ""
+
+#: framework/sobuilder.php:69 framework/meta/orion_meta_2.php:425
+msgid "Parallax Bottom to top"
+msgstr ""
+
+#: framework/sobuilder.php:70 framework/meta/orion_meta_2.php:426
+msgid "Parallax Right to left"
+msgstr ""
+
+#: framework/sobuilder.php:71 framework/meta/orion_meta_2.php:427
+msgid "Parallax Left to right"
+msgstr ""
+
+#: framework/sobuilder.php:74
+msgid "Cover and Centered"
+msgstr ""
+
+#: framework/sobuilder.php:75
+msgid "Align top-right"
+msgstr ""
+
+#: framework/sobuilder.php:76
+msgid "Align top-center"
+msgstr ""
+
+#: framework/sobuilder.php:77
+msgid "Align bottom-center"
+msgstr ""
+
+#: framework/sobuilder.php:78
+msgid "Align bottom-right"
+msgstr ""
+
+#: framework/sobuilder.php:79
+msgid "Align bottom-left"
+msgstr ""
+
+#: framework/sobuilder.php:80
+msgid "Align top-left"
+msgstr ""
+
+#: framework/sobuilder.php:81 framework/meta/orion_meta_2.php:391
+#: framework/meta/orion_meta_2.php:411
+msgid "Responsive Fit"
+msgstr ""
+
+#: framework/sobuilder.php:82
+msgid "Contain left"
+msgstr ""
+
+#: framework/sobuilder.php:83
+msgid "Contain right"
+msgstr ""
+
+#: framework/sobuilder.php:144
+msgid "Separators"
+msgstr ""
+
+#: framework/sobuilder.php:155
+msgid "Top Separator"
+msgstr ""
+
+#: framework/sobuilder.php:158 framework/sobuilder.php:178
+#: framework/sobuilder.php:197 framework/sobuilder.php:217
+msgid "Will add a separator to the row."
+msgstr ""
+
+#: framework/sobuilder.php:161 framework/sobuilder.php:200
+msgid "No separator"
+msgstr ""
+
+#: framework/sobuilder.php:162 framework/sobuilder.php:201
+msgid "Arrow"
+msgstr ""
+
+#: framework/sobuilder.php:163 framework/sobuilder.php:202
+msgid "Half circle"
+msgstr ""
+
+#: framework/sobuilder.php:164 framework/sobuilder.php:203
+msgid "Arc"
+msgstr ""
+
+#: framework/sobuilder.php:165 framework/sobuilder.php:204
+msgid "Zigzag"
+msgstr ""
+
+#: framework/sobuilder.php:166 framework/sobuilder.php:205
+msgid "Small waves"
+msgstr ""
+
+#: framework/sobuilder.php:167 framework/sobuilder.php:206
+msgid "Lift"
+msgstr ""
+
+#: framework/sobuilder.php:168 framework/sobuilder.php:207
+msgid "Triangle"
+msgstr ""
+
+#: framework/sobuilder.php:169 framework/sobuilder.php:208
+msgid "Clouds"
+msgstr ""
+
+#: framework/sobuilder.php:170 framework/sobuilder.php:209
+msgid "Crack"
+msgstr ""
+
+#: framework/sobuilder.php:175
+msgid "Top Separator position"
+msgstr ""
+
+#: framework/sobuilder.php:181 framework/sobuilder.php:220
+msgid "outside row"
+msgstr ""
+
+#: framework/sobuilder.php:182 framework/sobuilder.php:221
+msgid "inside row"
+msgstr ""
+
+#: framework/sobuilder.php:187
+msgid "Top Separator color"
+msgstr ""
+
+#: framework/sobuilder.php:190 framework/sobuilder.php:229
+msgid "Choose a color"
+msgstr ""
+
+#: framework/sobuilder.php:194
+msgid "Bottom Separator"
+msgstr ""
+
+#: framework/sobuilder.php:214
+msgid "Bottom Separator position"
+msgstr ""
+
+#: framework/sobuilder.php:226
+msgid "Bottom Separator color"
+msgstr ""
+
+#: framework/sobuilder.php:267
+msgid "Responsive options"
+msgstr ""
+
+#: framework/sobuilder.php:279
+msgid "Mobile display"
+msgstr ""
+
+#: framework/sobuilder.php:282
+msgid "Defines behaviour of the row on small (mobile) displays."
+msgstr ""
+
+#: framework/sobuilder.php:285 framework/sobuilder.php:299
+#: framework/sobuilder.php:315 framework/sobuilder.php:415
+#: framework/sobuilder.php:540 framework/meta/orion_meta_2.php:174
+#: framework/meta/orion_meta_2.php:235 framework/meta/orion_meta_2.php:247
+#: framework/meta/orion_meta_2.php:422 framework/meta/orion_meta_2.php:438
+#: widgets/so-widgets/orion-logos-w/orion-logos-w.php:89
+#: widgets/so-widgets/orion-working-hours-w/orion-working-hours-w.php:74
+#: widgets/so-widgets/orion-portfolio-w/orion-portfolio-w.php:194
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:97
+#: widgets/so-widgets/orion-list/orion-list.php:56
+#: widgets/so-widgets/orion-icon-text-w/orion-icon-text-w.php:118
+#: widgets/so-widgets/orion-icon-text-w/orion-icon-text-w.php:128
+#: widgets/so-widgets/orion-count-up-w/orion-count-up-w.php:50
+#: widgets/so-widgets/orion-featured-pages/orion-featured-pages.php:87
+#: widgets/so-widgets/orion-cta-w/orion-cta-w.php:135
+#: widgets/so-widgets/orion-team-w/orion-team-w.php:87
+#: widgets/so-widgets/orion-upload-w/orion-upload-w.php:64
+#: widgets/so-widgets/orion-upload-w/orion-upload-w.php:82
+#: widgets/so-widgets/orion-pricelist-w/orion-pricelist-w.php:62
+#: widgets/so-widgets/orion-custom-carousel-w/orion-custom-carousel-w.php:85
+#: widgets/so-widgets/orion-custom-carousel-w/orion-custom-carousel-w.php:105
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:107
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:161
+#: widgets/so-widgets/orion-button-w/orion-button-w.php:89
+#: widgets/so-widgets/orion-testimonial-w/orion-testimonial-w.php:94
+#: widgets/so-widgets/orion-icon-w/orion-icon-w.php:88
+#: widgets/so-widgets/orion-heading-w/orion-heading-w.php:48
+msgid "Default"
+msgstr ""
+
+#: framework/sobuilder.php:286
+msgid "1 column (default)"
+msgstr ""
+
+#: framework/sobuilder.php:287
+msgid "2 columns"
+msgstr ""
+
+#: framework/sobuilder.php:288 framework/sobuilder.php:304
+#: framework/sobuilder.php:320 framework/meta/orion_meta_2.php:163
+msgid "Hide"
+msgstr ""
+
+#: framework/sobuilder.php:293
+msgid "Tablet display"
+msgstr ""
+
+#: framework/sobuilder.php:296
+msgid "Defines behaviour of the row on medium size devices."
+msgstr ""
+
+#: framework/sobuilder.php:300 framework/sobuilder.php:316
+#: framework/meta/orion_meta_2.php:159
+msgid "1 column"
+msgstr ""
+
+#: framework/sobuilder.php:301 framework/sobuilder.php:317
+msgid "2 column"
+msgstr ""
+
+#: framework/sobuilder.php:302 framework/sobuilder.php:318
+msgid "3 column"
+msgstr ""
+
+#: framework/sobuilder.php:303 framework/sobuilder.php:319
+msgid "4 column"
+msgstr ""
+
+#: framework/sobuilder.php:309
+msgid "Desktop display"
+msgstr ""
+
+#: framework/sobuilder.php:312
+msgid "Defines behaviour of the row on Desktop devices."
+msgstr ""
+
+#: framework/sobuilder.php:325
+msgid "Remove margins on mobile devices"
+msgstr ""
+
+#: framework/sobuilder.php:328
+msgid "Stretches the content on small devices."
+msgstr ""
+
+#: framework/sobuilder.php:332
+msgid "Remove margins on tablets"
+msgstr ""
+
+#: framework/sobuilder.php:335
+msgid "Stretches the content on Tablets."
+msgstr ""
+
+#: framework/sobuilder.php:347
+msgid "Hide on Mobile"
+msgstr ""
+
+#: framework/sobuilder.php:350
+msgid "Check to hide widget on mobile."
+msgstr ""
+
+#: framework/sobuilder.php:409
+msgid "Row Position"
+msgstr ""
+
+#: framework/sobuilder.php:412
+msgid "Change row position."
+msgstr ""
+
+#: framework/sobuilder.php:416
+msgid "Push up 100%"
+msgstr ""
+
+#: framework/sobuilder.php:417
+msgid "Push up 50%"
+msgstr ""
+
+#: framework/sobuilder.php:418
+msgid "Push up 120px"
+msgstr ""
+
+#: framework/sobuilder.php:419
+msgid "Push up 60px"
+msgstr ""
+
+#: framework/sobuilder.php:444
+msgid "Equal Height"
+msgstr ""
+
+#: framework/sobuilder.php:508
+msgid "Full screen row height"
+msgstr ""
+
+#: framework/sobuilder.php:511
+msgid "Set height of the row to height of the screen."
+msgstr ""
+
+#: framework/sobuilder.php:534
+#: widgets/so-widgets/orion-working-hours-w/orion-working-hours-w.php:97
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:94
+#: widgets/so-widgets/orion-list/orion-list.php:78
+#: widgets/so-widgets/orion-icon-text-w/orion-icon-text-w.php:116
+#: widgets/so-widgets/orion-count-up-w/orion-count-up-w.php:47
+#: widgets/so-widgets/orion-featured-pages/orion-featured-pages.php:84
+#: widgets/so-widgets/orion-team-w/orion-team-w.php:84
+#: widgets/so-widgets/orion-custom-carousel-w/orion-custom-carousel-w.php:82
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:158
+msgid "Text color"
+msgstr ""
+
+#: framework/sobuilder.php:537
+msgid "Text color."
+msgstr ""
+
+#: framework/sobuilder.php:541
+#: widgets/so-widgets/orion-logos-w/orion-logos-w.php:91
+#: widgets/so-widgets/orion-working-hours-w/orion-working-hours-w.php:76
+#: widgets/so-widgets/orion-list/orion-list.php:58
+#: widgets/so-widgets/orion-pricelist-w/orion-pricelist-w.php:64
+#: widgets/so-widgets/orion-custom-menu-w/orion-custom-menu-w.php:60
+#: widgets/so-widgets/orion-testimonial-w/orion-testimonial-w.php:96
+msgid "Dark text"
+msgstr ""
+
+#: framework/sobuilder.php:542
+#: widgets/so-widgets/orion-logos-w/orion-logos-w.php:90
+#: widgets/so-widgets/orion-working-hours-w/orion-working-hours-w.php:75
+#: widgets/so-widgets/orion-list/orion-list.php:57
+#: widgets/so-widgets/orion-pricelist-w/orion-pricelist-w.php:63
+#: widgets/so-widgets/orion-custom-menu-w/orion-custom-menu-w.php:59
+#: widgets/so-widgets/orion-testimonial-w/orion-testimonial-w.php:95
+msgid "Light text"
+msgstr ""
+
+#: framework/sobuilder.php:583
+msgid "Align to center on Mobile"
+msgstr ""
+
+#: framework/sobuilder.php:590
+msgid "Align to center on Tablets"
+msgstr ""
+
+#: framework/sobuilder.php:621
+msgid "Drop Shadow Effect"
+msgstr ""
+
+#: framework/sobuilder.php:624
+msgid "Add shadow to an element."
+msgstr ""
+
+#: framework/sobuilder.php:627 framework/sobuilder.php:711
+#: framework/sobuilder.php:747 framework/meta/orion_meta_2.php:215
+#: framework/meta/orion_meta_2.php:439
+#: widgets/so-widgets/orion-logos-w/orion-logos-w.php:139
+#: widgets/so-widgets/orion-portfolio-w/orion-portfolio-w.php:147
+#: widgets/so-widgets/orion-portfolio-w/orion-portfolio-w.php:161
+#: widgets/so-widgets/orion-portfolio-w/orion-portfolio-w.php:218
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:169
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:214
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:238
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:253
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:267
+#: widgets/so-widgets/orion-image-w/orion-image-w.php:87
+#: widgets/so-widgets/orion-image-w/orion-image-w.php:101
+#: widgets/so-widgets/orion-simple-gallery/orion-simple-gallery.php:133
+#: widgets/so-widgets/orion-simple-gallery/orion-simple-gallery.php:180
+#: widgets/so-widgets/orion-simple-gallery/orion-simple-gallery.php:194
+#: widgets/so-widgets/orion-simple-gallery/orion-simple-gallery.php:208
+#: widgets/so-widgets/orion-featured-pages/orion-featured-pages.php:144
+#: widgets/so-widgets/orion-featured-pages/orion-featured-pages.php:191
+#: widgets/so-widgets/orion-featured-pages/orion-featured-pages.php:205
+#: widgets/so-widgets/orion-featured-pages/orion-featured-pages.php:219
+#: widgets/so-widgets/orion-cta-w/orion-cta-w.php:165
+#: widgets/so-widgets/orion-team-w/orion-team-w.php:158
+#: widgets/so-widgets/orion-team-w/orion-team-w.php:216
+#: widgets/so-widgets/orion-team-w/orion-team-w.php:230
+#: widgets/so-widgets/orion-team-w/orion-team-w.php:245
+#: widgets/so-widgets/orion-custom-carousel-w/orion-custom-carousel-w.php:133
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:235
+#: widgets/so-widgets/orion-button-w/orion-button-w.php:119
+#: widgets/so-widgets/orion-button-w/orion-button-w.php:133
+#: widgets/so-widgets/orion-testimonial-w/orion-testimonial-w.php:146
+#: widgets/so-widgets/orion-icon-w/orion-icon-w.php:123
+#: widgets/so-widgets/orion-heading-w/orion-heading-w.php:77
+msgid "None"
+msgstr ""
+
+#: framework/sobuilder.php:628
+msgid "Raised Box"
+msgstr ""
+
+#: framework/sobuilder.php:629
+msgid "Lifted Corners"
+msgstr ""
+
+#: framework/sobuilder.php:630
+msgid "Horizontal Curves"
+msgstr ""
+
+#: framework/sobuilder.php:636
+msgid "Border radius"
+msgstr ""
+
+#: framework/sobuilder.php:639
+msgid "Add rounded quarners"
+msgstr ""
+
+#: framework/sobuilder.php:669
+msgid "Remove side padding on Mobile devices"
+msgstr ""
+
+#: framework/sobuilder.php:676
+msgid "Remove side margin on small devices"
+msgstr ""
+
+#: framework/sobuilder.php:706
+msgid "Overlap Row"
+msgstr ""
+
+#: framework/sobuilder.php:712 framework/meta/orion_meta_2.php:309
+#: widgets/so-widgets/orion-icon-text-w/orion-icon-text-w.php:129
+#: widgets/so-widgets/orion-cta-w/orion-cta-w.php:65
+#: widgets/so-widgets/orion-cta-w/orion-cta-w.php:92
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:172
+#: widgets/so-widgets/orion-button-w/orion-button-w.php:60
+#: widgets/so-widgets/orion-button-w/orion-button-w.php:129
+#: widgets/so-widgets/orion-heading-w/orion-heading-w.php:61
+msgid "Left"
+msgstr ""
+
+#: framework/sobuilder.php:713
+#: widgets/so-widgets/orion-icon-text-w/orion-icon-text-w.php:130
+#: widgets/so-widgets/orion-cta-w/orion-cta-w.php:93
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:171
+#: widgets/so-widgets/orion-button-w/orion-button-w.php:131
+#: widgets/so-widgets/orion-heading-w/orion-heading-w.php:63
+msgid "Center"
+msgstr ""
+
+#: framework/sobuilder.php:714
+msgid "right"
+msgstr ""
+
+#: framework/sobuilder.php:741
+msgid "Overlay"
+msgstr ""
+
+#: framework/sobuilder.php:744
+msgid "Lighten or Darken background."
+msgstr ""
+
+#: framework/sobuilder.php:748 framework/meta/orion_meta_2.php:216
+#: framework/meta/orion_meta_2.php:440
+msgid "Dark Overlay"
+msgstr ""
+
+#: framework/sobuilder.php:749 framework/meta/orion_meta_2.php:217
+#: framework/meta/orion_meta_2.php:441
+msgid "Light Overlay"
+msgstr ""
+
+#: framework/sobuilder.php:750 framework/meta/orion_meta_2.php:218
+#: framework/meta/orion_meta_2.php:442
+#: widgets/so-widgets/orion-portfolio-w/orion-portfolio-w.php:135
+#: widgets/so-widgets/orion-portfolio-w/orion-portfolio-w.php:150
+#: widgets/so-widgets/orion-portfolio-w/orion-portfolio-w.php:164
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:191
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:241
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:256
+#: widgets/so-widgets/orion-image-w/orion-image-w.php:75
+#: widgets/so-widgets/orion-image-w/orion-image-w.php:90
+#: widgets/so-widgets/orion-image-w/orion-image-w.php:104
+#: widgets/so-widgets/orion-accordion-w/orion-accordion-w.php:113
+#: widgets/so-widgets/orion-simple-gallery/orion-simple-gallery.php:87
+#: widgets/so-widgets/orion-simple-gallery/orion-simple-gallery.php:168
+#: widgets/so-widgets/orion-simple-gallery/orion-simple-gallery.php:183
+#: widgets/so-widgets/orion-simple-gallery/orion-simple-gallery.php:197
+#: widgets/so-widgets/orion-featured-pages/orion-featured-pages.php:166
+#: widgets/so-widgets/orion-featured-pages/orion-featured-pages.php:194
+#: widgets/so-widgets/orion-featured-pages/orion-featured-pages.php:208
+#: widgets/so-widgets/orion-team-w/orion-team-w.php:192
+#: widgets/so-widgets/orion-team-w/orion-team-w.php:219
+#: widgets/so-widgets/orion-team-w/orion-team-w.php:233
+#: widgets/so-widgets/orion-heading-w/orion-heading-w.php:51
+msgid "Main theme color"
+msgstr ""
+
+#: framework/sobuilder.php:751 framework/meta/orion_meta_2.php:219
+#: framework/meta/orion_meta_2.php:443
+#: widgets/so-widgets/orion-portfolio-w/orion-portfolio-w.php:136
+#: widgets/so-widgets/orion-portfolio-w/orion-portfolio-w.php:151
+#: widgets/so-widgets/orion-portfolio-w/orion-portfolio-w.php:165
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:192
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:242
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:257
+#: widgets/so-widgets/orion-image-w/orion-image-w.php:76
+#: widgets/so-widgets/orion-image-w/orion-image-w.php:91
+#: widgets/so-widgets/orion-image-w/orion-image-w.php:105
+#: widgets/so-widgets/orion-accordion-w/orion-accordion-w.php:114
+#: widgets/so-widgets/orion-simple-gallery/orion-simple-gallery.php:88
+#: widgets/so-widgets/orion-simple-gallery/orion-simple-gallery.php:169
+#: widgets/so-widgets/orion-simple-gallery/orion-simple-gallery.php:184
+#: widgets/so-widgets/orion-simple-gallery/orion-simple-gallery.php:198
+#: widgets/so-widgets/orion-featured-pages/orion-featured-pages.php:167
+#: widgets/so-widgets/orion-featured-pages/orion-featured-pages.php:195
+#: widgets/so-widgets/orion-featured-pages/orion-featured-pages.php:209
+#: widgets/so-widgets/orion-team-w/orion-team-w.php:193
+#: widgets/so-widgets/orion-team-w/orion-team-w.php:220
+#: widgets/so-widgets/orion-team-w/orion-team-w.php:234
+#: widgets/so-widgets/orion-heading-w/orion-heading-w.php:52
+msgid "Secondary theme color"
+msgstr ""
+
+#: framework/sobuilder.php:752 framework/meta/orion_meta_2.php:220
+#: framework/meta/orion_meta_2.php:444
+#: widgets/so-widgets/orion-portfolio-w/orion-portfolio-w.php:137
+#: widgets/so-widgets/orion-portfolio-w/orion-portfolio-w.php:152
+#: widgets/so-widgets/orion-portfolio-w/orion-portfolio-w.php:166
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:193
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:243
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:258
+#: widgets/so-widgets/orion-image-w/orion-image-w.php:77
+#: widgets/so-widgets/orion-image-w/orion-image-w.php:92
+#: widgets/so-widgets/orion-image-w/orion-image-w.php:106
+#: widgets/so-widgets/orion-accordion-w/orion-accordion-w.php:115
+#: widgets/so-widgets/orion-simple-gallery/orion-simple-gallery.php:89
+#: widgets/so-widgets/orion-simple-gallery/orion-simple-gallery.php:170
+#: widgets/so-widgets/orion-simple-gallery/orion-simple-gallery.php:185
+#: widgets/so-widgets/orion-simple-gallery/orion-simple-gallery.php:199
+#: widgets/so-widgets/orion-featured-pages/orion-featured-pages.php:168
+#: widgets/so-widgets/orion-featured-pages/orion-featured-pages.php:196
+#: widgets/so-widgets/orion-featured-pages/orion-featured-pages.php:210
+#: widgets/so-widgets/orion-team-w/orion-team-w.php:194
+#: widgets/so-widgets/orion-team-w/orion-team-w.php:221
+#: widgets/so-widgets/orion-team-w/orion-team-w.php:235
+#: widgets/so-widgets/orion-heading-w/orion-heading-w.php:53
+msgid "Tertiary theme color"
+msgstr ""
+
+#: framework/sobuilder.php:753 framework/meta/orion_meta_2.php:221
+#: framework/meta/orion_meta_2.php:445
+msgid "Gradient 1"
+msgstr ""
+
+#: framework/sobuilder.php:754 framework/meta/orion_meta_2.php:222
+#: framework/meta/orion_meta_2.php:446
+msgid "Gradient 2"
+msgstr ""
+
+#: framework/sobuilder.php:755 framework/meta/orion_meta_2.php:223
+#: framework/meta/orion_meta_2.php:447
+msgid "Primary to Transparent"
+msgstr ""
+
+#: framework/sobuilder.php:756 framework/meta/orion_meta_2.php:224
+#: framework/meta/orion_meta_2.php:448
+msgid "Secondary to Transparent"
+msgstr ""
+
+#: framework/sobuilder.php:757 framework/meta/orion_meta_2.php:225
+#: framework/meta/orion_meta_2.php:449
+msgid "Tertiary to Transparent"
+msgstr ""
+
+#: framework/sobuilder.php:783
+msgid "Background opacity"
+msgstr ""
+
+#: framework/sobuilder.php:786
+msgid ""
+"Must be a number between 1 and 100. 1 is almost transparent, 100 is opaque."
+msgstr ""
+
+#: framework/sobuilder.php:905
+msgid "Force Collapse on medium screens"
+msgstr ""
+
+#: framework/sobuilder.php:931
+msgid "OrionThemes"
+msgstr ""
+
+#: framework/sidebars.php:16
+msgid "default sidebar"
+msgstr ""
+
+#: framework/sidebars.php:19
+msgid "This is default sidebar. "
+msgstr ""
+
+#: framework/sidebars.php:29
+msgid "Top-bar-left"
+msgstr ""
+
+#: framework/sidebars.php:32
+msgid "This is left top-bar sidebar. It is displayed on top of the header. "
+msgstr ""
+
+#: framework/sidebars.php:42
+msgid "Top-bar-right"
+msgstr ""
+
+#: framework/sidebars.php:45
+msgid "This is right top-bar sidebar. It is displayed on top of the header. "
+msgstr ""
+
+#: framework/sidebars.php:84
+msgid "Classic header widget area"
+msgstr ""
+
+#: framework/sidebars.php:87
+msgid "This is widget area, which is displayed in header. "
+msgstr ""
+
+#: framework/sidebars.php:99
+msgid "Header 2 widget area"
+msgstr ""
+
+#: framework/sidebars.php:102
+msgid "This is widget area, which is displayed in header with bottom menu. "
+msgstr ""
+
+#: framework/sidebars.php:124
+msgid "This is widget area, which is displayed before footer. "
+msgstr ""
+
+#: framework/sidebars.php:146
+msgid "This is widget area, which is displayed in footer. "
+msgstr ""
+
+#: framework/sidebars.php:168
+msgid "This is widget area, which is displayed in Copyright footer. "
+msgstr ""
+
+#: framework/sidebars.php:204
+msgid "This is dynamicly generated widget. You can add more in theme options. "
+msgstr ""
+
+#: framework/helpers.php:1090
+#, php-format
+msgid "<cite class=\"fn\"><h6 class=\"comment-author-name\">%s</h6></cite>"
+msgstr ""
+
+#: framework/helpers.php:1093
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#. 1: date, 2: time
+#: framework/helpers.php:1102
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: framework/helpers.php:1102
+msgid "(Edit)"
+msgstr ""
+
+#: framework/helpers.php:1107
+msgid ""
+"<span class=\"font-3\">Reply <i class=\"fa fa-reply primary-color\"></i>"
+"</span>"
+msgstr ""
+
+#: framework/helpers.php:1124
+msgid "Daily Archives"
+msgstr ""
+
+#: framework/helpers.php:1126
+msgid "Monthly Archives"
+msgstr ""
+
+#: framework/helpers.php:1128
+msgid "Yearly Archives"
+msgstr ""
+
+#: framework/helpers.php:1130 templates/heading/content-breadcrumbs.php:57
+msgid "Search results"
+msgstr ""
+
+#: framework/helpers.php:1141 templates/heading/content-breadcrumbs.php:63
+msgid "Page not found"
+msgstr ""
+
+#: framework/helpers.php:1143 templates/heading/content-breadcrumbs.php:61
+msgid "Articles posted by"
+msgstr ""
+
+#: framework/helpers.php:1260
+msgid "&larr;"
+msgstr ""
+
+#: framework/helpers.php:1261
+msgid "&rarr;"
+msgstr ""
+
+#: framework/helpers.php:1268
+msgid "Posts navigation"
+msgstr ""
+
+#: framework/helpers.php:1431
+msgid "This widget requires Page Builder."
+msgstr ""
+
+#: widgets/orion_so_filters.php:401
+msgid "Elegant icons"
+msgstr ""
+
+#: widgets/orion_so_filters.php:406
+msgid "Environmental icons"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:44
+#, php-format
+msgid "%d item in cart"
+msgid_plural "%d items in cart"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/cart/mini-cart.php:92
+msgid "No products in the cart."
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:100
+msgid "Total Price"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:106
+msgid "View Cart"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:109
+msgid "Checkout"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:23
+msgid "Quote Post Format"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:33
+msgid "Status Post Format"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:41
+msgid "Status"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:50
+msgid "Quote"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:57
+msgid "Source Name"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:66
+msgid "Video Post Format"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:74 framework/meta/orion_meta_2.php:120
+msgid "oEmbed"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:75
+msgid ""
+"Enter a youtube, Vimeo, or TED URL. Supports services listed at codex."
+"wordpress.org/Embeds"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:83
+msgid "Link Post Format"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:90
+msgid "link title"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:91
+msgid "Text displayed"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:97
+msgid "URL"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:98
+msgid "Paste a link"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:104
+msgid "Link description"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:112
+msgid "Audio Post Format"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:121
+msgid ""
+"Enter a SoundCloud, Spotify, or similar URL. Supports services listed at "
+"http://codex.wordpress.org/Embeds."
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:127
+msgid "Multiple Files"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:128
+msgid "Upload or add multiple audio files. Accepts mp3, ogg, and wav formats"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:137
+msgid "Gallery Post Format"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:145
+msgid "Gallery"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:158
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:71
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:144
+#: widgets/so-widgets/orion-simple-gallery/orion-simple-gallery.php:76
+#: widgets/so-widgets/orion-simple-gallery/orion-simple-gallery.php:108
+#: widgets/so-widgets/orion-featured-pages/orion-featured-pages.php:78
+#: widgets/so-widgets/orion-featured-pages/orion-featured-pages.php:119
+#: widgets/so-widgets/orion-team-w/orion-team-w.php:67
+#: widgets/so-widgets/orion-team-w/orion-team-w.php:133
+#: widgets/so-widgets/orion-custom-carousel-w/orion-custom-carousel-w.php:142
+#: widgets/so-widgets/orion-testimonial-w/orion-testimonial-w.php:69
+#: widgets/so-widgets/orion-advanced-carousel-w/orion-advanced-carousel-w.php:74
+msgid "Carousel"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:160
+msgid "2 column grid"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:161
+msgid "3 column grid"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:162
+msgid "4 column grid"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:168
+msgid "Thumbnail size:"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:176
+#: widgets/so-widgets/orion-portfolio-w/orion-portfolio-w.php:210
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:206
+#: widgets/so-widgets/orion-list/orion-list.php:73
+#: widgets/so-widgets/orion-cta-w/orion-cta-w.php:157
+#: widgets/so-widgets/orion-custom-carousel-w/orion-custom-carousel-w.php:125
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:181
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:227
+#: widgets/so-widgets/orion-button-w/orion-button-w.php:111
+#: widgets/so-widgets/orion-testimonial-w/orion-testimonial-w.php:119
+#: widgets/so-widgets/orion-icon-w/orion-icon-w.php:108
+msgid "Large"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:177
+#: widgets/so-widgets/orion-progress-w/orion-progress-w.php:108
+msgid "Medium"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:178
+msgid "Thumbnail"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:180
+msgid "Original size"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:182
+#: widgets/so-widgets/orion-portfolio-w/orion-portfolio-w.php:126
+#: widgets/so-widgets/orion-image-w/orion-image-w.php:66
+#: widgets/so-widgets/orion-simple-gallery/orion-simple-gallery.php:159
+msgid "750px width"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:192
+msgid "Header Settings"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:202
+msgid "Enable transparent header"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:236
+#: widgets/so-widgets/orion-tabs-w/orion-tabs-w.php:102
+#: widgets/so-widgets/orion-portfolio-w/orion-portfolio-w.php:139
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:98
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:195
+#: widgets/so-widgets/orion-image-w/orion-image-w.php:79
+#: widgets/so-widgets/orion-icon-text-w/orion-icon-text-w.php:119
+#: widgets/so-widgets/orion-count-up-w/orion-count-up-w.php:51
+#: widgets/so-widgets/orion-accordion-w/orion-accordion-w.php:77
+#: widgets/so-widgets/orion-accordion-w/orion-accordion-w.php:86
+#: widgets/so-widgets/orion-simple-gallery/orion-simple-gallery.php:86
+#: widgets/so-widgets/orion-simple-gallery/orion-simple-gallery.php:172
+#: widgets/so-widgets/orion-featured-pages/orion-featured-pages.php:88
+#: widgets/so-widgets/orion-featured-pages/orion-featured-pages.php:170
+#: widgets/so-widgets/orion-cta-w/orion-cta-w.php:83
+#: widgets/so-widgets/orion-team-w/orion-team-w.php:88
+#: widgets/so-widgets/orion-timeline-w/orion-timeline-w.php:70
+#: widgets/so-widgets/orion-upload-w/orion-upload-w.php:84
+#: widgets/so-widgets/orion-progress-w/orion-progress-w.php:86
+#: widgets/so-widgets/orion-custom-carousel-w/orion-custom-carousel-w.php:86
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:162
+#: widgets/so-widgets/orion-heading-w/orion-heading-w.php:50
+#: widgets/so-widgets/orion-responsive-video-w/orion-responsive-video-w.php:53
+msgid "Light"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:237
+#: widgets/so-widgets/orion-tabs-w/orion-tabs-w.php:101
+#: widgets/so-widgets/orion-portfolio-w/orion-portfolio-w.php:138
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:99
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:194
+#: widgets/so-widgets/orion-image-w/orion-image-w.php:78
+#: widgets/so-widgets/orion-icon-text-w/orion-icon-text-w.php:120
+#: widgets/so-widgets/orion-count-up-w/orion-count-up-w.php:52
+#: widgets/so-widgets/orion-accordion-w/orion-accordion-w.php:78
+#: widgets/so-widgets/orion-accordion-w/orion-accordion-w.php:87
+#: widgets/so-widgets/orion-simple-gallery/orion-simple-gallery.php:85
+#: widgets/so-widgets/orion-simple-gallery/orion-simple-gallery.php:171
+#: widgets/so-widgets/orion-featured-pages/orion-featured-pages.php:89
+#: widgets/so-widgets/orion-featured-pages/orion-featured-pages.php:169
+#: widgets/so-widgets/orion-cta-w/orion-cta-w.php:84
+#: widgets/so-widgets/orion-team-w/orion-team-w.php:89
+#: widgets/so-widgets/orion-timeline-w/orion-timeline-w.php:71
+#: widgets/so-widgets/orion-upload-w/orion-upload-w.php:83
+#: widgets/so-widgets/orion-progress-w/orion-progress-w.php:87
+#: widgets/so-widgets/orion-custom-carousel-w/orion-custom-carousel-w.php:87
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:163
+#: widgets/so-widgets/orion-heading-w/orion-heading-w.php:49
+#: widgets/so-widgets/orion-responsive-video-w/orion-responsive-video-w.php:54
+msgid "Dark"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:248
+msgid "Light Logo"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:249
+msgid "Dark Logo"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:251
+msgid "Default mobile logo color can be set in Theme Options"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:256
+msgid "Header button text"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:263
+msgid "Header button link"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:276 framework/meta/orion_meta_2.php:285
+msgid "Page Title Settings"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:294
+msgid "Hide Page title?"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:307
+msgid "Classic"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:308
+msgid "Centered"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:320
+msgid "Default color"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:321
+msgid "Light color"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:322
+msgid "Dark color"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:328 framework/meta/orion_meta_2.php:336
+msgid "Value in px"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:348
+msgid "Page Title Background"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:374 framework/meta/orion_meta_2.php:386
+#: framework/meta/orion_meta_2.php:401
+msgid "Theme options defaults"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:375
+msgid "No repeat"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:376
+msgid "Repeat"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:387
+msgid "Auto"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:388
+msgid "Cover"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:389
+msgid "Contain"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:390
+msgid "Width 100%"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:402
+msgid "Left Top"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:403
+msgid "Center Top"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:404
+msgid "Right Top"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:405
+msgid "Left Center"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:406
+msgid "Center Center"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:407
+msgid "Right Center"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:408
+msgid "Left Bottom"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:409
+msgid "Center Bottom"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:410
+msgid "Right Bottom"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:459 framework/meta/orion_meta_2.php:514
+#: framework/meta/orion_meta_2.php:556 framework/meta/orion_meta_2.php:599
+msgid "Sidebars"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:494 framework/meta/orion_meta_2.php:534
+#: framework/meta/orion_meta_2.php:576 framework/meta/orion_meta_2.php:619
+msgid "Left sidebar"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:503 framework/meta/orion_meta_2.php:543
+#: framework/meta/orion_meta_2.php:585 framework/meta/orion_meta_2.php:628
+msgid "Right sidebar"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:642
+msgid "Widget areas"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:650
+msgid "Hide the top bar?"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:656
+msgid "Hide header widget area?"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:661
+msgid "Hide Prefooter widget area (if active)?"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:675
+msgid "Page Spacing"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:683
+msgid "Remove Top Spacing?"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:689
+msgid "Remove Bottom Spacing?"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:700
+msgid "Team Settings"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:707
+msgid "Job position"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:712
+msgid "Intro text"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:720
+msgid "Social info"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:730
+msgid "Add social links"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:733
+msgid "Entry {#}"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:734
+msgid "Add Another Entry"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:735
+msgid "Remove Entry"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:748
+msgid "LinkedIn"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:749
+msgid "Google +"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:750
+msgid "Facebook"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:751
+msgid "Twitter"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:752
+msgid "Youtube"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:753
+msgid "SnapChat"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:754
+msgid "Email"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:759
+msgid "Link to social profile"
+msgstr ""
+
+#: framework/meta/orion_meta_2.php:772
+msgid "Static block shortcode"
+msgstr ""
+
+#: templates/posts/content-single.php:49
+#: templates/posts/post-types/content-portfolio.php:97
+msgid "Edit"
+msgstr ""
+
+#: templates/posts/content-single.php:61
+msgid "Post author"
+msgstr ""
+
+#: templates/posts/content-single.php:108
+msgid "previous post"
+msgstr ""
+
+#: templates/posts/content-single.php:131
+msgid "next post"
+msgstr ""
+
+#: templates/heading/content-breadcrumbs.php:12
+msgid "Home"
+msgstr ""
+
+#: templates/heading/content-breadcrumbs.php:59
+msgid "Posts tagged"
+msgstr ""
+
+#: templates/parts/single-part_meta.php:13
+#: templates/parts/single-part_meta_light.php:13
+msgid "by "
+msgstr ""
+
+#: templates/parts/single-part_meta.php:18
+msgid "in"
+msgstr ""
+
+#: templates/parts/single-part_meta.php:28
+#: templates/parts/single-part_meta_light.php:28
+msgid " Comments"
+msgstr ""
+
+#: templates/parts/single-part_meta.php:31
+#: templates/parts/single-part_meta_light.php:31
+msgid "1 Comment"
+msgstr ""
+
+#: templates/parts/tax-part_excerpt.php:2
+#: templates/parts/tax-part_content.php:1
+msgid "Read More"
+msgstr ""
+
+#: templates/parts/single-part_bottom_meta.php:23
+msgid "Tags"
+msgstr ""
+
+#: templates/parts/single-part_bottom_meta.php:37
+#: templates/posts/post-types/content-portfolio.php:61
+msgid "Share on Facebook"
+msgstr ""
+
+#: templates/parts/single-part_bottom_meta.php:38
+#: templates/posts/post-types/content-portfolio.php:62
+msgid "Tweet"
+msgstr ""
+
+#: templates/parts/single-part_bottom_meta.php:39
+#: templates/posts/post-types/content-portfolio.php:63
+msgid "Share on Google+"
+msgstr ""
+
+#: templates/parts/single-part_bottom_meta.php:51
+#: templates/posts/post-types/content-portfolio.php:75
+msgid "Share"
+msgstr ""
+
+#: framework/admin/TGM/tgm-init.php:62
+msgid "Page Builder by SiteOrigin"
+msgstr ""
+
+#: framework/admin/TGM/tgm-init.php:70
+msgid "SiteOrigin Widgets Bundle"
+msgstr ""
+
+#: framework/admin/TGM/tgm-init.php:77
+msgid "Recycle theme plugin"
+msgstr ""
+
+#: framework/admin/TGM/tgm-init.php:87
+msgid "Contact form 7"
+msgstr ""
+
+#: framework/admin/TGM/tgm-init.php:96
+msgid "Revolution Slider WP"
+msgstr ""
+
+#: framework/admin/TGM/tgm-init.php:130
+msgid "Install Required Plugins"
+msgstr ""
+
+#: framework/admin/TGM/tgm-init.php:131
+msgid "Install Plugins"
+msgstr ""
+
+#. %s: plugin name.
+#: framework/admin/TGM/tgm-init.php:133
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. %s: plugin name.
+#: framework/admin/TGM/tgm-init.php:135
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: framework/admin/TGM/tgm-init.php:136
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: framework/admin/TGM/tgm-init.php:137
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/admin/TGM/tgm-init.php:143
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/admin/TGM/tgm-init.php:155
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/admin/TGM/tgm-init.php:161
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/admin/TGM/tgm-init.php:167
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/admin/TGM/tgm-init.php:173
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/admin/TGM/tgm-init.php:178
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/admin/TGM/tgm-init.php:183
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/admin/TGM/tgm-init.php:188
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: framework/admin/TGM/tgm-init.php:189
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: framework/admin/TGM/tgm-init.php:190
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#. 1: plugin name.
+#: framework/admin/TGM/tgm-init.php:192
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. 1: plugin name.
+#: framework/admin/TGM/tgm-init.php:194
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#. 1: dashboard link.
+#: framework/admin/TGM/tgm-init.php:196
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: framework/admin/TGM/tgm-init.php:197
+msgid "Dismiss this notice"
+msgstr ""
+
+#: framework/admin/TGM/tgm-init.php:198
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: framework/admin/TGM/tgm-init.php:199
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: templates/posts/post-types/content-portfolio.php:135
+msgid "Previous Project"
+msgstr ""
+
+#: templates/posts/post-types/content-portfolio.php:158
+msgid "Next Project"
+msgstr ""
+
+#: widgets/so-widgets/orion-logos-w/orion-logos-w.php:16
+msgid "(OrionThemes) Logos"
+msgstr ""
+
+#: widgets/so-widgets/orion-logos-w/orion-logos-w.php:18
+msgid "Display logos in a grid or carousel."
+msgstr ""
+
+#: widgets/so-widgets/orion-logos-w/orion-logos-w.php:28
+#: widgets/so-widgets/orion-working-hours-w/orion-working-hours-w.php:28
+#: widgets/so-widgets/orion-tabs-w/orion-tabs-w.php:28
+#: widgets/so-widgets/orion-portfolio-w/orion-portfolio-w.php:45
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:57
+#: widgets/so-widgets/orion-list/orion-list.php:28
+#: widgets/so-widgets/orion-accordion-w/orion-accordion-w.php:28
+#: widgets/so-widgets/orion-simple-gallery/orion-simple-gallery.php:28
+#: widgets/so-widgets/orion-featured-pages/orion-featured-pages.php:40
+#: widgets/so-widgets/orion-team-w/orion-team-w.php:52
+#: widgets/so-widgets/orion-upload-w/orion-upload-w.php:28
+#: widgets/so-widgets/orion-pricelist-w/orion-pricelist-w.php:28
+#: widgets/so-widgets/orion-custom-menu-w/orion-custom-menu-w.php:40
+#: widgets/so-widgets/orion-cf7-w/orion-cf7-w.php:57
+#: widgets/so-widgets/orion-static-block-w/orion-static-block-w.php:59
+#: widgets/so-widgets/orion-testimonial-w/orion-testimonial-w.php:26
+#: widgets/so-widgets/orion-icon-w/orion-icon-w.php:28
+msgid "Widget Title"
+msgstr ""
+
+#: widgets/so-widgets/orion-logos-w/orion-logos-w.php:32
+msgid "Add Logo"
+msgstr ""
+
+#: widgets/so-widgets/orion-logos-w/orion-logos-w.php:33
+msgid "Click to add a Logo"
+msgstr ""
+
+#: widgets/so-widgets/orion-logos-w/orion-logos-w.php:42
+msgid "Logo title"
+msgstr ""
+
+#: widgets/so-widgets/orion-logos-w/orion-logos-w.php:47
+msgid "Choose a Logo"
+msgstr ""
+
+#: widgets/so-widgets/orion-logos-w/orion-logos-w.php:48
+msgid "Choose logo"
+msgstr ""
+
+#: widgets/so-widgets/orion-logos-w/orion-logos-w.php:49
+msgid "Set logo"
+msgstr ""
+
+#: widgets/so-widgets/orion-logos-w/orion-logos-w.php:55
+msgid "Logo Link"
+msgstr ""
+
+#: widgets/so-widgets/orion-logos-w/orion-logos-w.php:62
+msgid "Display as"
+msgstr ""
+
+#: widgets/so-widgets/orion-logos-w/orion-logos-w.php:72
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:77
+#: widgets/so-widgets/orion-icon-text-w/orion-icon-text-w.php:85
+#: widgets/so-widgets/orion-simple-gallery/orion-simple-gallery.php:61
+#: widgets/so-widgets/orion-featured-pages/orion-featured-pages.php:63
+#: widgets/so-widgets/orion-team-w/orion-team-w.php:73
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:147
+msgid "Elements per row"
+msgstr ""
+
+#: widgets/so-widgets/orion-logos-w/orion-logos-w.php:86
+msgid "Light or dark color"
+msgstr ""
+
+#: widgets/so-widgets/orion-logos-w/orion-logos-w.php:97
+msgid "Grid border color"
+msgstr ""
+
+#: widgets/so-widgets/orion-logos-w/orion-logos-w.php:103
+msgid "Row height (px)"
+msgstr ""
+
+#: widgets/so-widgets/orion-logos-w/orion-logos-w.php:112
+msgid "Logo size (%)"
+msgstr ""
+
+#: widgets/so-widgets/orion-logos-w/orion-logos-w.php:121
+msgid "Logo size on hover (%)"
+msgstr ""
+
+#: widgets/so-widgets/orion-logos-w/orion-logos-w.php:130
+#: widgets/so-widgets/orion-testimonial-w/orion-testimonial-w.php:134
+msgid "Carousel Settings"
+msgstr ""
+
+#: widgets/so-widgets/orion-logos-w/orion-logos-w.php:135
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:162
+#: widgets/so-widgets/orion-simple-gallery/orion-simple-gallery.php:126
+#: widgets/so-widgets/orion-featured-pages/orion-featured-pages.php:137
+#: widgets/so-widgets/orion-team-w/orion-team-w.php:151
+msgid "Navigation"
+msgstr ""
+
+#: widgets/so-widgets/orion-logos-w/orion-logos-w.php:138
+msgid "Arrows"
+msgstr ""
+
+#: widgets/so-widgets/orion-logos-w/orion-logos-w.php:144
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:174
+#: widgets/so-widgets/orion-simple-gallery/orion-simple-gallery.php:138
+#: widgets/so-widgets/orion-featured-pages/orion-featured-pages.php:149
+#: widgets/so-widgets/orion-team-w/orion-team-w.php:163
+#: widgets/so-widgets/orion-testimonial-w/orion-testimonial-w.php:151
+msgid "Display carousel navigation on mobile devices"
+msgstr ""
+
+#: widgets/so-widgets/orion-logos-w/orion-logos-w.php:149
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:149
+#: widgets/so-widgets/orion-simple-gallery/orion-simple-gallery.php:113
+#: widgets/so-widgets/orion-featured-pages/orion-featured-pages.php:124
+#: widgets/so-widgets/orion-team-w/orion-team-w.php:138
+#: widgets/so-widgets/orion-custom-carousel-w/orion-custom-carousel-w.php:147
+#: widgets/so-widgets/orion-advanced-carousel-w/orion-advanced-carousel-w.php:79
+msgid "Enable autoplay"
+msgstr ""
+
+#: widgets/so-widgets/orion-logos-w/orion-logos-w.php:154
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:154
+#: widgets/so-widgets/orion-simple-gallery/orion-simple-gallery.php:118
+#: widgets/so-widgets/orion-featured-pages/orion-featured-pages.php:129
+#: widgets/so-widgets/orion-team-w/orion-team-w.php:143
+#: widgets/so-widgets/orion-testimonial-w/orion-testimonial-w.php:161
+msgid "Autoplay Transition Delay"
+msgstr ""
+
+#: widgets/so-widgets/orion-working-hours-w/orion-working-hours-w.php:16
+msgid "(OrionThemes) Opening Hours"
+msgstr ""
+
+#: widgets/so-widgets/orion-working-hours-w/orion-working-hours-w.php:18
+msgid "Displays opening hours."
+msgstr ""
+
+#: widgets/so-widgets/orion-working-hours-w/orion-working-hours-w.php:33
+#: widgets/so-widgets/orion-working-hours-w/orion-working-hours-w.php:84
+#: widgets/so-widgets/orion-working-hours-w/orion-working-hours-w.php:132
+#: widgets/so-widgets/orion-working-hours-w/tpl/orion_working_hours_w-template.php:9
+msgid "Monday"
+msgstr ""
+
+#: widgets/so-widgets/orion-working-hours-w/orion-working-hours-w.php:38
+#: widgets/so-widgets/orion-working-hours-w/orion-working-hours-w.php:137
+#: widgets/so-widgets/orion-working-hours-w/tpl/orion_working_hours_w-template.php:10
+msgid "Tuesday"
+msgstr ""
+
+#: widgets/so-widgets/orion-working-hours-w/orion-working-hours-w.php:43
+#: widgets/so-widgets/orion-working-hours-w/orion-working-hours-w.php:142
+#: widgets/so-widgets/orion-working-hours-w/tpl/orion_working_hours_w-template.php:11
+msgid "Wednesday"
+msgstr ""
+
+#: widgets/so-widgets/orion-working-hours-w/orion-working-hours-w.php:48
+#: widgets/so-widgets/orion-working-hours-w/orion-working-hours-w.php:147
+#: widgets/so-widgets/orion-working-hours-w/tpl/orion_working_hours_w-template.php:12
+msgid "Thursday"
+msgstr ""
+
+#: widgets/so-widgets/orion-working-hours-w/orion-working-hours-w.php:53
+#: widgets/so-widgets/orion-working-hours-w/orion-working-hours-w.php:152
+#: widgets/so-widgets/orion-working-hours-w/tpl/orion_working_hours_w-template.php:13
+msgid "Friday"
+msgstr ""
+
+#: widgets/so-widgets/orion-working-hours-w/orion-working-hours-w.php:58
+#: widgets/so-widgets/orion-working-hours-w/orion-working-hours-w.php:86
+#: widgets/so-widgets/orion-working-hours-w/orion-working-hours-w.php:157
+#: widgets/so-widgets/orion-working-hours-w/tpl/orion_working_hours_w-template.php:14
+#: widgets/so-widgets/orion-working-hours-w/tpl/orion_working_hours_w-template.php:23
+msgid "Saturday"
+msgstr ""
+
+#: widgets/so-widgets/orion-working-hours-w/orion-working-hours-w.php:63
+#: widgets/so-widgets/orion-working-hours-w/orion-working-hours-w.php:85
+#: widgets/so-widgets/orion-working-hours-w/orion-working-hours-w.php:162
+#: widgets/so-widgets/orion-working-hours-w/tpl/orion_working_hours_w-template.php:15
+#: widgets/so-widgets/orion-working-hours-w/tpl/orion_working_hours_w-template.php:20
+#: widgets/so-widgets/orion-working-hours-w/tpl/orion_working_hours_w-template.php:23
+msgid "Sunday"
+msgstr ""
+
+#: widgets/so-widgets/orion-working-hours-w/orion-working-hours-w.php:67
+#: widgets/so-widgets/orion-working-hours-w/orion-working-hours-w.php:167
+msgid "Lunch Break"
+msgstr ""
+
+#: widgets/so-widgets/orion-working-hours-w/orion-working-hours-w.php:71
+#: widgets/so-widgets/orion-list/orion-list.php:53
+#: widgets/so-widgets/orion-pricelist-w/orion-pricelist-w.php:59
+#: widgets/so-widgets/orion-custom-menu-w/orion-custom-menu-w.php:56
+msgid "Text color style"
+msgstr ""
+
+#: widgets/so-widgets/orion-working-hours-w/orion-working-hours-w.php:81
+msgid "Week starts with"
+msgstr ""
+
+#: widgets/so-widgets/orion-working-hours-w/orion-working-hours-w.php:92
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:104
+#: widgets/so-widgets/orion-list/orion-list.php:63
+#: widgets/so-widgets/orion-simple-gallery/orion-simple-gallery.php:94
+#: widgets/so-widgets/orion-featured-pages/orion-featured-pages.php:94
+#: widgets/so-widgets/orion-team-w/orion-team-w.php:94
+#: widgets/so-widgets/orion-pricelist-w/orion-pricelist-w.php:69
+#: widgets/so-widgets/orion-custom-menu-w/orion-custom-menu-w.php:51
+msgid "Settings"
+msgstr ""
+
+#: widgets/so-widgets/orion-working-hours-w/orion-working-hours-w.php:102
+msgid "Current day color"
+msgstr ""
+
+#: widgets/so-widgets/orion-working-hours-w/orion-working-hours-w.php:107
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:221
+#: widgets/so-widgets/orion-list/orion-list.php:88
+#: widgets/so-widgets/orion-accordion-w/orion-accordion-w.php:92
+#: widgets/so-widgets/orion-featured-pages/orion-featured-pages.php:175
+#: widgets/so-widgets/orion-team-w/orion-team-w.php:199
+#: widgets/so-widgets/orion-custom-menu-w/orion-custom-menu-w.php:65
+msgid "Background color"
+msgstr ""
+
+#: widgets/so-widgets/orion-working-hours-w/orion-working-hours-w.php:112
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:226
+#: widgets/so-widgets/orion-list/orion-list.php:93
+#: widgets/so-widgets/orion-accordion-w/orion-accordion-w.php:97
+#: widgets/so-widgets/orion-featured-pages/orion-featured-pages.php:180
+#: widgets/so-widgets/orion-team-w/orion-team-w.php:204
+#: widgets/so-widgets/orion-custom-menu-w/orion-custom-menu-w.php:70
+msgid "Background color opacity"
+msgstr ""
+
+#: widgets/so-widgets/orion-working-hours-w/orion-working-hours-w.php:120
+msgid "Display borders"
+msgstr ""
+
+#: widgets/so-widgets/orion-working-hours-w/orion-working-hours-w.php:127
+msgid "Translations"
+msgstr ""
+
+#: widgets/so-widgets/orion-tabs-w/orion-tabs-w.php:15
+msgid "(OrionThemes) Tabs"
+msgstr ""
+
+#: widgets/so-widgets/orion-tabs-w/orion-tabs-w.php:17
+msgid "Display tabs in different styles."
+msgstr ""
+
+#: widgets/so-widgets/orion-tabs-w/orion-tabs-w.php:32
+msgid "Add Tab"
+msgstr ""
+
+#: widgets/so-widgets/orion-tabs-w/orion-tabs-w.php:33
+msgid "Click to add a tab"
+msgstr ""
+
+#: widgets/so-widgets/orion-tabs-w/orion-tabs-w.php:42
+msgid "Tab Title"
+msgstr ""
+
+#: widgets/so-widgets/orion-tabs-w/orion-tabs-w.php:44
+msgid "All Tab titles must be unique"
+msgstr ""
+
+#: widgets/so-widgets/orion-tabs-w/orion-tabs-w.php:48
+#: widgets/so-widgets/orion-accordion-w/orion-accordion-w.php:53
+msgid "Select an icon (optional)"
+msgstr ""
+
+#: widgets/so-widgets/orion-tabs-w/orion-tabs-w.php:52
+msgid "Tab background color"
+msgstr ""
+
+#: widgets/so-widgets/orion-tabs-w/orion-tabs-w.php:58
+#: widgets/so-widgets/orion-advanced-carousel-w/orion-advanced-carousel-w.php:43
+msgid "Create Layout"
+msgstr ""
+
+#: widgets/so-widgets/orion-tabs-w/orion-tabs-w.php:59
+#: widgets/so-widgets/orion-advanced-carousel-w/orion-advanced-carousel-w.php:44
+msgid "Selecting this will override Tab content below."
+msgstr ""
+
+#: widgets/so-widgets/orion-tabs-w/orion-tabs-w.php:65
+msgid "Tab content"
+msgstr ""
+
+#: widgets/so-widgets/orion-tabs-w/orion-tabs-w.php:72
+#: widgets/so-widgets/orion-accordion-w/orion-accordion-w.php:69
+#: widgets/so-widgets/orion-cta-w/orion-cta-w.php:75
+#: widgets/so-widgets/orion-progress-w/orion-progress-w.php:78
+msgid "Widget style"
+msgstr ""
+
+#: widgets/so-widgets/orion-tabs-w/orion-tabs-w.php:78
+msgid "Layout"
+msgstr ""
+
+#: widgets/so-widgets/orion-tabs-w/orion-tabs-w.php:88
+msgid "Active Tab Text Color"
+msgstr ""
+
+#: widgets/so-widgets/orion-tabs-w/orion-tabs-w.php:91
+#: widgets/so-widgets/orion-portfolio-w/orion-portfolio-w.php:195
+#: widgets/so-widgets/orion-cta-w/orion-cta-w.php:136
+#: widgets/so-widgets/orion-upload-w/orion-upload-w.php:65
+#: widgets/so-widgets/orion-progress-w/orion-progress-w.php:57
+#: widgets/so-widgets/orion-custom-carousel-w/orion-custom-carousel-w.php:106
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:108
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:124
+#: widgets/so-widgets/orion-button-w/orion-button-w.php:90
+#: widgets/so-widgets/orion-icon-w/orion-icon-w.php:89
+#: widgets/so-widgets/orion-responsive-video-w/orion-responsive-video-w.php:55
+msgid "Main Theme Color"
+msgstr ""
+
+#: widgets/so-widgets/orion-tabs-w/orion-tabs-w.php:92
+#: widgets/so-widgets/orion-portfolio-w/orion-portfolio-w.php:196
+#: widgets/so-widgets/orion-cta-w/orion-cta-w.php:137
+#: widgets/so-widgets/orion-upload-w/orion-upload-w.php:66
+#: widgets/so-widgets/orion-progress-w/orion-progress-w.php:51
+#: widgets/so-widgets/orion-progress-w/orion-progress-w.php:58
+#: widgets/so-widgets/orion-progress-w/orion-progress-w.php:89
+#: widgets/so-widgets/orion-custom-carousel-w/orion-custom-carousel-w.php:107
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:109
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:125
+#: widgets/so-widgets/orion-button-w/orion-button-w.php:91
+#: widgets/so-widgets/orion-icon-w/orion-icon-w.php:90
+#: widgets/so-widgets/orion-responsive-video-w/orion-responsive-video-w.php:56
+msgid "Secondary Theme Color"
+msgstr ""
+
+#: widgets/so-widgets/orion-tabs-w/orion-tabs-w.php:93
+#: widgets/so-widgets/orion-portfolio-w/orion-portfolio-w.php:197
+#: widgets/so-widgets/orion-cta-w/orion-cta-w.php:138
+#: widgets/so-widgets/orion-upload-w/orion-upload-w.php:67
+#: widgets/so-widgets/orion-progress-w/orion-progress-w.php:52
+#: widgets/so-widgets/orion-progress-w/orion-progress-w.php:59
+#: widgets/so-widgets/orion-progress-w/orion-progress-w.php:90
+#: widgets/so-widgets/orion-custom-carousel-w/orion-custom-carousel-w.php:108
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:110
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:126
+#: widgets/so-widgets/orion-button-w/orion-button-w.php:92
+#: widgets/so-widgets/orion-icon-w/orion-icon-w.php:91
+#: widgets/so-widgets/orion-responsive-video-w/orion-responsive-video-w.php:57
+msgid "Tertiary Theme Color"
+msgstr ""
+
+#: widgets/so-widgets/orion-tabs-w/orion-tabs-w.php:98
+msgid "Navigation Text Color"
+msgstr ""
+
+#: widgets/so-widgets/orion-tabs-w/orion-tabs-w.php:107
+msgid "Border Color"
+msgstr ""
+
+#: widgets/so-widgets/orion-portfolio-w/orion-portfolio-w.php:33
+msgid "(OrionThemes) Portfolio Widget"
+msgstr ""
+
+#: widgets/so-widgets/orion-portfolio-w/orion-portfolio-w.php:35
+msgid "Display isotope portfolio."
+msgstr ""
+
+#: widgets/so-widgets/orion-portfolio-w/orion-portfolio-w.php:49
+msgid "Choose categories to display"
+msgstr ""
+
+#: widgets/so-widgets/orion-portfolio-w/orion-portfolio-w.php:51
+msgid ""
+"Select All to display all categories, hold the SHIFT key to select multiple "
+"categories."
+msgstr ""
+
+#: widgets/so-widgets/orion-portfolio-w/orion-portfolio-w.php:57
+msgid "Display filter"
+msgstr ""
+
+#: widgets/so-widgets/orion-portfolio-w/orion-portfolio-w.php:66
+msgid "Number of columns"
+msgstr ""
+
+#: widgets/so-widgets/orion-portfolio-w/orion-portfolio-w.php:67
+#: widgets/so-widgets/orion-portfolio-w/orion-portfolio-w.php:95
+msgid "Select All to display all categories"
+msgstr ""
+
+#: widgets/so-widgets/orion-portfolio-w/orion-portfolio-w.php:77
+msgid "-1 for unlimited"
+msgstr ""
+
+#: widgets/so-widgets/orion-portfolio-w/orion-portfolio-w.php:78
+msgid "Max number of items to display"
+msgstr ""
+
+#: widgets/so-widgets/orion-portfolio-w/orion-portfolio-w.php:83
+msgid "Order by"
+msgstr ""
+
+#: widgets/so-widgets/orion-portfolio-w/orion-portfolio-w.php:94
+msgid "Order"
+msgstr ""
+
+#: widgets/so-widgets/orion-portfolio-w/orion-portfolio-w.php:104
+#: widgets/so-widgets/orion-image-w/orion-image-w.php:44
+#: widgets/so-widgets/orion-simple-gallery/orion-simple-gallery.php:99
+msgid "On click"
+msgstr ""
+
+#: widgets/so-widgets/orion-portfolio-w/orion-portfolio-w.php:107
+msgid "Open single portfolio"
+msgstr ""
+
+#: widgets/so-widgets/orion-portfolio-w/orion-portfolio-w.php:108
+#: widgets/so-widgets/orion-image-w/orion-image-w.php:48
+#: widgets/so-widgets/orion-simple-gallery/orion-simple-gallery.php:102
+msgid "Open image in lightbox"
+msgstr ""
+
+#: widgets/so-widgets/orion-portfolio-w/orion-portfolio-w.php:109
+#: widgets/so-widgets/orion-image-w/orion-image-w.php:49
+#: widgets/so-widgets/orion-simple-gallery/orion-simple-gallery.php:103
+msgid "Do nothing"
+msgstr ""
+
+#: widgets/so-widgets/orion-portfolio-w/orion-portfolio-w.php:114
+msgid "widget style"
+msgstr ""
+
+#: widgets/so-widgets/orion-portfolio-w/orion-portfolio-w.php:119
+#: widgets/so-widgets/orion-image-w/orion-image-w.php:59
+#: widgets/so-widgets/orion-simple-gallery/orion-simple-gallery.php:152
+#: widgets/so-widgets/orion-team-w/orion-team-w.php:177
+msgid "Image style"
+msgstr ""
+
+#: widgets/so-widgets/orion-portfolio-w/orion-portfolio-w.php:123
+#: widgets/so-widgets/orion-image-w/orion-image-w.php:63
+#: widgets/so-widgets/orion-icon-text-w/orion-icon-text-w.php:108
+#: widgets/so-widgets/orion-simple-gallery/orion-simple-gallery.php:156
+#: widgets/so-widgets/orion-team-w/orion-team-w.php:181
+msgid "Circle"
+msgstr ""
+
+#: widgets/so-widgets/orion-portfolio-w/orion-portfolio-w.php:127
+#: widgets/so-widgets/orion-image-w/orion-image-w.php:67
+#: widgets/so-widgets/orion-simple-gallery/orion-simple-gallery.php:160
+#: widgets/so-widgets/orion-team-w/orion-team-w.php:184
+msgid "Original image ratio"
+msgstr ""
+
+#: widgets/so-widgets/orion-portfolio-w/orion-portfolio-w.php:132
+#: widgets/so-widgets/orion-image-w/orion-image-w.php:72
+#: widgets/so-widgets/orion-simple-gallery/orion-simple-gallery.php:165
+msgid "Hover text color"
+msgstr ""
+
+#: widgets/so-widgets/orion-portfolio-w/orion-portfolio-w.php:144
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:235
+#: widgets/so-widgets/orion-image-w/orion-image-w.php:84
+#: widgets/so-widgets/orion-simple-gallery/orion-simple-gallery.php:177
+#: widgets/so-widgets/orion-featured-pages/orion-featured-pages.php:188
+#: widgets/so-widgets/orion-team-w/orion-team-w.php:213
+msgid "Image overlay"
+msgstr ""
+
+#: widgets/so-widgets/orion-portfolio-w/orion-portfolio-w.php:148
+#: widgets/so-widgets/orion-portfolio-w/orion-portfolio-w.php:162
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:239
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:254
+#: widgets/so-widgets/orion-image-w/orion-image-w.php:88
+#: widgets/so-widgets/orion-image-w/orion-image-w.php:102
+#: widgets/so-widgets/orion-simple-gallery/orion-simple-gallery.php:181
+#: widgets/so-widgets/orion-simple-gallery/orion-simple-gallery.php:195
+#: widgets/so-widgets/orion-featured-pages/orion-featured-pages.php:192
+#: widgets/so-widgets/orion-featured-pages/orion-featured-pages.php:206
+#: widgets/so-widgets/orion-team-w/orion-team-w.php:217
+#: widgets/so-widgets/orion-team-w/orion-team-w.php:231
+msgid "Darken"
+msgstr ""
+
+#: widgets/so-widgets/orion-portfolio-w/orion-portfolio-w.php:149
+#: widgets/so-widgets/orion-portfolio-w/orion-portfolio-w.php:163
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:240
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:255
+#: widgets/so-widgets/orion-image-w/orion-image-w.php:89
+#: widgets/so-widgets/orion-image-w/orion-image-w.php:103
+#: widgets/so-widgets/orion-simple-gallery/orion-simple-gallery.php:182
+#: widgets/so-widgets/orion-simple-gallery/orion-simple-gallery.php:196
+#: widgets/so-widgets/orion-featured-pages/orion-featured-pages.php:193
+#: widgets/so-widgets/orion-featured-pages/orion-featured-pages.php:207
+#: widgets/so-widgets/orion-team-w/orion-team-w.php:218
+#: widgets/so-widgets/orion-team-w/orion-team-w.php:232
+msgid "Lighten"
+msgstr ""
+
+#: widgets/so-widgets/orion-portfolio-w/orion-portfolio-w.php:153
+#: widgets/so-widgets/orion-portfolio-w/orion-portfolio-w.php:167
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:244
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:259
+#: widgets/so-widgets/orion-image-w/orion-image-w.php:93
+#: widgets/so-widgets/orion-image-w/orion-image-w.php:107
+#: widgets/so-widgets/orion-simple-gallery/orion-simple-gallery.php:186
+#: widgets/so-widgets/orion-simple-gallery/orion-simple-gallery.php:200
+#: widgets/so-widgets/orion-featured-pages/orion-featured-pages.php:197
+#: widgets/so-widgets/orion-featured-pages/orion-featured-pages.php:211
+#: widgets/so-widgets/orion-team-w/orion-team-w.php:222
+#: widgets/so-widgets/orion-team-w/orion-team-w.php:236
+msgid "Greyscale"
+msgstr ""
+
+#: widgets/so-widgets/orion-portfolio-w/orion-portfolio-w.php:158
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:250
+#: widgets/so-widgets/orion-image-w/orion-image-w.php:98
+#: widgets/so-widgets/orion-simple-gallery/orion-simple-gallery.php:191
+#: widgets/so-widgets/orion-featured-pages/orion-featured-pages.php:202
+#: widgets/so-widgets/orion-team-w/orion-team-w.php:227
+msgid "Image overlay on hover"
+msgstr ""
+
+#: widgets/so-widgets/orion-portfolio-w/orion-portfolio-w.php:176
+msgid "Filter style"
+msgstr ""
+
+#: widgets/so-widgets/orion-portfolio-w/orion-portfolio-w.php:181
+msgid "Filter Style"
+msgstr ""
+
+#: widgets/so-widgets/orion-portfolio-w/orion-portfolio-w.php:184
+#: widgets/so-widgets/orion-cta-w/orion-cta-w.php:125
+#: widgets/so-widgets/orion-upload-w/orion-upload-w.php:93
+#: widgets/so-widgets/orion-custom-carousel-w/orion-custom-carousel-w.php:95
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:214
+#: widgets/so-widgets/orion-button-w/orion-button-w.php:79
+#: widgets/so-widgets/orion-icon-w/orion-icon-w.php:78
+msgid "Flat"
+msgstr ""
+
+#: widgets/so-widgets/orion-portfolio-w/orion-portfolio-w.php:185
+#: widgets/so-widgets/orion-cta-w/orion-cta-w.php:126
+#: widgets/so-widgets/orion-upload-w/orion-upload-w.php:94
+#: widgets/so-widgets/orion-custom-carousel-w/orion-custom-carousel-w.php:96
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:215
+#: widgets/so-widgets/orion-button-w/orion-button-w.php:80
+#: widgets/so-widgets/orion-icon-w/orion-icon-w.php:79
+msgid "Wire"
+msgstr ""
+
+#: widgets/so-widgets/orion-portfolio-w/orion-portfolio-w.php:186
+#: widgets/so-widgets/orion-cta-w/orion-cta-w.php:127
+#: widgets/so-widgets/orion-custom-carousel-w/orion-custom-carousel-w.php:97
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:216
+#: widgets/so-widgets/orion-button-w/orion-button-w.php:81
+#: widgets/so-widgets/orion-icon-w/orion-icon-w.php:80
+msgid "Empty"
+msgstr ""
+
+#: widgets/so-widgets/orion-portfolio-w/orion-portfolio-w.php:191
+msgid "Filter Color"
+msgstr ""
+
+#: widgets/so-widgets/orion-portfolio-w/orion-portfolio-w.php:198
+#: widgets/so-widgets/orion-accordion-w/orion-accordion-w.php:116
+#: widgets/so-widgets/orion-cta-w/orion-cta-w.php:145
+#: widgets/so-widgets/orion-upload-w/orion-upload-w.php:74
+#: widgets/so-widgets/orion-progress-w/orion-progress-w.php:60
+#: widgets/so-widgets/orion-custom-carousel-w/orion-custom-carousel-w.php:113
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:115
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:131
+#: widgets/so-widgets/orion-button-w/orion-button-w.php:99
+#: widgets/so-widgets/orion-icon-w/orion-icon-w.php:96
+msgid "Black"
+msgstr ""
+
+#: widgets/so-widgets/orion-portfolio-w/orion-portfolio-w.php:199
+#: widgets/so-widgets/orion-accordion-w/orion-accordion-w.php:117
+#: widgets/so-widgets/orion-cta-w/orion-cta-w.php:146
+#: widgets/so-widgets/orion-upload-w/orion-upload-w.php:75
+#: widgets/so-widgets/orion-progress-w/orion-progress-w.php:61
+#: widgets/so-widgets/orion-custom-carousel-w/orion-custom-carousel-w.php:114
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:116
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:132
+#: widgets/so-widgets/orion-button-w/orion-button-w.php:100
+#: widgets/so-widgets/orion-icon-w/orion-icon-w.php:97
+msgid "White"
+msgstr ""
+
+#: widgets/so-widgets/orion-portfolio-w/orion-portfolio-w.php:204
+msgid "Filter Size"
+msgstr ""
+
+#: widgets/so-widgets/orion-portfolio-w/orion-portfolio-w.php:207
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:203
+#: widgets/so-widgets/orion-cta-w/orion-cta-w.php:154
+#: widgets/so-widgets/orion-custom-carousel-w/orion-custom-carousel-w.php:122
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:224
+#: widgets/so-widgets/orion-button-w/orion-button-w.php:108
+#: widgets/so-widgets/orion-icon-w/orion-icon-w.php:105
+msgid "Tiny"
+msgstr ""
+
+#: widgets/so-widgets/orion-portfolio-w/orion-portfolio-w.php:208
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:204
+#: widgets/so-widgets/orion-list/orion-list.php:71
+#: widgets/so-widgets/orion-cta-w/orion-cta-w.php:155
+#: widgets/so-widgets/orion-custom-carousel-w/orion-custom-carousel-w.php:123
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:225
+#: widgets/so-widgets/orion-button-w/orion-button-w.php:109
+#: widgets/so-widgets/orion-testimonial-w/orion-testimonial-w.php:117
+#: widgets/so-widgets/orion-icon-w/orion-icon-w.php:106
+msgid "Small"
+msgstr ""
+
+#: widgets/so-widgets/orion-portfolio-w/orion-portfolio-w.php:209
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:205
+#: widgets/so-widgets/orion-list/orion-list.php:72
+#: widgets/so-widgets/orion-cta-w/orion-cta-w.php:156
+#: widgets/so-widgets/orion-custom-carousel-w/orion-custom-carousel-w.php:124
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:180
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:226
+#: widgets/so-widgets/orion-button-w/orion-button-w.php:110
+#: widgets/so-widgets/orion-testimonial-w/orion-testimonial-w.php:118
+#: widgets/so-widgets/orion-icon-w/orion-icon-w.php:107
+msgid "Normal"
+msgstr ""
+
+#: widgets/so-widgets/orion-portfolio-w/orion-portfolio-w.php:215
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:211
+#: widgets/so-widgets/orion-cta-w/orion-cta-w.php:162
+#: widgets/so-widgets/orion-custom-carousel-w/orion-custom-carousel-w.php:130
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:232
+#: widgets/so-widgets/orion-button-w/orion-button-w.php:116
+#: widgets/so-widgets/orion-icon-w/orion-icon-w.php:120
+msgid "Rounding"
+msgstr ""
+
+#: widgets/so-widgets/orion-portfolio-w/orion-portfolio-w.php:219
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:215
+#: widgets/so-widgets/orion-cta-w/orion-cta-w.php:166
+#: widgets/so-widgets/orion-custom-carousel-w/orion-custom-carousel-w.php:134
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:236
+#: widgets/so-widgets/orion-button-w/orion-button-w.php:120
+#: widgets/so-widgets/orion-icon-w/orion-icon-w.php:124
+msgid "Slightly Rounded"
+msgstr ""
+
+#: widgets/so-widgets/orion-portfolio-w/orion-portfolio-w.php:220
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:216
+#: widgets/so-widgets/orion-cta-w/orion-cta-w.php:167
+#: widgets/so-widgets/orion-custom-carousel-w/orion-custom-carousel-w.php:135
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:237
+#: widgets/so-widgets/orion-button-w/orion-button-w.php:121
+#: widgets/so-widgets/orion-icon-w/orion-icon-w.php:125
+msgid "Completely Rounded"
+msgstr ""
+
+#: widgets/so-widgets/orion-empty-space-w/orion-empty-space-w.php:15
+msgid "(OrionThemes) Empty Space"
+msgstr ""
+
+#: widgets/so-widgets/orion-empty-space-w/orion-empty-space-w.php:17
+msgid "Add blank space between widgets."
+msgstr ""
+
+#: widgets/so-widgets/orion-empty-space-w/orion-empty-space-w.php:27
+msgid "Space height in pixels."
+msgstr ""
+
+#: widgets/so-widgets/orion-empty-space-w/orion-empty-space-w.php:35
+msgid "Visible on large screens"
+msgstr ""
+
+#: widgets/so-widgets/orion-empty-space-w/orion-empty-space-w.php:40
+msgid "Visible on medium screens"
+msgstr ""
+
+#: widgets/so-widgets/orion-empty-space-w/orion-empty-space-w.php:45
+msgid "Visible on small screens"
+msgstr ""
+
+#: widgets/so-widgets/orion-empty-space-w/orion-empty-space-w.php:50
+msgid "Visible on Extra small screens"
+msgstr ""
+
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:45
+msgid "(OrionThemes) Recent Posts"
+msgstr ""
+
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:47
+msgid "Highly coustomizable with category filter."
+msgstr ""
+
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:61
+msgid "Choose a category"
+msgstr ""
+
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:62
+msgid "Select a category."
+msgstr ""
+
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:68
+#: widgets/so-widgets/orion-simple-gallery/orion-simple-gallery.php:73
+#: widgets/so-widgets/orion-featured-pages/orion-featured-pages.php:75
+#: widgets/so-widgets/orion-team-w/orion-team-w.php:64
+#: widgets/so-widgets/orion-testimonial-w/orion-testimonial-w.php:66
+msgid "Choose Layout"
+msgstr ""
+
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:72
+#: widgets/so-widgets/orion-simple-gallery/orion-simple-gallery.php:77
+#: widgets/so-widgets/orion-featured-pages/orion-featured-pages.php:79
+#: widgets/so-widgets/orion-team-w/orion-team-w.php:68
+#: widgets/so-widgets/orion-testimonial-w/orion-testimonial-w.php:70
+msgid "Grid"
+msgstr ""
+
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:88
+msgid "Number of posts"
+msgstr ""
+
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:109
+#: widgets/so-widgets/orion-featured-pages/orion-featured-pages.php:99
+msgid "Display featured image"
+msgstr ""
+
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:114
+msgid "Display post excerpt"
+msgstr ""
+
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:119
+msgid "Display post meta"
+msgstr ""
+
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:124
+#: widgets/so-widgets/orion-featured-pages/orion-featured-pages.php:109
+msgid "Display read more button"
+msgstr ""
+
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:129
+#: widgets/so-widgets/orion-featured-pages/orion-featured-pages.php:114
+msgid "Button text"
+msgstr ""
+
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:134
+msgid "Display date"
+msgstr ""
+
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:137
+msgid "On featured image"
+msgstr ""
+
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:138
+msgid "Above post title"
+msgstr ""
+
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:139
+msgid "Do not display"
+msgstr ""
+
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:165
+#: widgets/so-widgets/orion-simple-gallery/orion-simple-gallery.php:129
+#: widgets/so-widgets/orion-featured-pages/orion-featured-pages.php:140
+#: widgets/so-widgets/orion-team-w/orion-team-w.php:154
+#: widgets/so-widgets/orion-testimonial-w/orion-testimonial-w.php:142
+msgid "Dots"
+msgstr ""
+
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:166
+#: widgets/so-widgets/orion-simple-gallery/orion-simple-gallery.php:130
+#: widgets/so-widgets/orion-featured-pages/orion-featured-pages.php:141
+#: widgets/so-widgets/orion-team-w/orion-team-w.php:155
+#: widgets/so-widgets/orion-testimonial-w/orion-testimonial-w.php:143
+msgid "Arrows on top"
+msgstr ""
+
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:167
+#: widgets/so-widgets/orion-simple-gallery/orion-simple-gallery.php:131
+#: widgets/so-widgets/orion-featured-pages/orion-featured-pages.php:142
+#: widgets/so-widgets/orion-team-w/orion-team-w.php:156
+#: widgets/so-widgets/orion-testimonial-w/orion-testimonial-w.php:144
+msgid "Arrows on bottom"
+msgstr ""
+
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:168
+#: widgets/so-widgets/orion-simple-gallery/orion-simple-gallery.php:132
+#: widgets/so-widgets/orion-featured-pages/orion-featured-pages.php:143
+#: widgets/so-widgets/orion-team-w/orion-team-w.php:157
+#: widgets/so-widgets/orion-testimonial-w/orion-testimonial-w.php:145
+msgid "Arrows on side"
+msgstr ""
+
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:183
+#: widgets/so-widgets/orion-featured-pages/orion-featured-pages.php:158
+#: widgets/so-widgets/orion-team-w/orion-team-w.php:172
+#: widgets/so-widgets/orion-icon-w/orion-icon-w.php:69
+msgid "Style"
+msgstr ""
+
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:188
+msgid "Button & hover color"
+msgstr ""
+
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:200
+#: widgets/so-widgets/orion-cta-w/orion-cta-w.php:151
+#: widgets/so-widgets/orion-custom-carousel-w/orion-custom-carousel-w.php:119
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:221
+#: widgets/so-widgets/orion-button-w/orion-button-w.php:105
+msgid "Button Size"
+msgstr ""
+
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:264
+#: widgets/so-widgets/orion-simple-gallery/orion-simple-gallery.php:205
+#: widgets/so-widgets/orion-featured-pages/orion-featured-pages.php:216
+#: widgets/so-widgets/orion-team-w/orion-team-w.php:242
+msgid "Scale image on hover"
+msgstr ""
+
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:268
+#: widgets/so-widgets/orion-simple-gallery/orion-simple-gallery.php:209
+#: widgets/so-widgets/orion-featured-pages/orion-featured-pages.php:220
+#: widgets/so-widgets/orion-team-w/orion-team-w.php:246
+msgid "Zoom in"
+msgstr ""
+
+#: widgets/so-widgets/orion-recent-posts-carousel/orion-recent-posts-carousel.php:269
+#: widgets/so-widgets/orion-simple-gallery/orion-simple-gallery.php:210
+#: widgets/so-widgets/orion-featured-pages/orion-featured-pages.php:221
+#: widgets/so-widgets/orion-team-w/orion-team-w.php:247
+msgid "Zoom out"
+msgstr ""
+
+#: widgets/so-widgets/orion-image-w/orion-image-w.php:16
+msgid "(OrionThemes) Image"
+msgstr ""
+
+#: widgets/so-widgets/orion-image-w/orion-image-w.php:18
+msgid "Add an image."
+msgstr ""
+
+#: widgets/so-widgets/orion-image-w/orion-image-w.php:28
+msgid "Add image"
+msgstr ""
+
+#: widgets/so-widgets/orion-image-w/orion-image-w.php:34
+#: widgets/so-widgets/orion-simple-gallery/orion-simple-gallery.php:53
+msgid "Hover description Text"
+msgstr ""
+
+#: widgets/so-widgets/orion-image-w/orion-image-w.php:39
+msgid "Destination URL (optional)"
+msgstr ""
+
+#: widgets/so-widgets/orion-image-w/orion-image-w.php:47
+msgid "Open a link"
+msgstr ""
+
+#: widgets/so-widgets/orion-image-w/orion-image-w.php:54
+#: widgets/so-widgets/orion-simple-gallery/orion-simple-gallery.php:147
+#: widgets/so-widgets/orion-button-w/orion-button-w.php:71
+msgid "Style & Layout"
+msgstr ""
+
+#: widgets/so-widgets/orion-list/orion-list.php:16
+msgid "(OrionThemes) Icon List"
+msgstr ""
+
+#: widgets/so-widgets/orion-list/orion-list.php:18
+msgid "Display a list with custom icons."
+msgstr ""
+
+#: widgets/so-widgets/orion-list/orion-list.php:32
+msgid "Add list"
+msgstr ""
+
+#: widgets/so-widgets/orion-list/orion-list.php:33
+msgid "Click to add a list"
+msgstr ""
+
+#: widgets/so-widgets/orion-list/orion-list.php:42
+msgid "list Item"
+msgstr ""
+
+#: widgets/so-widgets/orion-list/orion-list.php:47
+#: widgets/so-widgets/orion-upload-w/orion-upload-w.php:47
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:39
+#: widgets/so-widgets/orion-button-w/orion-button-w.php:43
+#: widgets/so-widgets/orion-icon-w/orion-icon-w.php:43
+msgid "Icon"
+msgstr ""
+
+#: widgets/so-widgets/orion-list/orion-list.php:68
+msgid "List item size"
+msgstr ""
+
+#: widgets/so-widgets/orion-list/orion-list.php:83
+#: widgets/so-widgets/orion-icon-text-w/orion-icon-text-w.php:73
+#: widgets/so-widgets/orion-accordion-w/orion-accordion-w.php:57
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:78
+msgid "Icon color"
+msgstr ""
+
+#: widgets/so-widgets/orion-list/orion-list.php:101
+msgid "List item bottom padding"
+msgstr ""
+
+#: widgets/so-widgets/orion-icon-text-w/orion-icon-text-w.php:17
+msgid "(OrionThemes) Icon With Text"
+msgstr ""
+
+#: widgets/so-widgets/orion-icon-text-w/orion-icon-text-w.php:19
+msgid "A customizable icon with text widget."
+msgstr ""
+
+#: widgets/so-widgets/orion-icon-text-w/orion-icon-text-w.php:30
+msgid "Add Icon with text"
+msgstr ""
+
+#: widgets/so-widgets/orion-icon-text-w/orion-icon-text-w.php:31
+#: widgets/so-widgets/orion-icon-w/orion-icon-w.php:33
+msgid "Click to add an Icon"
+msgstr ""
+
+#: widgets/so-widgets/orion-icon-text-w/orion-icon-text-w.php:40
+msgid "Select an icon"
+msgstr ""
+
+#: widgets/so-widgets/orion-icon-text-w/orion-icon-text-w.php:44
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:43
+msgid "Or choose an image"
+msgstr ""
+
+#: widgets/so-widgets/orion-icon-text-w/orion-icon-text-w.php:45
+#: widgets/so-widgets/orion-simple-gallery/orion-simple-gallery.php:48
+#: widgets/so-widgets/orion-custom-carousel-w/orion-custom-carousel-w.php:69
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:44
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:84
+#: widgets/so-widgets/orion-testimonial-w/orion-testimonial-w.php:57
+#: widgets/so-widgets/orion-responsive-video-w/orion-responsive-video-w.php:44
+msgid "Choose image"
+msgstr ""
+
+#: widgets/so-widgets/orion-icon-text-w/orion-icon-text-w.php:46
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:45
+#: widgets/so-widgets/orion-testimonial-w/orion-testimonial-w.php:58
+msgid "Set image"
+msgstr ""
+
+#: widgets/so-widgets/orion-icon-text-w/orion-icon-text-w.php:47
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:46
+msgid "setting the image will override the icon field"
+msgstr ""
+
+#: widgets/so-widgets/orion-icon-text-w/orion-icon-text-w.php:53
+#: widgets/so-widgets/orion-icon-w/orion-icon-w.php:42
+msgid "Icon Title"
+msgstr ""
+
+#: widgets/so-widgets/orion-icon-text-w/orion-icon-text-w.php:58
+#: widgets/so-widgets/orion-custom-carousel-w/orion-custom-carousel-w.php:53
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:58
+msgid "Description"
+msgstr ""
+
+#: widgets/so-widgets/orion-icon-text-w/orion-icon-text-w.php:63
+#: widgets/so-widgets/orion-cta-w/orion-cta-w.php:38
+#: widgets/so-widgets/orion-custom-carousel-w/orion-custom-carousel-w.php:63
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:68
+#: widgets/so-widgets/orion-button-w/orion-button-w.php:33
+#: widgets/so-widgets/orion-icon-w/orion-icon-w.php:47
+msgid "Destination URL"
+msgstr ""
+
+#: widgets/so-widgets/orion-icon-text-w/orion-icon-text-w.php:64
+msgid "Optionally add a link"
+msgstr ""
+
+#: widgets/so-widgets/orion-icon-text-w/orion-icon-text-w.php:68
+msgid "Open in new tab"
+msgstr ""
+
+#: widgets/so-widgets/orion-icon-text-w/orion-icon-text-w.php:78
+msgid "Icon container background"
+msgstr ""
+
+#: widgets/so-widgets/orion-icon-text-w/orion-icon-text-w.php:96
+#: widgets/so-widgets/orion-timeline-w/orion-timeline-w.php:63
+#: widgets/so-widgets/orion-custom-carousel-w/orion-custom-carousel-w.php:77
+#: widgets/so-widgets/orion-testimonial-w/orion-testimonial-w.php:85
+#: widgets/so-widgets/orion-advanced-carousel-w/orion-advanced-carousel-w.php:50
+msgid "Widget Style"
+msgstr ""
+
+#: widgets/so-widgets/orion-icon-text-w/orion-icon-text-w.php:98
+msgid "Icon Aside"
+msgstr ""
+
+#: widgets/so-widgets/orion-icon-text-w/orion-icon-text-w.php:99
+msgid "Title on top"
+msgstr ""
+
+#: widgets/so-widgets/orion-icon-text-w/orion-icon-text-w.php:100
+msgid "Large icon on top"
+msgstr ""
+
+#: widgets/so-widgets/orion-icon-text-w/orion-icon-text-w.php:106
+msgid "Icon Container"
+msgstr ""
+
+#: widgets/so-widgets/orion-icon-text-w/orion-icon-text-w.php:110
+msgid "none"
+msgstr ""
+
+#: widgets/so-widgets/orion-icon-text-w/orion-icon-text-w.php:126
+msgid "Alignment"
+msgstr ""
+
+#: widgets/so-widgets/orion-icon-text-w/orion-icon-text-w.php:131
+#: widgets/so-widgets/orion-cta-w/orion-cta-w.php:66
+#: widgets/so-widgets/orion-cta-w/orion-cta-w.php:117
+#: widgets/so-widgets/orion-button-w/orion-button-w.php:61
+#: widgets/so-widgets/orion-button-w/orion-button-w.php:130
+#: widgets/so-widgets/orion-heading-w/orion-heading-w.php:62
+msgid "Right"
+msgstr ""
+
+#: widgets/so-widgets/orion-icon-text-w/orion-icon-text-w.php:137
+msgid "Bottom Margin"
+msgstr ""
+
+#: widgets/so-widgets/orion-icon-text-w/orion-icon-text-w.php:145
+msgid "Center on mobile"
+msgstr ""
+
+#: widgets/so-widgets/orion-count-up-w/orion-count-up-w.php:15
+msgid "(OrionThemes) Counter"
+msgstr ""
+
+#: widgets/so-widgets/orion-count-up-w/orion-count-up-w.php:17
+msgid "Count up to a specified number."
+msgstr ""
+
+#: widgets/so-widgets/orion-count-up-w/orion-count-up-w.php:27
+msgid "Enter a number"
+msgstr ""
+
+#: widgets/so-widgets/orion-count-up-w/orion-count-up-w.php:32
+msgid "Start from number"
+msgstr ""
+
+#: widgets/so-widgets/orion-count-up-w/orion-count-up-w.php:37
+#: widgets/so-widgets/orion-heading-w/orion-heading-w.php:29
+msgid "Text"
+msgstr ""
+
+#: widgets/so-widgets/orion-count-up-w/orion-count-up-w.php:42
+msgid "Speed in miliseconds"
+msgstr ""
+
+#: widgets/so-widgets/orion-accordion-w/orion-accordion-w.php:16
+msgid "(OrionThemes) Accordion"
+msgstr ""
+
+#: widgets/so-widgets/orion-accordion-w/orion-accordion-w.php:18
+msgid "A customizable accordion widget."
+msgstr ""
+
+#: widgets/so-widgets/orion-accordion-w/orion-accordion-w.php:32
+msgid "Add Panel"
+msgstr ""
+
+#: widgets/so-widgets/orion-accordion-w/orion-accordion-w.php:33
+msgid "Click to add a panel"
+msgstr ""
+
+#: widgets/so-widgets/orion-accordion-w/orion-accordion-w.php:42
+msgid "Panel Title"
+msgstr ""
+
+#: widgets/so-widgets/orion-accordion-w/orion-accordion-w.php:44
+msgid "All Panel titles must be unique."
+msgstr ""
+
+#: widgets/so-widgets/orion-accordion-w/orion-accordion-w.php:48
+msgid "Panel content"
+msgstr ""
+
+#: widgets/so-widgets/orion-accordion-w/orion-accordion-w.php:62
+msgid "Open"
+msgstr ""
+
+#: widgets/so-widgets/orion-accordion-w/orion-accordion-w.php:74
+#: widgets/so-widgets/orion-cta-w/orion-cta-w.php:80
+msgid "Content Text Color"
+msgstr ""
+
+#: widgets/so-widgets/orion-accordion-w/orion-accordion-w.php:83
+msgid "Panel Title Color"
+msgstr ""
+
+#: widgets/so-widgets/orion-accordion-w/orion-accordion-w.php:105
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:201
+msgid "Border color"
+msgstr ""
+
+#: widgets/so-widgets/orion-accordion-w/orion-accordion-w.php:110
+msgid "Title hover color"
+msgstr ""
+
+#: widgets/so-widgets/orion-simple-gallery/orion-simple-gallery.php:16
+msgid "(OrionThemes) Gallery"
+msgstr ""
+
+#: widgets/so-widgets/orion-simple-gallery/orion-simple-gallery.php:18
+msgid "Displays images in grid or carousel."
+msgstr ""
+
+#: widgets/so-widgets/orion-simple-gallery/orion-simple-gallery.php:32
+msgid "Add images"
+msgstr ""
+
+#: widgets/so-widgets/orion-simple-gallery/orion-simple-gallery.php:33
+msgid "Click to add image"
+msgstr ""
+
+#: widgets/so-widgets/orion-simple-gallery/orion-simple-gallery.php:42
+msgid "Admin Label"
+msgstr ""
+
+#: widgets/so-widgets/orion-simple-gallery/orion-simple-gallery.php:43
+msgid "Optional, does not appear on front-end"
+msgstr ""
+
+#: widgets/so-widgets/orion-simple-gallery/orion-simple-gallery.php:47
+msgid "Upload an image."
+msgstr ""
+
+#: widgets/so-widgets/orion-simple-gallery/orion-simple-gallery.php:82
+msgid "Widget text color"
+msgstr ""
+
+#: widgets/so-widgets/orion-featured-pages/orion-featured-pages.php:28
+msgid "(OrionThemes) Featured Pages"
+msgstr ""
+
+#: widgets/so-widgets/orion-featured-pages/orion-featured-pages.php:30
+msgid "Displays selected pages in a grid or carousel."
+msgstr ""
+
+#: widgets/so-widgets/orion-featured-pages/orion-featured-pages.php:44
+msgid "Add pages"
+msgstr ""
+
+#: widgets/so-widgets/orion-featured-pages/orion-featured-pages.php:45
+msgid "Click to select a page"
+msgstr ""
+
+#: widgets/so-widgets/orion-featured-pages/orion-featured-pages.php:54
+msgid "Choose page by title."
+msgstr ""
+
+#: widgets/so-widgets/orion-featured-pages/orion-featured-pages.php:55
+msgid ""
+"Add excerpt and featured image on page edit screen, to display it inside "
+"widget."
+msgstr ""
+
+#: widgets/so-widgets/orion-featured-pages/orion-featured-pages.php:104
+msgid "Display excerpt"
+msgstr ""
+
+#: widgets/so-widgets/orion-featured-pages/orion-featured-pages.php:163
+msgid "Read More Button and Title hover color"
+msgstr ""
+
+#: widgets/so-widgets/orion-featured-pages/orion-featured-pages.php:226
+msgid "Enlarge on hover"
+msgstr ""
+
+#: widgets/so-widgets/orion-cta-w/orion-cta-w.php:16
+msgid "(OrionThemes) CTA"
+msgstr ""
+
+#: widgets/so-widgets/orion-cta-w/orion-cta-w.php:18
+msgid "Add call to action."
+msgstr ""
+
+#: widgets/so-widgets/orion-cta-w/orion-cta-w.php:28
+msgid "Call to Action Text"
+msgstr ""
+
+#: widgets/so-widgets/orion-cta-w/orion-cta-w.php:29
+msgid "Call to action"
+msgstr ""
+
+#: widgets/so-widgets/orion-cta-w/orion-cta-w.php:33
+#: widgets/so-widgets/orion-custom-carousel-w/orion-custom-carousel-w.php:58
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:63
+#: widgets/so-widgets/orion-button-w/orion-button-w.php:28
+msgid "Button Text"
+msgstr ""
+
+#: widgets/so-widgets/orion-cta-w/orion-cta-w.php:34
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:206
+#: widgets/so-widgets/orion-button-w/orion-button-w.php:29
+msgid "Button"
+msgstr ""
+
+#: widgets/so-widgets/orion-cta-w/orion-cta-w.php:39
+#: widgets/so-widgets/orion-custom-carousel-w/orion-custom-carousel-w.php:64
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:69
+#: widgets/so-widgets/orion-button-w/orion-button-w.php:34
+msgid "#"
+msgstr ""
+
+#: widgets/so-widgets/orion-cta-w/orion-cta-w.php:43
+#: widgets/so-widgets/orion-button-w/orion-button-w.php:38
+#: widgets/so-widgets/orion-icon-w/orion-icon-w.php:51
+msgid "Open in a new window"
+msgstr ""
+
+#: widgets/so-widgets/orion-cta-w/orion-cta-w.php:48
+msgid "Button Icon"
+msgstr ""
+
+#: widgets/so-widgets/orion-cta-w/orion-cta-w.php:53
+#: widgets/so-widgets/orion-button-w/orion-button-w.php:48
+#: widgets/so-widgets/orion-icon-w/orion-icon-w.php:57
+msgid "Select Icon"
+msgstr ""
+
+#: widgets/so-widgets/orion-cta-w/orion-cta-w.php:57
+#: widgets/so-widgets/orion-button-w/orion-button-w.php:52
+#: widgets/so-widgets/orion-icon-w/orion-icon-w.php:61
+#: widgets/so-widgets/orion-icon-w/orion-icon-w.php:85
+msgid "Icon Color"
+msgstr ""
+
+#: widgets/so-widgets/orion-cta-w/orion-cta-w.php:62
+#: widgets/so-widgets/orion-button-w/orion-button-w.php:57
+msgid "Icon Position"
+msgstr ""
+
+#: widgets/so-widgets/orion-cta-w/orion-cta-w.php:67
+#: widgets/so-widgets/orion-button-w/orion-button-w.php:62
+msgid "Inset Left"
+msgstr ""
+
+#: widgets/so-widgets/orion-cta-w/orion-cta-w.php:68
+#: widgets/so-widgets/orion-button-w/orion-button-w.php:63
+msgid "Inset Right"
+msgstr ""
+
+#: widgets/so-widgets/orion-cta-w/orion-cta-w.php:89
+msgid "Text align"
+msgstr ""
+
+#: widgets/so-widgets/orion-cta-w/orion-cta-w.php:98
+#: widgets/so-widgets/orion-testimonial-w/orion-testimonial-w.php:114
+msgid "Text Size"
+msgstr ""
+
+#: widgets/so-widgets/orion-cta-w/orion-cta-w.php:101
+msgid "h1"
+msgstr ""
+
+#: widgets/so-widgets/orion-cta-w/orion-cta-w.php:102
+msgid "h2"
+msgstr ""
+
+#: widgets/so-widgets/orion-cta-w/orion-cta-w.php:103
+msgid "h3"
+msgstr ""
+
+#: widgets/so-widgets/orion-cta-w/orion-cta-w.php:104
+msgid "h4"
+msgstr ""
+
+#: widgets/so-widgets/orion-cta-w/orion-cta-w.php:105
+msgid "h5"
+msgstr ""
+
+#: widgets/so-widgets/orion-cta-w/orion-cta-w.php:106
+msgid "h6"
+msgstr ""
+
+#: widgets/so-widgets/orion-cta-w/orion-cta-w.php:107
+msgid "Lead text"
+msgstr ""
+
+#: widgets/so-widgets/orion-cta-w/orion-cta-w.php:108
+msgid "Standard text"
+msgstr ""
+
+#: widgets/so-widgets/orion-cta-w/orion-cta-w.php:113
+msgid "Button position"
+msgstr ""
+
+#: widgets/so-widgets/orion-cta-w/orion-cta-w.php:116
+msgid "Bottom"
+msgstr ""
+
+#: widgets/so-widgets/orion-cta-w/orion-cta-w.php:122
+#: widgets/so-widgets/orion-upload-w/orion-upload-w.php:90
+#: widgets/so-widgets/orion-custom-carousel-w/orion-custom-carousel-w.php:92
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:211
+#: widgets/so-widgets/orion-button-w/orion-button-w.php:76
+msgid "Button Style"
+msgstr ""
+
+#: widgets/so-widgets/orion-cta-w/orion-cta-w.php:132
+#: widgets/so-widgets/orion-upload-w/orion-upload-w.php:61
+#: widgets/so-widgets/orion-custom-carousel-w/orion-custom-carousel-w.php:102
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:104
+#: widgets/so-widgets/orion-button-w/orion-button-w.php:86
+msgid "Button Color"
+msgstr ""
+
+#: widgets/so-widgets/orion-cta-w/orion-cta-w.php:139
+#: widgets/so-widgets/orion-upload-w/orion-upload-w.php:68
+#: widgets/so-widgets/orion-progress-w/orion-progress-w.php:54
+#: widgets/so-widgets/orion-custom-carousel-w/orion-custom-carousel-w.php:109
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:111
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:127
+#: widgets/so-widgets/orion-button-w/orion-button-w.php:93
+#: widgets/so-widgets/orion-icon-w/orion-icon-w.php:92
+msgid "Blue"
+msgstr ""
+
+#: widgets/so-widgets/orion-cta-w/orion-cta-w.php:140
+#: widgets/so-widgets/orion-upload-w/orion-upload-w.php:69
+#: widgets/so-widgets/orion-progress-w/orion-progress-w.php:53
+#: widgets/so-widgets/orion-custom-carousel-w/orion-custom-carousel-w.php:110
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:112
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:128
+#: widgets/so-widgets/orion-button-w/orion-button-w.php:94
+#: widgets/so-widgets/orion-icon-w/orion-icon-w.php:93
+msgid "Green"
+msgstr ""
+
+#: widgets/so-widgets/orion-cta-w/orion-cta-w.php:141
+#: widgets/so-widgets/orion-upload-w/orion-upload-w.php:70
+#: widgets/so-widgets/orion-custom-carousel-w/orion-custom-carousel-w.php:111
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:113
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:129
+#: widgets/so-widgets/orion-button-w/orion-button-w.php:95
+#: widgets/so-widgets/orion-icon-w/orion-icon-w.php:94
+msgid "Pink"
+msgstr ""
+
+#: widgets/so-widgets/orion-cta-w/orion-cta-w.php:142
+#: widgets/so-widgets/orion-upload-w/orion-upload-w.php:71
+#: widgets/so-widgets/orion-button-w/orion-button-w.php:96
+msgid "Yellow"
+msgstr ""
+
+#: widgets/so-widgets/orion-cta-w/orion-cta-w.php:143
+#: widgets/so-widgets/orion-upload-w/orion-upload-w.php:72
+#: widgets/so-widgets/orion-progress-w/orion-progress-w.php:56
+#: widgets/so-widgets/orion-button-w/orion-button-w.php:97
+msgid "Red"
+msgstr ""
+
+#: widgets/so-widgets/orion-cta-w/orion-cta-w.php:144
+#: widgets/so-widgets/orion-upload-w/orion-upload-w.php:73
+#: widgets/so-widgets/orion-progress-w/orion-progress-w.php:55
+#: widgets/so-widgets/orion-custom-carousel-w/orion-custom-carousel-w.php:112
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:114
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:130
+#: widgets/so-widgets/orion-button-w/orion-button-w.php:98
+#: widgets/so-widgets/orion-icon-w/orion-icon-w.php:95
+msgid "Orange"
+msgstr ""
+
+#: widgets/so-widgets/orion-cta-w/orion-cta-w.php:172
+msgid "Top and bottom spacing"
+msgstr ""
+
+#: widgets/so-widgets/orion-team-w/orion-team-w.php:40
+msgid "(OrionThemes) Team members"
+msgstr ""
+
+#: widgets/so-widgets/orion-team-w/orion-team-w.php:42
+msgid "Displays team members in a grid or carousel with multiple options."
+msgstr ""
+
+#: widgets/so-widgets/orion-team-w/orion-team-w.php:56
+msgid "Choose a department"
+msgstr ""
+
+#: widgets/so-widgets/orion-team-w/orion-team-w.php:57
+msgid "Select a department."
+msgstr ""
+
+#: widgets/so-widgets/orion-team-w/orion-team-w.php:99
+#: widgets/so-widgets/orion-team-w/orion-team-w.php:109
+msgid "Order members by"
+msgstr ""
+
+#: widgets/so-widgets/orion-team-w/orion-team-w.php:103
+#: widgets/so-widgets/orion-timeline-w/orion-timeline-w.php:40
+msgid "Date"
+msgstr ""
+
+#: widgets/so-widgets/orion-team-w/orion-team-w.php:104
+msgid "Modified"
+msgstr ""
+
+#: widgets/so-widgets/orion-team-w/orion-team-w.php:112
+msgid "Ascending"
+msgstr ""
+
+#: widgets/so-widgets/orion-team-w/orion-team-w.php:113
+msgid "Descending"
+msgstr ""
+
+#: widgets/so-widgets/orion-team-w/orion-team-w.php:118
+msgid "Display department"
+msgstr ""
+
+#: widgets/so-widgets/orion-team-w/orion-team-w.php:123
+msgid "Display intro text"
+msgstr ""
+
+#: widgets/so-widgets/orion-team-w/orion-team-w.php:128
+msgid "Display social links"
+msgstr ""
+
+#: widgets/so-widgets/orion-team-w/orion-team-w.php:189
+msgid "Hover color"
+msgstr ""
+
+#: widgets/so-widgets/orion-team-w/orion-team-w.php:252
+msgid "Display border"
+msgstr ""
+
+#: widgets/so-widgets/orion-timeline-w/orion-timeline-w.php:17
+msgid "(OrionThemes) Timeline"
+msgstr ""
+
+#: widgets/so-widgets/orion-timeline-w/orion-timeline-w.php:19
+msgid "Displays timeline."
+msgstr ""
+
+#: widgets/so-widgets/orion-timeline-w/orion-timeline-w.php:30
+msgid "Add Timeline item"
+msgstr ""
+
+#: widgets/so-widgets/orion-timeline-w/orion-timeline-w.php:31
+msgid "Click to add an item"
+msgstr ""
+
+#: widgets/so-widgets/orion-timeline-w/orion-timeline-w.php:45
+msgid "Event Title"
+msgstr ""
+
+#: widgets/so-widgets/orion-timeline-w/orion-timeline-w.php:51
+msgid "Event Description"
+msgstr ""
+
+#: widgets/so-widgets/orion-timeline-w/orion-timeline-w.php:56
+msgid "Highlight?"
+msgstr ""
+
+#: widgets/so-widgets/orion-timeline-w/orion-timeline-w.php:68
+msgid "Skin"
+msgstr ""
+
+#: widgets/so-widgets/orion-dividers-w/orion-dividers-w.php:15
+msgid "(OrionThemes) Divider"
+msgstr ""
+
+#: widgets/so-widgets/orion-dividers-w/orion-dividers-w.php:17
+msgid "Add divider."
+msgstr ""
+
+#: widgets/so-widgets/orion-dividers-w/orion-dividers-w.php:27
+msgid "Divider color"
+msgstr ""
+
+#: widgets/so-widgets/orion-dividers-w/orion-dividers-w.php:32
+msgid "Divider Color Opacity in %"
+msgstr ""
+
+#: widgets/so-widgets/orion-dividers-w/orion-dividers-w.php:40
+msgid "Divider style"
+msgstr ""
+
+#: widgets/so-widgets/orion-dividers-w/orion-dividers-w.php:43
+msgid "Solid"
+msgstr ""
+
+#: widgets/so-widgets/orion-dividers-w/orion-dividers-w.php:44
+msgid "Dashed"
+msgstr ""
+
+#: widgets/so-widgets/orion-dividers-w/orion-dividers-w.php:45
+msgid "Dotted"
+msgstr ""
+
+#: widgets/so-widgets/orion-dividers-w/orion-dividers-w.php:46
+msgid "Double"
+msgstr ""
+
+#: widgets/so-widgets/orion-dividers-w/orion-dividers-w.php:51
+msgid "Divider width in %"
+msgstr ""
+
+#: widgets/so-widgets/orion-dividers-w/orion-dividers-w.php:59
+msgid "Height in px"
+msgstr ""
+
+#: widgets/so-widgets/orion-dividers-w/orion-dividers-w.php:64
+msgid "Top margin in px"
+msgstr ""
+
+#: widgets/so-widgets/orion-dividers-w/orion-dividers-w.php:69
+msgid "Bottom margin in px"
+msgstr ""
+
+#: widgets/so-widgets/orion-upload-w/orion-upload-w.php:16
+msgid "(OrionThemes) Document Download"
+msgstr ""
+
+#: widgets/so-widgets/orion-upload-w/orion-upload-w.php:18
+msgid "A customizable document download widget."
+msgstr ""
+
+#: widgets/so-widgets/orion-upload-w/orion-upload-w.php:32
+msgid "Add Document"
+msgstr ""
+
+#: widgets/so-widgets/orion-upload-w/orion-upload-w.php:33
+msgid "Click to add a document"
+msgstr ""
+
+#: widgets/so-widgets/orion-upload-w/orion-upload-w.php:42
+msgid "Document Title"
+msgstr ""
+
+#: widgets/so-widgets/orion-upload-w/orion-upload-w.php:51
+#: widgets/so-widgets/orion-upload-w/orion-upload-w.php:53
+msgid "Upload a document"
+msgstr ""
+
+#: widgets/so-widgets/orion-upload-w/orion-upload-w.php:52
+msgid "Choose a document"
+msgstr ""
+
+#: widgets/so-widgets/orion-upload-w/orion-upload-w.php:80
+msgid "Widget Title Color"
+msgstr ""
+
+#: widgets/so-widgets/orion-pricelist-w/orion-pricelist-w.php:15
+msgid "(OrionThemes) Price List"
+msgstr ""
+
+#: widgets/so-widgets/orion-pricelist-w/orion-pricelist-w.php:17
+msgid "A customizable price list widget."
+msgstr ""
+
+#: widgets/so-widgets/orion-pricelist-w/orion-pricelist-w.php:32
+msgid "Add Service"
+msgstr ""
+
+#: widgets/so-widgets/orion-pricelist-w/orion-pricelist-w.php:33
+msgid "Click to add a service"
+msgstr ""
+
+#: widgets/so-widgets/orion-pricelist-w/orion-pricelist-w.php:42
+msgid "Service"
+msgstr ""
+
+#: widgets/so-widgets/orion-pricelist-w/orion-pricelist-w.php:47
+msgid "Description (optional)"
+msgstr ""
+
+#: widgets/so-widgets/orion-pricelist-w/orion-pricelist-w.php:52
+msgid "Price"
+msgstr ""
+
+#: widgets/so-widgets/orion-pricelist-w/orion-pricelist-w.php:74
+msgid "Service color"
+msgstr ""
+
+#: widgets/so-widgets/orion-pricelist-w/orion-pricelist-w.php:79
+msgid "Description color"
+msgstr ""
+
+#: widgets/so-widgets/orion-pricelist-w/orion-pricelist-w.php:84
+msgid "Price color"
+msgstr ""
+
+#: widgets/so-widgets/orion-progress-w/orion-progress-w.php:15
+msgid "(OrionThemes) Progress Bar"
+msgstr ""
+
+#: widgets/so-widgets/orion-progress-w/orion-progress-w.php:17
+msgid "Progress Bar."
+msgstr ""
+
+#: widgets/so-widgets/orion-progress-w/orion-progress-w.php:27
+msgid "Add Progress Bar"
+msgstr ""
+
+#: widgets/so-widgets/orion-progress-w/orion-progress-w.php:28
+#: widgets/so-widgets/orion-custom-carousel-w/orion-custom-carousel-w.php:28
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:30
+#: widgets/so-widgets/orion-advanced-carousel-w/orion-advanced-carousel-w.php:28
+msgid "Click to edit"
+msgstr ""
+
+#: widgets/so-widgets/orion-progress-w/orion-progress-w.php:37
+msgid "Progress Bar Title"
+msgstr ""
+
+#: widgets/so-widgets/orion-progress-w/orion-progress-w.php:42
+msgid "Enter a number between 0 and 100"
+msgstr ""
+
+#: widgets/so-widgets/orion-progress-w/orion-progress-w.php:47
+msgid "Progress Bar color"
+msgstr ""
+
+#: widgets/so-widgets/orion-progress-w/orion-progress-w.php:50
+#: widgets/so-widgets/orion-progress-w/orion-progress-w.php:88
+msgid "Primary Theme Color"
+msgstr ""
+
+#: widgets/so-widgets/orion-progress-w/orion-progress-w.php:66
+msgid "Progress Bar style"
+msgstr ""
+
+#: widgets/so-widgets/orion-progress-w/orion-progress-w.php:69
+msgid "Simple"
+msgstr ""
+
+#: widgets/so-widgets/orion-progress-w/orion-progress-w.php:70
+msgid "Stripes"
+msgstr ""
+
+#: widgets/so-widgets/orion-progress-w/orion-progress-w.php:71
+msgid "Animated Stripes"
+msgstr ""
+
+#: widgets/so-widgets/orion-progress-w/orion-progress-w.php:83
+msgid "Progress Bar Title Color"
+msgstr ""
+
+#: widgets/so-widgets/orion-progress-w/orion-progress-w.php:95
+msgid "Progress Percantage position"
+msgstr ""
+
+#: widgets/so-widgets/orion-progress-w/orion-progress-w.php:98
+msgid "Next to the title"
+msgstr ""
+
+#: widgets/so-widgets/orion-progress-w/orion-progress-w.php:99
+msgid "Inside Progress bar"
+msgstr ""
+
+#: widgets/so-widgets/orion-progress-w/orion-progress-w.php:104
+msgid "Progress Bar thickness"
+msgstr ""
+
+#: widgets/so-widgets/orion-progress-w/orion-progress-w.php:107
+msgid "Slim"
+msgstr ""
+
+#: widgets/so-widgets/orion-progress-w/orion-progress-w.php:109
+msgid "Thick"
+msgstr ""
+
+#: widgets/so-widgets/orion-custom-menu-w/orion-custom-menu-w.php:28
+msgid "(OrionThemes) Custom Menu Widget"
+msgstr ""
+
+#: widgets/so-widgets/orion-custom-menu-w/orion-custom-menu-w.php:30
+msgid "Display a Menu."
+msgstr ""
+
+#: widgets/so-widgets/orion-custom-menu-w/orion-custom-menu-w.php:44
+msgid "Choose a menu"
+msgstr ""
+
+#: widgets/so-widgets/orion-custom-menu-w/orion-custom-menu-w.php:45
+msgid "Select a menu."
+msgstr ""
+
+#: widgets/so-widgets/orion-cf7-w/orion-cf7-w.php:45
+msgid "(OrionThemes) Contact Form 7"
+msgstr ""
+
+#: widgets/so-widgets/orion-cf7-w/orion-cf7-w.php:47
+msgid "Add a Contact form."
+msgstr ""
+
+#: widgets/so-widgets/orion-cf7-w/orion-cf7-w.php:61
+msgid "Choose a contact form"
+msgstr ""
+
+#: widgets/so-widgets/orion-cf7-w/orion-cf7-w.php:62
+msgid "Select a contact form."
+msgstr ""
+
+#: widgets/so-widgets/orion-custom-carousel-w/orion-custom-carousel-w.php:15
+msgid "(OrionThemes) Custom Carousel"
+msgstr ""
+
+#: widgets/so-widgets/orion-custom-carousel-w/orion-custom-carousel-w.php:17
+msgid "Create custom carousel."
+msgstr ""
+
+#: widgets/so-widgets/orion-custom-carousel-w/orion-custom-carousel-w.php:27
+#: widgets/so-widgets/orion-advanced-carousel-w/orion-advanced-carousel-w.php:27
+msgid "Add Slide"
+msgstr ""
+
+#: widgets/so-widgets/orion-custom-carousel-w/orion-custom-carousel-w.php:38
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:52
+msgid "Title"
+msgstr ""
+
+#: widgets/so-widgets/orion-custom-carousel-w/orion-custom-carousel-w.php:43
+#: widgets/so-widgets/orion-advanced-carousel-w/orion-advanced-carousel-w.php:37
+msgid "Navigation label"
+msgstr ""
+
+#: widgets/so-widgets/orion-custom-carousel-w/orion-custom-carousel-w.php:48
+msgid "Subtitle"
+msgstr ""
+
+#: widgets/so-widgets/orion-custom-carousel-w/orion-custom-carousel-w.php:68
+msgid "Slide image"
+msgstr ""
+
+#: widgets/so-widgets/orion-custom-carousel-w/orion-custom-carousel-w.php:70
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:85
+#: widgets/so-widgets/orion-responsive-video-w/orion-responsive-video-w.php:45
+msgid "Upload image"
+msgstr ""
+
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:16
+msgid "(OrionThemes) Features"
+msgstr ""
+
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:18
+msgid "Displays animated features in a grid."
+msgstr ""
+
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:29
+msgid "Add Feature"
+msgstr ""
+
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:73
+msgid "Element Style"
+msgstr ""
+
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:83
+msgid "Background image"
+msgstr ""
+
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:90
+msgid "Background Color Overlay"
+msgstr ""
+
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:95
+msgid "Overlay opacity"
+msgstr ""
+
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:96
+msgid "Values from 0 (transparent) to 100 (no opacity)"
+msgstr ""
+
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:121
+msgid "Title Hover Color"
+msgstr ""
+
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:142
+msgid "Style & layout"
+msgstr ""
+
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:168
+msgid "Text alignment"
+msgstr ""
+
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:177
+msgid "Icon size"
+msgstr ""
+
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:186
+msgid "Height in pixels"
+msgstr ""
+
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:191
+msgid "Always show description?"
+msgstr ""
+
+#: widgets/so-widgets/orion-features-w/orion-features-w.php:196
+msgid "Add borders"
+msgstr ""
+
+#: widgets/so-widgets/orion-static-block-w/orion-static-block-w.php:47
+msgid "(OrionThemes) Static blocks"
+msgstr ""
+
+#: widgets/so-widgets/orion-static-block-w/orion-static-block-w.php:49
+msgid "Add Static block content."
+msgstr ""
+
+#: widgets/so-widgets/orion-static-block-w/orion-static-block-w.php:63
+msgid "Choose a static block"
+msgstr ""
+
+#: widgets/so-widgets/orion-static-block-w/orion-static-block-w.php:64
+msgid "Select a static block."
+msgstr ""
+
+#: widgets/so-widgets/orion-revslider-w/orion-revslider-w.php:30
+msgid "(OrionThemes) Revolution slider"
+msgstr ""
+
+#: widgets/so-widgets/orion-revslider-w/orion-revslider-w.php:32
+msgid "Add a slider."
+msgstr ""
+
+#: widgets/so-widgets/orion-revslider-w/orion-revslider-w.php:42
+msgid "Choose a slider."
+msgstr ""
+
+#: widgets/so-widgets/orion-revslider-w/orion-revslider-w.php:43
+msgid "Add slider."
+msgstr ""
+
+#: widgets/so-widgets/orion-button-w/orion-button-w.php:16
+msgid "(OrionThemes) Button"
+msgstr ""
+
+#: widgets/so-widgets/orion-button-w/orion-button-w.php:18
+msgid "Add a button."
+msgstr ""
+
+#: widgets/so-widgets/orion-button-w/orion-button-w.php:126
+#: widgets/so-widgets/orion-heading-w/orion-heading-w.php:59
+msgid "Align"
+msgstr ""
+
+#: widgets/so-widgets/orion-button-w/orion-button-w.php:132
+msgid "Fullwidth"
+msgstr ""
+
+#: widgets/so-widgets/orion-testimonial-w/orion-testimonial-w.php:15
+msgid "(OrionThemes) Testimonials"
+msgstr ""
+
+#: widgets/so-widgets/orion-testimonial-w/orion-testimonial-w.php:17
+msgid "Display your testimonials in a carousel."
+msgstr ""
+
+#: widgets/so-widgets/orion-testimonial-w/orion-testimonial-w.php:31
+msgid "Add Testimonial"
+msgstr ""
+
+#: widgets/so-widgets/orion-testimonial-w/orion-testimonial-w.php:32
+msgid "Click to add a testimonial"
+msgstr ""
+
+#: widgets/so-widgets/orion-testimonial-w/orion-testimonial-w.php:41
+msgid "Testimonial"
+msgstr ""
+
+#: widgets/so-widgets/orion-testimonial-w/orion-testimonial-w.php:47
+msgid "Company/Organization (optional)"
+msgstr ""
+
+#: widgets/so-widgets/orion-testimonial-w/orion-testimonial-w.php:56
+msgid "Upload Image (optional)"
+msgstr ""
+
+#: widgets/so-widgets/orion-testimonial-w/orion-testimonial-w.php:75
+msgid "Elements per Row"
+msgstr ""
+
+#: widgets/so-widgets/orion-testimonial-w/orion-testimonial-w.php:91
+msgid "Text Color"
+msgstr ""
+
+#: widgets/so-widgets/orion-testimonial-w/orion-testimonial-w.php:101
+msgid "Background Color"
+msgstr ""
+
+#: widgets/so-widgets/orion-testimonial-w/orion-testimonial-w.php:106
+msgid "Background Opacity"
+msgstr ""
+
+#: widgets/so-widgets/orion-testimonial-w/orion-testimonial-w.php:124
+msgid "Rounded Corners"
+msgstr ""
+
+#: widgets/so-widgets/orion-testimonial-w/orion-testimonial-w.php:129
+msgid "Hide Image"
+msgstr ""
+
+#: widgets/so-widgets/orion-testimonial-w/orion-testimonial-w.php:139
+msgid "Navigation Style"
+msgstr ""
+
+#: widgets/so-widgets/orion-testimonial-w/orion-testimonial-w.php:156
+msgid "Enable Autoplay"
+msgstr ""
+
+#: widgets/so-widgets/orion-icon-w/orion-icon-w.php:16
+msgid "(OrionThemes) Icon"
+msgstr ""
+
+#: widgets/so-widgets/orion-icon-w/orion-icon-w.php:18
+msgid "Display social media Icons."
+msgstr ""
+
+#: widgets/so-widgets/orion-icon-w/orion-icon-w.php:32
+msgid "Add Icon"
+msgstr ""
+
+#: widgets/so-widgets/orion-icon-w/orion-icon-w.php:75
+msgid "Icon Style"
+msgstr ""
+
+#: widgets/so-widgets/orion-icon-w/orion-icon-w.php:102
+msgid "Icon Size"
+msgstr ""
+
+#: widgets/so-widgets/orion-icon-w/orion-icon-w.php:113
+msgid "Space between icons"
+msgstr ""
+
+#: widgets/so-widgets/orion-heading-w/orion-heading-w.php:16
+msgid "(OrionThemes) Heading"
+msgstr ""
+
+#: widgets/so-widgets/orion-heading-w/orion-heading-w.php:18
+msgid "Display headings in different styles."
+msgstr ""
+
+#: widgets/so-widgets/orion-heading-w/orion-heading-w.php:33
+msgid "HTML Tag"
+msgstr ""
+
+#: widgets/so-widgets/orion-heading-w/orion-heading-w.php:35
+msgid "H1"
+msgstr ""
+
+#: widgets/so-widgets/orion-heading-w/orion-heading-w.php:36
+msgid "H2"
+msgstr ""
+
+#: widgets/so-widgets/orion-heading-w/orion-heading-w.php:37
+msgid "H3"
+msgstr ""
+
+#: widgets/so-widgets/orion-heading-w/orion-heading-w.php:38
+msgid "H4"
+msgstr ""
+
+#: widgets/so-widgets/orion-heading-w/orion-heading-w.php:39
+msgid "H5"
+msgstr ""
+
+#: widgets/so-widgets/orion-heading-w/orion-heading-w.php:40
+msgid "H6"
+msgstr ""
+
+#: widgets/so-widgets/orion-heading-w/orion-heading-w.php:46
+msgid "Color"
+msgstr ""
+
+#: widgets/so-widgets/orion-heading-w/orion-heading-w.php:70
+msgid "Uppercase"
+msgstr ""
+
+#: widgets/so-widgets/orion-heading-w/orion-heading-w.php:75
+msgid "Divider"
+msgstr ""
+
+#: widgets/so-widgets/orion-heading-w/orion-heading-w.php:78
+msgid "Style 1"
+msgstr ""
+
+#: widgets/so-widgets/orion-heading-w/orion-heading-w.php:79
+msgid "Style 2"
+msgstr ""
+
+#: widgets/so-widgets/orion-heading-w/orion-heading-w.php:85
+msgid "Add bottom margin (px)"
+msgstr ""
+
+#: widgets/so-widgets/orion-advanced-carousel-w/orion-advanced-carousel-w.php:15
+msgid "(OrionThemes) Advanced Tabs"
+msgstr ""
+
+#: widgets/so-widgets/orion-advanced-carousel-w/orion-advanced-carousel-w.php:17
+msgid "Build tabbed content with Page Builder."
+msgstr ""
+
+#: widgets/so-widgets/orion-advanced-carousel-w/orion-advanced-carousel-w.php:55
+msgid "Tab Navigation alignment"
+msgstr ""
+
+#: widgets/so-widgets/orion-advanced-carousel-w/orion-advanced-carousel-w.php:58
+msgid "Left align"
+msgstr ""
+
+#: widgets/so-widgets/orion-advanced-carousel-w/orion-advanced-carousel-w.php:59
+msgid "Center align"
+msgstr ""
+
+#: widgets/so-widgets/orion-advanced-carousel-w/orion-advanced-carousel-w.php:60
+msgid "Right align"
+msgstr ""
+
+#: widgets/so-widgets/orion-advanced-carousel-w/orion-advanced-carousel-w.php:65
+msgid "Space below navigation"
+msgstr ""
+
+#: widgets/so-widgets/orion-responsive-video-w/orion-responsive-video-w.php:15
+msgid "(OrionThemes) Responsive Video"
+msgstr ""
+
+#: widgets/so-widgets/orion-responsive-video-w/orion-responsive-video-w.php:17
+msgid "Add Video from Youtube or Vimeo."
+msgstr ""
+
+#: widgets/so-widgets/orion-responsive-video-w/orion-responsive-video-w.php:27
+msgid "Paste a link from Youtube or Vimeo:"
+msgstr ""
+
+#: widgets/so-widgets/orion-responsive-video-w/orion-responsive-video-w.php:33
+msgid "Lightbox options"
+msgstr ""
+
+#: widgets/so-widgets/orion-responsive-video-w/orion-responsive-video-w.php:38
+msgid "Open in lightbox"
+msgstr ""
+
+#: widgets/so-widgets/orion-responsive-video-w/orion-responsive-video-w.php:43
+msgid "Video image"
+msgstr ""
+
+#: widgets/so-widgets/orion-responsive-video-w/orion-responsive-video-w.php:50
+msgid "Display a play icon on the image?"
+msgstr ""
+
+#: widgets/so-widgets/orion-responsive-video-w/orion-responsive-video-w.php:58
+msgid "No Icon"
+msgstr ""
+
+#: framework/meta/old_CMB2/includes/CMB2.php:122
+msgid "Metabox configuration is required to have an ID parameter"
+msgstr ""
+
+#: framework/meta/old_CMB2/includes/CMB2.php:375
+msgid "Click to toggle"
+msgstr ""
+
+#: widgets/so-widgets/orion-working-hours-w/tpl/orion_working_hours_w-template.php:16
+msgid "Lunch break"
+msgstr ""
+
+#: widgets/so-widgets/orion-revslider-w/tpl/orion_revslider_w-template.php:13
+msgid "Slider can not be displayed."
+msgstr ""
+
+#: widgets/so-widgets/orion-revslider-w/tpl/orion_revslider_w-template.php:17
+msgid "Please select a slider"
+msgstr ""
+
+#: widgets/so-widgets/orion-revslider-w/tpl/orion_revslider_w-template.php:20
+msgid "Revolution slider not installed"
+msgstr ""
+
+#: widgets/so-widgets/orion-responsive-video-w/tpl/orion_responsive_video_w-template.php:22
+msgid "Play video"
+msgstr ""
+
+#. Name of the theme
+msgid "Recycle"
+msgstr ""
+
+#. Description of the theme
+msgid "Recycle and Waste Management WordPress Theme"
+msgstr ""
+
+#. URI of the theme
+msgid "http://orionthemes.com/recycle"
+msgstr ""
+
+#. Author of the theme
+msgid "OrionThemes.com"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://orionthemes.com"
+msgstr ""

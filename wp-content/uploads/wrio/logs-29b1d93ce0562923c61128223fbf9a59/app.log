@@ -1,0 +1,603 @@
+
+03-04-2020 08:27:09.1585902429.1328 [52.77.33.135][5e86f3][info] Parent plugin start installation!
+03-04-2020 08:27:09.1585902429.1573 [52.77.33.135][5e86f3][info] Premium plugin start installation!
+03-04-2020 08:27:09.1585902429.1601 [52.77.33.135][5e86f3][info] Premium plugin installation complete!
+03-04-2020 08:27:09.1585902429.1612 [52.77.33.135][5e86f3][info] Plugin installation: try create plugin tables.
+																	-DB Version: 0
+																	-Plugin Version in DB: 0
+																	-Current Plugin Version: 1.4.2
+03-04-2020 08:27:11.1585902431.0592 [52.77.33.135][5e86f3][info] Successfully fix collation for plugin table.
+WP COLLATION: utf8mb4_unicode_ci | PLUGIN COLLATION: utf8mb4_unicode_520_ci
+03-04-2020 08:27:11.1585902431.0597 [52.77.33.135][5e86f3][info] Parent plugin installation complete!
+03-04-2020 08:30:42.1585902642.3705 [52.76.175.111][5e86f4][info] Try to create backup directory. Backup dir: (/home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup)
+03-04-2020 08:31:18.1585902678.4708 [52.77.33.135][5e86f4][info] Start bulk optimization process! Scope: media-library
+03-04-2020 08:31:18.1585902678.5747 [52.77.33.135][5e86f4][debug] New queue created #1, attributes values: {"server_id":null,"object_id":"1454","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"error","processing_level":"normal","is_backed_up":false,"original_size":0,"final_size":0,"original_mime_type":"","final_mime_type":"","extra_data":"{\"error\":\"path\",\"error_msg\":\"Attachment cannot be optimized. File \\\"(\\\/home\\\/g0na2vu18mqm\\\/public_html\\\/wp-content\\\/uploads\\\/2017\\\/01\\\/cropped-favicon-1.png)\\\" doesn't exist\",\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1585902678}
+03-04-2020 08:31:18.1585902678.5748 [52.77.33.135][5e86f4][error] Failed to find original attachment #1454 located in *empty path*. Skipping optimization. This may be caused due to bug in wp_get_attachment_metadata() function, which returns false for attachment meta
+03-04-2020 08:31:18.1585902678.6678 [52.77.33.135][5e86f4][info] End bulk optimization process! Scope: media-library. Remain: 93
+03-04-2020 08:31:22.1585902682.5752 [52.77.33.135][5e86f4][info] Start bulk optimization process! Scope: media-library
+03-04-2020 08:31:22.1585902682.6859 [52.77.33.135][5e86f4][info] Try to create backup directory. Backup dir: (/home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/09)
+03-04-2020 08:31:22.1585902682.7174 [52.77.33.135][5e86f4][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/09/cropped-ewaste-1.jpg) to a remote server (server_1).
+03-04-2020 08:31:23.1585902683.4553 [52.77.33.135][5e86f4][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:31:29.1585902689.043 [52.77.33.135][5e86f4][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/09/cropped-ewaste-1-150x150.jpg) to a remote server (server_1).
+03-04-2020 08:31:29.1585902689.8078 [52.77.33.135][5e86f4][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:31:35.1585902695.3498 [52.77.33.135][5e86f4][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/09/cropped-ewaste-1-300x300.jpg) to a remote server (server_1).
+03-04-2020 08:31:36.1585902696.3547 [52.77.33.135][5e86f4][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:31:42.1585902702.1374 [52.77.33.135][5e86f4][debug] New queue created #2, attributes values: {"server_id":null,"object_id":"9377","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":26877,"final_size":26877,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":3918,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1585902702}
+03-04-2020 08:31:42.1585902702.1563 [52.77.33.135][5e86f4][info] End bulk optimization process! Scope: media-library. Remain: 92
+03-04-2020 08:31:46.1585902706.7559 [52.77.33.135][5e86f4][info] Start bulk optimization process! Scope: media-library
+03-04-2020 08:31:46.1585902706.7774 [52.77.33.135][5e86f4][info] Try to create backup directory. Backup dir: (/home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/10)
+03-04-2020 08:31:46.1585902706.8233 [52.77.33.135][5e86f4][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/10/cropped-ewaste1.png) to a remote server (server_1).
+03-04-2020 08:31:47.1585902707.5556 [52.77.33.135][5e86f4][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:31:48.1585902708.0392 [52.77.33.135][5e86f4][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/10/cropped-ewaste1-150x150.png) to a remote server (server_1).
+03-04-2020 08:31:48.1585902708.7736 [52.77.33.135][5e86f4][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:31:49.1585902709.2916 [52.77.33.135][5e86f4][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/10/cropped-ewaste1-300x300.png) to a remote server (server_1).
+03-04-2020 08:31:50.1585902710.2851 [52.77.33.135][5e86f4][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:31:51.1585902711.0418 [52.77.33.135][5e86f4][debug] New queue created #3, attributes values: {"server_id":null,"object_id":"9539","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":38644,"final_size":38642,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":6384,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1585902711}
+03-04-2020 08:31:51.1585902711.0586 [52.77.33.135][5e86f4][info] End bulk optimization process! Scope: media-library. Remain: 91
+03-04-2020 08:31:52.1585902712.9027 [52.77.33.135][5e86f4][info] Start bulk optimization process! Scope: media-library
+03-04-2020 08:31:52.1585902712.9104 [52.77.33.135][5e86f4][info] Try to create backup directory. Backup dir: (/home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11)
+03-04-2020 08:31:52.1585902712.9707 [52.77.33.135][5e86f4][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/11/WhatsApp-Image-2019-10-17-at-10.21.03-PM.jpeg) to a remote server (server_1).
+03-04-2020 08:31:54.1585902714.5227 [52.77.33.135][5e86f4][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:31:55.1585902715.7298 [52.77.33.135][5e86f4][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/11/WhatsApp-Image-2019-10-17-at-10.21.03-PM-150x150.jpeg) to a remote server (server_1).
+03-04-2020 08:31:56.1585902716.4924 [52.77.33.135][5e86f4][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:31:56.1585902716.9942 [52.77.33.135][5e86f4][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/11/WhatsApp-Image-2019-10-17-at-10.21.03-PM-300x169.jpeg) to a remote server (server_1).
+03-04-2020 08:31:57.1585902717.7254 [52.77.33.135][5e86f4][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:31:58.1585902718.2291 [52.77.33.135][5e86f4][debug] New queue created #4, attributes values: {"server_id":null,"object_id":"9642","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":98257,"final_size":98257,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":84106,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1585902718}
+03-04-2020 08:31:58.1585902718.2494 [52.77.33.135][5e86f4][info] End bulk optimization process! Scope: media-library. Remain: 90
+03-04-2020 08:32:10.1585902730.977 [52.77.33.135][5e86f4][info] Start bulk optimization process! Scope: media-library
+03-04-2020 08:32:11.1585902731.1615 [52.77.33.135][5e86f4][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/11/WhatsApp-Image-2019-10-17-at-8.44.20-PM.jpeg) to a remote server (server_1).
+03-04-2020 08:32:18.1585902738.3924 [52.77.33.135][5e86f4][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:32:25.1585902745.1328 [52.77.33.135][5e86f4][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/11/WhatsApp-Image-2019-10-17-at-8.44.20-PM-150x150.jpeg) to a remote server (server_1).
+03-04-2020 08:32:30.1585902750.9436 [52.77.33.135][5e86f4][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:32:31.1585902751.4173 [52.77.33.135][5e86f4][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/11/WhatsApp-Image-2019-10-17-at-8.44.20-PM-300x225.jpeg) to a remote server (server_1).
+03-04-2020 08:32:37.1585902757.4664 [52.77.33.135][5e86f4][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:32:38.1585902758.2111 [52.77.33.135][5e86f4][debug] New queue created #5, attributes values: {"server_id":null,"object_id":"9643","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":266707,"final_size":266707,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":243032,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1585902758}
+03-04-2020 08:32:38.1585902758.2341 [52.77.33.135][5e86f4][info] End bulk optimization process! Scope: media-library. Remain: 89
+03-04-2020 08:32:40.1585902760.5826 [52.76.175.111][5e86f4][info] Start bulk optimization process! Scope: media-library
+03-04-2020 08:32:40.1585902760.627 [52.76.175.111][5e86f4][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/11/WhatsApp-Image-2019-09-27-at-6.16.46-AM.jpeg) to a remote server (server_1).
+03-04-2020 08:32:42.1585902762.4528 [52.76.175.111][5e86f4][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:32:44.1585902764.0873 [52.76.175.111][5e86f4][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/11/WhatsApp-Image-2019-09-27-at-6.16.46-AM-150x150.jpeg) to a remote server (server_1).
+03-04-2020 08:32:44.1585902764.8111 [52.76.175.111][5e86f4][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:32:45.1585902765.2859 [52.76.175.111][5e86f4][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/11/WhatsApp-Image-2019-09-27-at-6.16.46-AM-169x300.jpeg) to a remote server (server_1).
+03-04-2020 08:32:46.1585902766.2465 [52.76.175.111][5e86f4][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:32:46.1585902766.9637 [52.76.175.111][5e86f4][debug] New queue created #6, attributes values: {"server_id":null,"object_id":"9644","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":185924,"final_size":185924,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":163904,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1585902766}
+03-04-2020 08:32:46.1585902766.9876 [52.76.175.111][5e86f4][info] End bulk optimization process! Scope: media-library. Remain: 88
+03-04-2020 08:32:49.1585902769.6775 [52.76.175.111][5e86f4][info] Start bulk optimization process! Scope: media-library
+03-04-2020 08:32:54.1585902774.664 [52.76.175.111][5e86f4][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/11/ewaste1.png) to a remote server (server_1).
+03-04-2020 08:32:59.1585902779.4944 [52.76.175.111][5e86f4][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:33:03.1585902783.1487 [52.76.175.111][5e86f4][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/11/ewaste1-150x150.png) to a remote server (server_1).
+03-04-2020 08:33:03.1585902783.9188 [52.76.175.111][5e86f4][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:33:04.1585902784.4154 [52.76.175.111][5e86f4][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/11/ewaste1-300x300.png) to a remote server (server_1).
+03-04-2020 08:33:05.1585902785.9467 [52.76.175.111][5e86f4][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:33:06.1585902786.6915 [52.76.175.111][5e86f4][debug] New queue created #7, attributes values: {"server_id":null,"object_id":"9645","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":649035,"final_size":443552,"original_mime_type":"image\/png","final_mime_type":"image\/png","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":561661,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1585902786}
+03-04-2020 08:33:06.1585902786.7204 [52.76.175.111][5e86f4][info] End bulk optimization process! Scope: media-library. Remain: 87
+03-04-2020 08:33:08.1585902788.6769 [52.76.175.111][5e86f4][info] Start bulk optimization process! Scope: media-library
+03-04-2020 08:33:08.1585902788.6856 [52.76.175.111][5e86f4][info] Try to create backup directory. Backup dir: (/home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/revslider/recycle3)
+03-04-2020 08:33:09.1585902789.6794 [52.76.175.111][5e86f4][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/revslider/recycle3/green-wordpress-theme-orionthemes-3.jpg) to a remote server (server_1).
+03-04-2020 08:33:10.1585902790.729 [52.76.175.111][5e86f4][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:33:11.1585902791.4367 [52.76.175.111][5e86f4][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/revslider/recycle3/green-wordpress-theme-orionthemes-3-150x150.jpg) to a remote server (server_1).
+03-04-2020 08:33:12.1585902792.1538 [52.76.175.111][5e86f4][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:33:12.1585902792.6278 [52.76.175.111][5e86f4][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/revslider/recycle3/green-wordpress-theme-orionthemes-3-300x169.jpg) to a remote server (server_1).
+03-04-2020 08:33:13.1585902793.3909 [52.76.175.111][5e86f4][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:33:13.1585902793.8806 [52.76.175.111][5e86f4][debug] New queue created #8, attributes values: {"server_id":null,"object_id":"9703","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":25317,"final_size":23608,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":21581,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1585902793}
+03-04-2020 08:33:13.1585902793.8954 [52.76.175.111][5e86f4][info] End bulk optimization process! Scope: media-library. Remain: 86
+03-04-2020 08:33:15.1585902795.5429 [52.76.175.111][5e86f4][info] Start bulk optimization process! Scope: media-library
+03-04-2020 08:33:16.1585902796.2622 [52.76.175.111][5e86f4][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/revslider/recycle3/green-wordpress-theme-orionthemes-2.jpg) to a remote server (server_1).
+03-04-2020 08:33:17.1585902797.3678 [52.76.175.111][5e86f4][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:33:18.1585902798.0778 [52.76.175.111][5e86f4][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/revslider/recycle3/green-wordpress-theme-orionthemes-2-150x150.jpg) to a remote server (server_1).
+03-04-2020 08:33:18.1585902798.8076 [52.76.175.111][5e86f4][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:33:19.1585902799.2831 [52.76.175.111][5e86f4][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/revslider/recycle3/green-wordpress-theme-orionthemes-2-300x169.jpg) to a remote server (server_1).
+03-04-2020 08:33:20.1585902800.0226 [52.76.175.111][5e86f4][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:33:20.1585902800.7394 [52.76.175.111][5e86f4][debug] New queue created #9, attributes values: {"server_id":null,"object_id":"9704","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":46466,"final_size":37841,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":40543,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1585902800}
+03-04-2020 08:33:20.1585902800.7559 [52.76.175.111][5e86f4][info] End bulk optimization process! Scope: media-library. Remain: 85
+03-04-2020 08:33:22.1585902802.9189 [52.76.175.111][5e86f4][info] Start bulk optimization process! Scope: media-library
+03-04-2020 08:33:23.1585902803.9156 [52.76.175.111][5e86f4][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/revslider/recycle3/green-wordpress-theme-orionthemes.jpg) to a remote server (server_1).
+03-04-2020 08:33:24.1585902804.9388 [52.76.175.111][5e86f4][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:33:25.1585902805.6463 [52.76.175.111][5e86f4][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/revslider/recycle3/green-wordpress-theme-orionthemes-150x150.jpg) to a remote server (server_1).
+03-04-2020 08:33:26.1585902806.371 [52.76.175.111][5e86f4][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:33:26.1585902806.848 [52.76.175.111][5e86f4][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/revslider/recycle3/green-wordpress-theme-orionthemes-300x169.jpg) to a remote server (server_1).
+03-04-2020 08:33:27.1585902807.5888 [52.76.175.111][5e86f4][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:33:28.1585902808.0667 [52.76.175.111][5e86f4][debug] New queue created #10, attributes values: {"server_id":null,"object_id":"9705","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":28569,"final_size":19955,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":25569,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1585902808}
+03-04-2020 08:33:28.1585902808.0835 [52.76.175.111][5e86f4][info] End bulk optimization process! Scope: media-library. Remain: 84
+03-04-2020 08:33:30.1585902810.4026 [52.76.175.111][5e86f4][info] Start bulk optimization process! Scope: media-library
+03-04-2020 08:33:30.1585902810.4347 [52.76.175.111][5e86f4][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/11/cropped-ewaste1.png) to a remote server (server_1).
+03-04-2020 08:33:31.1585902811.7655 [52.76.175.111][5e86f4][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:33:32.1585902812.9972 [52.76.175.111][5e86f4][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/11/cropped-ewaste1-150x150.png) to a remote server (server_1).
+03-04-2020 08:33:33.1585902813.7325 [52.76.175.111][5e86f4][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:33:34.1585902814.21 [52.76.175.111][5e86f4][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/11/cropped-ewaste1-300x300.png) to a remote server (server_1).
+03-04-2020 08:33:35.1585902815.2227 [52.76.175.111][5e86f4][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:33:35.1585902815.9519 [52.76.175.111][5e86f4][debug] New queue created #11, attributes values: {"server_id":null,"object_id":"9706","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":93622,"final_size":93613,"original_mime_type":"image\/png","final_mime_type":"image\/png","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":60835,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1585902815}
+03-04-2020 08:33:35.1585902815.9605 [52.76.175.111][5e86f4][info] End bulk optimization process! Scope: media-library. Remain: 83
+03-04-2020 08:33:37.1585902817.718 [52.76.175.111][5e86f4][info] Start bulk optimization process! Scope: media-library
+03-04-2020 08:33:37.1585902817.7607 [52.76.175.111][5e86f4][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/11/cropped-ewaste1-1.png) to a remote server (server_1).
+03-04-2020 08:33:40.1585902820.4665 [52.76.175.111][5e86f4][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:33:47.1585902827.7583 [52.76.175.111][5e86f4][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/11/cropped-ewaste1-1-150x150.png) to a remote server (server_1).
+03-04-2020 08:33:48.1585902828.5107 [52.76.175.111][5e86f4][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:33:48.1585902828.986 [52.76.175.111][5e86f4][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/11/cropped-ewaste1-1-300x300.png) to a remote server (server_1).
+03-04-2020 08:33:50.1585902830.5871 [52.76.175.111][5e86f4][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:33:51.1585902831.3318 [52.76.175.111][5e86f4][debug] New queue created #12, attributes values: {"server_id":null,"object_id":"9708","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":445696,"final_size":390116,"original_mime_type":"image\/png","final_mime_type":"image\/png","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":357569,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1585902831}
+03-04-2020 08:33:51.1585902831.3467 [52.76.175.111][5e86f4][info] End bulk optimization process! Scope: media-library. Remain: 82
+03-04-2020 08:33:54.1585902834.3531 [52.76.175.111][5e86f4][info] Start bulk optimization process! Scope: media-library
+03-04-2020 08:33:55.1585902835.5286 [52.76.175.111][5e86f4][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/11/IMG_1807-01-scaled.jpeg) to a remote server (server_1).
+03-04-2020 08:33:57.1585902837.6782 [52.76.175.111][5e86f4][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:34:00.1585902840.73 [52.76.175.111][5e86f4][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/11/IMG_1807-01-scaled-150x150.jpeg) to a remote server (server_1).
+03-04-2020 08:34:01.1585902841.4812 [52.76.175.111][5e86f4][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:34:01.1585902841.9596 [52.76.175.111][5e86f4][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/11/IMG_1807-01-scaled-204x300.jpeg) to a remote server (server_1).
+03-04-2020 08:34:02.1585902842.7344 [52.76.175.111][5e86f4][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:34:03.1585902843.2159 [52.76.175.111][5e86f4][debug] New queue created #13, attributes values: {"server_id":null,"object_id":"9710","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":586772,"final_size":229000,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":570043,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1585902843}
+03-04-2020 08:34:03.1585902843.2313 [52.76.175.111][5e86f4][info] End bulk optimization process! Scope: media-library. Remain: 81
+03-04-2020 08:34:15.1585902855.3511 [52.76.175.111][5e86f4][info] Start bulk optimization process! Scope: media-library
+03-04-2020 08:34:16.1585902856.2032 [52.76.175.111][5e86f4][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/11/Average-agof-a-gamer-1.png) to a remote server (server_1).
+03-04-2020 08:34:18.1585902858.4561 [52.76.175.111][5e86f4][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:34:24.1585902864.9422 [52.76.175.111][5e86f4][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/11/Average-agof-a-gamer-1-150x150.png) to a remote server (server_1).
+03-04-2020 08:34:25.1585902865.6853 [52.76.175.111][5e86f4][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:34:31.1585902871.2401 [52.76.175.111][5e86f4][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/11/Average-agof-a-gamer-1-300x169.png) to a remote server (server_1).
+03-04-2020 08:34:31.1585902871.9918 [52.76.175.111][5e86f4][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:34:32.1585902872.4794 [52.76.175.111][5e86f4][debug] New queue created #14, attributes values: {"server_id":null,"object_id":"9711","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":65298,"final_size":65289,"original_mime_type":"image\/png","final_mime_type":"image\/png","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":50989,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1585902872}
+03-04-2020 08:34:32.1585902872.4939 [52.76.175.111][5e86f4][info] End bulk optimization process! Scope: media-library. Remain: 80
+03-04-2020 08:34:34.1585902874.4422 [52.76.175.111][5e86f5][info] Start bulk optimization process! Scope: media-library
+03-04-2020 08:34:35.1585902875.4795 [52.76.175.111][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/11/Average-agof-a-gamer.png) to a remote server (server_1).
+03-04-2020 08:34:37.1585902877.8198 [52.76.175.111][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:34:39.1585902879.4569 [52.76.175.111][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/11/Average-agof-a-gamer-150x150.png) to a remote server (server_1).
+03-04-2020 08:34:40.1585902880.1913 [52.76.175.111][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:34:40.1585902880.6682 [52.76.175.111][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/11/Average-agof-a-gamer-300x169.png) to a remote server (server_1).
+03-04-2020 08:34:41.1585902881.4456 [52.76.175.111][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:34:41.1585902881.9311 [52.76.175.111][5e86f5][debug] New queue created #15, attributes values: {"server_id":null,"object_id":"9712","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":86567,"final_size":86567,"original_mime_type":"image\/png","final_mime_type":"image\/png","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":67976,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1585902881}
+03-04-2020 08:34:41.1585902881.944 [52.76.175.111][5e86f5][info] End bulk optimization process! Scope: media-library. Remain: 79
+03-04-2020 08:34:43.1585902883.4325 [52.76.175.111][5e86f5][info] Start bulk optimization process! Scope: media-library
+03-04-2020 08:34:43.1585902883.4709 [52.76.175.111][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/11/IMG-20190925-WA0013.jpg) to a remote server (server_1).
+03-04-2020 08:34:44.1585902884.4679 [52.76.175.111][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:34:45.1585902885.1774 [52.76.175.111][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/11/IMG-20190925-WA0013-150x150.jpg) to a remote server (server_1).
+03-04-2020 08:34:45.1585902885.9311 [52.76.175.111][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:34:46.1585902886.4353 [52.76.175.111][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/11/IMG-20190925-WA0013-289x300.jpg) to a remote server (server_1).
+03-04-2020 08:34:47.1585902887.1935 [52.76.175.111][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:34:47.1585902887.6982 [52.76.175.111][5e86f5][debug] New queue created #16, attributes values: {"server_id":null,"object_id":"9713","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":38313,"final_size":38313,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":25112,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1585902887}
+03-04-2020 08:34:47.1585902887.7146 [52.76.175.111][5e86f5][info] End bulk optimization process! Scope: media-library. Remain: 78
+03-04-2020 08:34:50.1585902890.391 [52.76.175.111][5e86f5][info] Start bulk optimization process! Scope: media-library
+03-04-2020 08:34:50.1585902890.4318 [52.76.175.111][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/11/IMG-20190925-WA0011.jpg) to a remote server (server_1).
+03-04-2020 08:34:51.1585902891.6939 [52.76.175.111][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:34:52.1585902892.6519 [52.76.175.111][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/11/IMG-20190925-WA0011-150x150.jpg) to a remote server (server_1).
+03-04-2020 08:34:53.1585902893.4039 [52.76.175.111][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:34:53.1585902893.8928 [52.76.175.111][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/11/IMG-20190925-WA0011-300x300.jpg) to a remote server (server_1).
+03-04-2020 08:34:54.1585902894.9112 [52.76.175.111][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:34:55.1585902895.6652 [52.76.175.111][5e86f5][debug] New queue created #17, attributes values: {"server_id":null,"object_id":"9714","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":74971,"final_size":74556,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":45677,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1585902895}
+03-04-2020 08:34:55.1585902895.7018 [52.76.175.111][5e86f5][info] End bulk optimization process! Scope: media-library. Remain: 77
+03-04-2020 08:34:57.1585902897.8028 [52.76.175.111][5e86f5][info] Start bulk optimization process! Scope: media-library
+03-04-2020 08:34:57.1585902897.8551 [52.76.175.111][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/11/IMG-20190925-WA0014.jpg) to a remote server (server_1).
+03-04-2020 08:34:59.1585902899.1466 [52.76.175.111][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:35:00.1585902900.3597 [52.76.175.111][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/11/IMG-20190925-WA0014-150x150.jpg) to a remote server (server_1).
+03-04-2020 08:35:01.1585902901.0812 [52.76.175.111][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:35:01.1585902901.5683 [52.76.175.111][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/11/IMG-20190925-WA0014-273x300.jpg) to a remote server (server_1).
+03-04-2020 08:35:02.1585902902.557 [52.76.175.111][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:35:03.1585902903.3004 [52.76.175.111][5e86f5][debug] New queue created #18, attributes values: {"server_id":null,"object_id":"9715","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":73115,"final_size":73115,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":46516,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1585902903}
+03-04-2020 08:35:03.1585902903.3242 [52.76.175.111][5e86f5][info] End bulk optimization process! Scope: media-library. Remain: 76
+03-04-2020 08:35:06.1585902906.57 [52.76.175.111][5e86f5][info] Start bulk optimization process! Scope: media-library
+03-04-2020 08:35:06.1585902906.6185 [52.76.175.111][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/11/IMG-20190925-WA0012.jpg) to a remote server (server_1).
+03-04-2020 08:35:08.1585902908.1706 [52.76.175.111][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:35:09.1585902909.8535 [52.76.175.111][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/11/IMG-20190925-WA0012-150x150.jpg) to a remote server (server_1).
+03-04-2020 08:35:10.1585902910.5942 [52.76.175.111][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:35:11.1585902911.0718 [52.76.175.111][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/11/IMG-20190925-WA0012-300x246.jpg) to a remote server (server_1).
+03-04-2020 08:35:12.1585902912.0704 [52.76.175.111][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:35:12.1585902912.8113 [52.76.175.111][5e86f5][debug] New queue created #19, attributes values: {"server_id":null,"object_id":"9716","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":107015,"final_size":107015,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":82802,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1585902912}
+03-04-2020 08:35:12.1585902912.8504 [52.76.175.111][5e86f5][info] End bulk optimization process! Scope: media-library. Remain: 75
+03-04-2020 08:35:16.1585902916.1925 [52.76.175.111][5e86f5][info] Start bulk optimization process! Scope: media-library
+03-04-2020 08:35:17.1585902917.4337 [52.76.175.111][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/11/67836405_705165326599773_915623036789456896_n-scaled.jpg) to a remote server (server_1).
+03-04-2020 08:35:19.1585902919.7107 [52.76.175.111][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:35:23.1585902923.7439 [52.76.175.111][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/11/67836405_705165326599773_915623036789456896_n-scaled-150x150.jpg) to a remote server (server_1).
+03-04-2020 08:35:24.1585902924.5026 [52.76.175.111][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:35:24.1585902924.9784 [52.76.175.111][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/11/67836405_705165326599773_915623036789456896_n-scaled-300x169.jpg) to a remote server (server_1).
+03-04-2020 08:35:25.1585902925.9417 [52.76.175.111][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:35:26.1585902926.6516 [52.76.175.111][5e86f5][debug] New queue created #20, attributes values: {"server_id":null,"object_id":"9717","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":810490,"final_size":363941,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":784232,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1585902926}
+03-04-2020 08:35:26.1585902926.703 [52.76.175.111][5e86f5][info] End bulk optimization process! Scope: media-library. Remain: 74
+03-04-2020 08:35:28.1585902928.5061 [52.77.33.135][5e86f5][info] Start bulk optimization process! Scope: media-library
+03-04-2020 08:35:28.1585902928.5406 [52.77.33.135][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/11/2b.png) to a remote server (server_1).
+03-04-2020 08:35:29.1585902929.3157 [52.77.33.135][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:35:29.1585902929.7928 [52.77.33.135][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/11/2b-150x150.png) to a remote server (server_1).
+03-04-2020 08:35:30.1585902930.525 [52.77.33.135][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:35:31.1585902931.0233 [52.77.33.135][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/11/2b-300x84.png) to a remote server (server_1).
+03-04-2020 08:35:31.1585902931.7669 [52.77.33.135][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:35:32.1585902932.2457 [52.77.33.135][5e86f5][debug] New queue created #21, attributes values: {"server_id":null,"object_id":"9718","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":21589,"final_size":21555,"original_mime_type":"image\/png","final_mime_type":"image\/png","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":10572,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1585902932}
+03-04-2020 08:35:32.1585902932.2931 [52.77.33.135][5e86f5][info] End bulk optimization process! Scope: media-library. Remain: 73
+03-04-2020 08:35:34.1585902934.2336 [52.77.33.135][5e86f5][info] Start bulk optimization process! Scope: media-library
+03-04-2020 08:35:34.1585902934.306 [52.77.33.135][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/11/2c.png) to a remote server (server_1).
+03-04-2020 08:35:35.1585902935.1154 [52.77.33.135][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:35:35.1585902935.6152 [52.77.33.135][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/11/2c-150x150.png) to a remote server (server_1).
+03-04-2020 08:35:36.1585902936.3516 [52.77.33.135][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:35:36.1585902936.8269 [52.77.33.135][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/11/2c-178x300.png) to a remote server (server_1).
+03-04-2020 08:35:37.1585902937.5951 [52.77.33.135][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:35:38.1585902938.076 [52.77.33.135][5e86f5][debug] New queue created #22, attributes values: {"server_id":null,"object_id":"9719","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":17343,"final_size":17342,"original_mime_type":"image\/png","final_mime_type":"image\/png","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":6264,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1585902938}
+03-04-2020 08:35:38.1585902938.1279 [52.77.33.135][5e86f5][info] End bulk optimization process! Scope: media-library. Remain: 72
+03-04-2020 08:35:39.1585902939.9524 [52.77.33.135][5e86f5][info] Start bulk optimization process! Scope: media-library
+03-04-2020 08:35:40.1585902940.0022 [52.77.33.135][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/11/2d.png) to a remote server (server_1).
+03-04-2020 08:35:40.1585902940.7731 [52.77.33.135][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:35:41.1585902941.254 [52.77.33.135][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/11/2d-150x91.png) to a remote server (server_1).
+03-04-2020 08:35:41.1585902941.9878 [52.77.33.135][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:35:42.1585902942.4651 [52.77.33.135][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/11/2d-300x30.png) to a remote server (server_1).
+03-04-2020 08:35:43.1585902943.2283 [52.77.33.135][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:35:43.1585902943.7266 [52.77.33.135][5e86f5][debug] New queue created #23, attributes values: {"server_id":null,"object_id":"9720","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":15431,"final_size":15431,"original_mime_type":"image\/png","final_mime_type":"image\/png","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":8495,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1585902943}
+03-04-2020 08:35:43.1585902943.7516 [52.77.33.135][5e86f5][info] End bulk optimization process! Scope: media-library. Remain: 71
+03-04-2020 08:35:45.1585902945.7081 [52.77.33.135][5e86f5][info] Start bulk optimization process! Scope: media-library
+03-04-2020 08:35:45.1585902945.76 [52.77.33.135][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/11/4b.png) to a remote server (server_1).
+03-04-2020 08:35:47.1585902947.1396 [52.77.33.135][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:35:48.1585902948.1251 [52.77.33.135][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/11/4b-150x150.png) to a remote server (server_1).
+03-04-2020 08:35:48.1585902948.8809 [52.77.33.135][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:35:49.1585902949.3556 [52.77.33.135][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/11/4b-300x160.png) to a remote server (server_1).
+03-04-2020 08:35:50.1585902950.1526 [52.77.33.135][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:35:50.1585902950.6311 [52.77.33.135][5e86f5][debug] New queue created #24, attributes values: {"server_id":null,"object_id":"9721","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":57532,"final_size":57485,"original_mime_type":"image\/png","final_mime_type":"image\/png","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":36960,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1585902950}
+03-04-2020 08:35:50.1585902950.6747 [52.77.33.135][5e86f5][info] End bulk optimization process! Scope: media-library. Remain: 70
+03-04-2020 08:35:53.1585902953.3308 [52.77.33.135][5e86f5][info] Start bulk optimization process! Scope: media-library
+03-04-2020 08:35:53.1585902953.3834 [52.77.33.135][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/11/4c.png) to a remote server (server_1).
+03-04-2020 08:35:54.1585902954.1427 [52.77.33.135][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:35:54.1585902954.6184 [52.77.33.135][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/11/4c-150x150.png) to a remote server (server_1).
+03-04-2020 08:35:55.1585902955.3448 [52.77.33.135][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:35:55.1585902955.8325 [52.77.33.135][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/11/4c-300x131.png) to a remote server (server_1).
+03-04-2020 08:35:56.1585902956.575 [52.77.33.135][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:35:57.1585902957.0788 [52.77.33.135][5e86f5][debug] New queue created #25, attributes values: {"server_id":null,"object_id":"9722","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":25288,"final_size":25267,"original_mime_type":"image\/png","final_mime_type":"image\/png","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":10372,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1585902957}
+03-04-2020 08:35:57.1585902957.1283 [52.77.33.135][5e86f5][info] End bulk optimization process! Scope: media-library. Remain: 69
+03-04-2020 08:36:01.1585902961.4403 [52.77.33.135][5e86f5][info] Start bulk optimization process! Scope: media-library
+03-04-2020 08:36:01.1585902961.5042 [52.77.33.135][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/11/download.jpg) to a remote server (server_1).
+03-04-2020 08:36:02.1585902962.2867 [52.77.33.135][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:36:02.1585902962.7981 [52.77.33.135][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/11/download-150x150.jpg) to a remote server (server_1).
+03-04-2020 08:36:03.1585902963.5776 [52.77.33.135][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:36:04.1585902964.0712 [52.77.33.135][5e86f5][debug] New queue created #26, attributes values: {"server_id":null,"object_id":"9723","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":13957,"final_size":13957,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":1,\"original_main_size\":8821,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1585902964}
+03-04-2020 08:36:04.1585902964.1198 [52.77.33.135][5e86f5][info] End bulk optimization process! Scope: media-library. Remain: 68
+03-04-2020 08:36:06.1585902966.1385 [52.77.33.135][5e86f5][info] Start bulk optimization process! Scope: media-library
+03-04-2020 08:36:06.1585902966.1812 [52.77.33.135][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/11/Gandhijilogo.png) to a remote server (server_1).
+03-04-2020 08:36:07.1585902967.3214 [52.77.33.135][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:36:08.1585902968.0313 [52.77.33.135][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/11/Gandhijilogo-150x150.png) to a remote server (server_1).
+03-04-2020 08:36:09.1585902969.319 [52.77.33.135][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:36:09.1585902969.8119 [52.77.33.135][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/11/Gandhijilogo-300x215.png) to a remote server (server_1).
+03-04-2020 08:36:10.1585902970.5813 [52.77.33.135][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:36:11.1585902971.0586 [52.77.33.135][5e86f5][debug] New queue created #27, attributes values: {"server_id":null,"object_id":"9724","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":43474,"final_size":43404,"original_mime_type":"image\/png","final_mime_type":"image\/png","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":24790,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1585902971}
+03-04-2020 08:36:11.1585902971.1073 [52.77.33.135][5e86f5][info] End bulk optimization process! Scope: media-library. Remain: 67
+03-04-2020 08:36:13.1585902973.2512 [52.77.33.135][5e86f5][info] Start bulk optimization process! Scope: media-library
+03-04-2020 08:36:13.1585902973.2998 [52.77.33.135][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/11/how_works2.gif) to a remote server (server_1).
+03-04-2020 08:36:14.1585902974.5402 [52.77.33.135][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:36:15.1585902975.4774 [52.77.33.135][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/11/how_works2-150x150.gif) to a remote server (server_1).
+03-04-2020 08:36:16.1585902976.2748 [52.77.33.135][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:36:16.1585902976.774 [52.77.33.135][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/11/how_works2-300x66.gif) to a remote server (server_1).
+03-04-2020 08:36:17.1585902977.5468 [52.77.33.135][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:36:18.1585902978.0268 [52.77.33.135][5e86f5][debug] New queue created #28, attributes values: {"server_id":null,"object_id":"9725","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":54111,"final_size":52859,"original_mime_type":"image\/gif","final_mime_type":"image\/gif","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":43961,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1585902978}
+03-04-2020 08:36:18.1585902978.0769 [52.77.33.135][5e86f5][info] End bulk optimization process! Scope: media-library. Remain: 66
+03-04-2020 08:36:19.1585902979.9349 [52.74.31.185][5e86f5][info] Start bulk optimization process! Scope: media-library
+03-04-2020 08:36:20.1585902980.1268 [52.74.31.185][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/11/pp.jpg) to a remote server (server_1).
+03-04-2020 08:36:21.1585902981.3946 [52.74.31.185][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:36:22.1585902982.6376 [52.74.31.185][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/11/pp-150x150.jpg) to a remote server (server_1).
+03-04-2020 08:36:23.1585902983.3995 [52.74.31.185][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:36:23.1585902983.9014 [52.74.31.185][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/11/pp-300x300.jpg) to a remote server (server_1).
+03-04-2020 08:36:24.1585902984.8738 [52.74.31.185][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:36:25.1585902985.6198 [52.74.31.185][5e86f5][debug] New queue created #29, attributes values: {"server_id":null,"object_id":"9726","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":88129,"final_size":87409,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":60414,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1585902985}
+03-04-2020 08:36:25.1585902985.6706 [52.74.31.185][5e86f5][info] End bulk optimization process! Scope: media-library. Remain: 65
+03-04-2020 08:36:27.1585902987.805 [52.74.31.185][5e86f5][info] Start bulk optimization process! Scope: media-library
+03-04-2020 08:36:27.1585902987.8439 [52.74.31.185][5e86f5][debug] New queue created #30, attributes values: {"server_id":null,"object_id":"9744","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"error","processing_level":"normal","is_backed_up":false,"original_size":0,"final_size":0,"original_mime_type":"","final_mime_type":"","extra_data":"{\"error\":\"path\",\"error_msg\":\"Attachment cannot be optimized. File \\\"(\\\/home\\\/g0na2vu18mqm\\\/public_html\\\/wp-content\\\/uploads\\\/2016\\\/12\\\/pp-1.jpg)\\\" doesn't exist\",\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1585902987}
+03-04-2020 08:36:27.1585902987.8439 [52.74.31.185][5e86f5][error] Failed to find original attachment #9744 located in *empty path*. Skipping optimization. This may be caused due to bug in wp_get_attachment_metadata() function, which returns false for attachment meta
+03-04-2020 08:36:27.1585902987.8934 [52.74.31.185][5e86f5][info] End bulk optimization process! Scope: media-library. Remain: 64
+03-04-2020 08:36:31.1585902991.3913 [52.74.31.185][5e86f5][info] Start bulk optimization process! Scope: media-library
+03-04-2020 08:36:31.1585902991.4428 [52.74.31.185][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/10/images-13.jpg) to a remote server (server_1).
+03-04-2020 08:36:32.1585902992.2296 [52.74.31.185][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:36:32.1585902992.7051 [52.74.31.185][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/10/images-13-150x150.jpg) to a remote server (server_1).
+03-04-2020 08:36:33.1585902993.473 [52.74.31.185][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:36:33.1585902993.9773 [52.74.31.185][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/10/images-13-300x162.jpg) to a remote server (server_1).
+03-04-2020 08:36:34.1585902994.7429 [52.74.31.185][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:36:35.1585902995.262 [52.74.31.185][5e86f5][debug] New queue created #31, attributes values: {"server_id":null,"object_id":"9758","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":26366,"final_size":26366,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":10503,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1585902995}
+03-04-2020 08:36:35.1585902995.2962 [52.74.31.185][5e86f5][info] End bulk optimization process! Scope: media-library. Remain: 63
+03-04-2020 08:36:37.1585902997.3188 [52.74.31.185][5e86f5][info] Start bulk optimization process! Scope: media-library
+03-04-2020 08:36:37.1585902997.3464 [52.74.31.185][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/10/images-2.jpg) to a remote server (server_1).
+03-04-2020 08:36:38.1585902998.0816 [52.74.31.185][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:36:38.1585902998.5776 [52.74.31.185][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/10/images-2-150x150.jpg) to a remote server (server_1).
+03-04-2020 08:36:39.1585902999.308 [52.74.31.185][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:36:39.1585902999.7897 [52.74.31.185][5e86f5][debug] New queue created #32, attributes values: {"server_id":null,"object_id":"9759","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":21803,"final_size":21803,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":1,\"original_main_size\":13493,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1585902999}
+03-04-2020 08:36:39.1585902999.8468 [52.74.31.185][5e86f5][info] End bulk optimization process! Scope: media-library. Remain: 62
+03-04-2020 08:36:42.1585903002.1547 [52.74.31.185][5e86f5][info] Start bulk optimization process! Scope: media-library
+03-04-2020 08:36:42.1585903002.1846 [52.74.31.185][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/10/download-1.jpg) to a remote server (server_1).
+03-04-2020 08:36:42.1585903002.9592 [52.74.31.185][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:36:43.1585903003.4575 [52.74.31.185][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/10/download-1-150x150.jpg) to a remote server (server_1).
+03-04-2020 08:36:44.1585903004.1762 [52.74.31.185][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:36:44.1585903004.6784 [52.74.31.185][5e86f5][debug] New queue created #33, attributes values: {"server_id":null,"object_id":"9760","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":12710,"final_size":12710,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":1,\"original_main_size\":7440,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1585903004}
+03-04-2020 08:36:44.1585903004.721 [52.74.31.185][5e86f5][info] End bulk optimization process! Scope: media-library. Remain: 61
+03-04-2020 08:36:46.1585903006.7342 [52.74.31.185][5e86f5][info] Start bulk optimization process! Scope: media-library
+03-04-2020 08:36:47.1585903007.7581 [52.74.31.185][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/10/elwaste-e1523350816941.jpg) to a remote server (server_1).
+03-04-2020 08:36:50.1585903010.0798 [52.74.31.185][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:36:55.1585903015.9673 [52.74.31.185][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/10/elwaste-e1523350816941-150x150.jpg) to a remote server (server_1).
+03-04-2020 08:36:56.1585903016.6897 [52.74.31.185][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:36:57.1585903017.1664 [52.74.31.185][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/10/elwaste-e1523350816941-300x169.jpg) to a remote server (server_1).
+03-04-2020 08:36:58.1585903018.1612 [52.74.31.185][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:36:58.1585903018.9155 [52.74.31.185][5e86f5][debug] New queue created #34, attributes values: {"server_id":null,"object_id":"9761","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":295349,"final_size":295349,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":265028,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1585903018}
+03-04-2020 08:36:58.1585903018.9729 [52.74.31.185][5e86f5][info] End bulk optimization process! Scope: media-library. Remain: 60
+03-04-2020 08:37:01.1585903021.1893 [52.77.33.135][5e86f5][info] Start bulk optimization process! Scope: media-library
+03-04-2020 08:37:03.1585903023.1481 [52.77.33.135][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/10/GettyImages-984719162.jpg) to a remote server (server_1).
+03-04-2020 08:37:04.1585903024.7789 [52.77.33.135][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:37:06.1585903026.2419 [52.77.33.135][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/10/GettyImages-984719162-150x150.jpg) to a remote server (server_1).
+03-04-2020 08:37:06.1585903026.9829 [52.77.33.135][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:37:07.1585903027.4823 [52.77.33.135][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/10/GettyImages-984719162-300x156.jpg) to a remote server (server_1).
+03-04-2020 08:37:08.1585903028.2459 [52.77.33.135][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:37:08.1585903028.7439 [52.77.33.135][5e86f5][debug] New queue created #35, attributes values: {"server_id":null,"object_id":"9762","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":88194,"final_size":88194,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":73827,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1585903028}
+03-04-2020 08:37:08.1585903028.7997 [52.77.33.135][5e86f5][info] End bulk optimization process! Scope: media-library. Remain: 59
+03-04-2020 08:37:10.1585903030.6094 [52.77.33.135][5e86f5][info] Start bulk optimization process! Scope: media-library
+03-04-2020 08:37:17.1585903037.4478 [52.77.33.135][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/10/sequence-02-00_00_18_18-still002-1920x1080.png) to a remote server (server_1).
+03-04-2020 08:37:22.1585903042.7308 [52.77.33.135][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:37:29.1585903049.4866 [52.77.33.135][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/10/sequence-02-00_00_18_18-still002-1920x1080-150x150.png) to a remote server (server_1).
+03-04-2020 08:37:30.1585903050.4866 [52.77.33.135][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:37:31.1585903051.2245 [52.77.33.135][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/10/sequence-02-00_00_18_18-still002-1920x1080-300x169.png) to a remote server (server_1).
+03-04-2020 08:37:32.1585903052.4788 [52.77.33.135][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:37:33.1585903053.4241 [52.77.33.135][5e86f5][debug] New queue created #36, attributes values: {"server_id":null,"object_id":"9763","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":1243075,"final_size":905705,"original_mime_type":"image\/png","final_mime_type":"image\/png","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":1179848,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1585903053}
+03-04-2020 08:37:33.1585903053.4707 [52.77.33.135][5e86f5][info] End bulk optimization process! Scope: media-library. Remain: 58
+03-04-2020 08:37:35.1585903055.3874 [52.77.33.135][5e86f5][info] Start bulk optimization process! Scope: media-library
+03-04-2020 08:37:35.1585903055.4584 [52.77.33.135][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/11/ARE-YOU-A-RESIDENTUAL-OR-INDIVIDUAL.png) to a remote server (server_1).
+03-04-2020 08:37:37.1585903057.0289 [52.77.33.135][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:37:38.1585903058.7118 [52.77.33.135][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/11/ARE-YOU-A-RESIDENTUAL-OR-INDIVIDUAL-150x150.png) to a remote server (server_1).
+03-04-2020 08:37:39.1585903059.6756 [52.77.33.135][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:37:40.1585903060.3841 [52.77.33.135][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/11/ARE-YOU-A-RESIDENTUAL-OR-INDIVIDUAL-300x169.png) to a remote server (server_1).
+03-04-2020 08:37:41.1585903061.4044 [52.77.33.135][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:37:42.1585903062.1502 [52.77.33.135][5e86f5][debug] New queue created #37, attributes values: {"server_id":null,"object_id":"9787","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":124234,"final_size":124229,"original_mime_type":"image\/png","final_mime_type":"image\/png","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":78774,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1585903062}
+03-04-2020 08:37:42.1585903062.3313 [52.77.33.135][5e86f5][info] End bulk optimization process! Scope: media-library. Remain: 57
+03-04-2020 08:37:45.1585903065.0169 [52.77.33.135][5e86f5][info] Start bulk optimization process! Scope: media-library
+03-04-2020 08:37:45.1585903065.0939 [52.77.33.135][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/woocommerce-placeholder.png) to a remote server (server_1).
+03-04-2020 08:37:46.1585903066.7714 [52.77.33.135][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:37:48.1585903068.175 [52.77.33.135][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/woocommerce-placeholder-150x150.png) to a remote server (server_1).
+03-04-2020 08:37:48.1585903068.932 [52.77.33.135][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:37:49.1585903069.4097 [52.77.33.135][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/woocommerce-placeholder-300x300.png) to a remote server (server_1).
+03-04-2020 08:37:50.1585903070.1819 [52.77.33.135][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:37:50.1585903070.6786 [52.77.33.135][5e86f5][debug] New queue created #38, attributes values: {"server_id":null,"object_id":"9790","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":89492,"final_size":84978,"original_mime_type":"image\/png","final_mime_type":"image\/png","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":74804,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1585903070}
+03-04-2020 08:37:50.1585903070.711 [52.77.33.135][5e86f5][info] End bulk optimization process! Scope: media-library. Remain: 56
+03-04-2020 08:37:54.1585903074.4986 [52.77.33.135][5e86f5][info] Start bulk optimization process! Scope: media-library
+03-04-2020 08:37:54.1585903074.5361 [52.77.33.135][5e86f5][info] Try to create backup directory. Backup dir: (/home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/12)
+03-04-2020 08:37:54.1585903074.5605 [52.77.33.135][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/12/logo-regular-free-img.png) to a remote server (server_1).
+03-04-2020 08:37:55.1585903075.2883 [52.77.33.135][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:37:55.1585903075.7743 [52.77.33.135][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/12/logo-regular-free-img-150x53.png) to a remote server (server_1).
+03-04-2020 08:37:56.1585903076.2768 [52.77.33.135][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:37:56.1585903076.7576 [52.77.33.135][5e86f5][debug] New queue created #39, attributes values: {"server_id":null,"object_id":"10135","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":1427,"final_size":1427,"original_mime_type":"image\/png","final_mime_type":"image\/png","extra_data":"{\"thumbnails_count\":1,\"original_main_size\":761,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1585903076}
+03-04-2020 08:37:56.1585903076.8138 [52.77.33.135][5e86f5][info] End bulk optimization process! Scope: media-library. Remain: 55
+03-04-2020 08:37:58.1585903078.6068 [52.77.33.135][5e86f5][info] Start bulk optimization process! Scope: media-library
+03-04-2020 08:37:58.1585903078.6721 [52.77.33.135][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/12/atom01-free-img.png) to a remote server (server_1).
+03-04-2020 08:37:59.1585903079.4065 [52.77.33.135][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:37:59.1585903079.9051 [52.77.33.135][5e86f5][debug] New queue created #40, attributes values: {"server_id":null,"object_id":"10137","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":1289,"final_size":1289,"original_mime_type":"image\/png","final_mime_type":"image\/png","extra_data":"{\"thumbnails_count\":0,\"original_main_size\":1289,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1585903079}
+03-04-2020 08:37:59.1585903079.9696 [52.77.33.135][5e86f5][info] End bulk optimization process! Scope: media-library. Remain: 54
+03-04-2020 08:38:02.1585903082.724 [52.77.33.135][5e86f5][info] Start bulk optimization process! Scope: media-library
+03-04-2020 08:38:02.1585903082.7623 [52.77.33.135][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/12/dna-free-img.png) to a remote server (server_1).
+03-04-2020 08:38:03.1585903083.5312 [52.77.33.135][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:38:04.1585903084.033 [52.77.33.135][5e86f5][debug] New queue created #41, attributes values: {"server_id":null,"object_id":"10138","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":1082,"final_size":1082,"original_mime_type":"image\/png","final_mime_type":"image\/png","extra_data":"{\"thumbnails_count\":0,\"original_main_size\":1082,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1585903084}
+03-04-2020 08:38:04.1585903084.0774 [52.77.33.135][5e86f5][info] End bulk optimization process! Scope: media-library. Remain: 53
+03-04-2020 08:38:06.1585903086.0674 [52.77.33.135][5e86f5][info] Start bulk optimization process! Scope: media-library
+03-04-2020 08:38:06.1585903086.106 [52.77.33.135][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/12/system-free-img.png) to a remote server (server_1).
+03-04-2020 08:38:06.1585903086.867 [52.77.33.135][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:38:07.1585903087.3655 [52.77.33.135][5e86f5][debug] New queue created #42, attributes values: {"server_id":null,"object_id":"10139","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":1242,"final_size":1242,"original_mime_type":"image\/png","final_mime_type":"image\/png","extra_data":"{\"thumbnails_count\":0,\"original_main_size\":1242,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1585903087}
+03-04-2020 08:38:07.1585903087.4187 [52.77.33.135][5e86f5][info] End bulk optimization process! Scope: media-library. Remain: 52
+03-04-2020 08:38:09.1585903089.0061 [52.77.33.135][5e86f5][info] Start bulk optimization process! Scope: media-library
+03-04-2020 08:38:09.1585903089.0763 [52.77.33.135][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/12/clip-free-img.png) to a remote server (server_1).
+03-04-2020 08:38:09.1585903089.8526 [52.77.33.135][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:38:10.1585903090.3285 [52.77.33.135][5e86f5][debug] New queue created #43, attributes values: {"server_id":null,"object_id":"10140","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":745,"final_size":745,"original_mime_type":"image\/png","final_mime_type":"image\/png","extra_data":"{\"thumbnails_count\":0,\"original_main_size\":745,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1585903090}
+03-04-2020 08:38:10.1585903090.3885 [52.77.33.135][5e86f5][info] End bulk optimization process! Scope: media-library. Remain: 51
+03-04-2020 08:38:12.1585903092.1304 [52.77.33.135][5e86f5][info] Start bulk optimization process! Scope: media-library
+03-04-2020 08:38:12.1585903092.1686 [52.77.33.135][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/12/magnify-free-img.png) to a remote server (server_1).
+03-04-2020 08:38:12.1585903092.8988 [52.77.33.135][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:38:13.1585903093.4281 [52.77.33.135][5e86f5][debug] New queue created #44, attributes values: {"server_id":null,"object_id":"10141","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":889,"final_size":889,"original_mime_type":"image\/png","final_mime_type":"image\/png","extra_data":"{\"thumbnails_count\":0,\"original_main_size\":889,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1585903093}
+03-04-2020 08:38:13.1585903093.4921 [52.77.33.135][5e86f5][info] End bulk optimization process! Scope: media-library. Remain: 50
+03-04-2020 08:38:15.1585903095.4969 [52.77.33.135][5e86f5][info] Start bulk optimization process! Scope: media-library
+03-04-2020 08:38:15.1585903095.5348 [52.77.33.135][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/12/testtube-free-img.png) to a remote server (server_1).
+03-04-2020 08:38:16.1585903096.2723 [52.77.33.135][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:38:16.1585903096.7492 [52.77.33.135][5e86f5][debug] New queue created #45, attributes values: {"server_id":null,"object_id":"10142","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":842,"final_size":842,"original_mime_type":"image\/png","final_mime_type":"image\/png","extra_data":"{\"thumbnails_count\":0,\"original_main_size\":842,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1585903096}
+03-04-2020 08:38:16.1585903096.8134 [52.77.33.135][5e86f5][info] End bulk optimization process! Scope: media-library. Remain: 49
+03-04-2020 08:38:18.1585903098.7131 [52.77.33.135][5e86f5][info] Start bulk optimization process! Scope: media-library
+03-04-2020 08:38:18.1585903098.7637 [52.77.33.135][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/12/working-free-img.jpg) to a remote server (server_1).
+03-04-2020 08:38:19.1585903099.5218 [52.77.33.135][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:38:19.1585903099.9999 [52.77.33.135][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/12/working-free-img-150x150.jpg) to a remote server (server_1).
+03-04-2020 08:38:20.1585903100.7389 [52.77.33.135][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:38:21.1585903101.253 [52.77.33.135][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/12/working-free-img-300x266.jpg) to a remote server (server_1).
+03-04-2020 08:38:22.1585903102.0004 [52.77.33.135][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:38:22.1585903102.482 [52.77.33.135][5e86f5][debug] New queue created #46, attributes values: {"server_id":null,"object_id":"10143","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":25564,"final_size":25564,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":13711,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1585903102}
+03-04-2020 08:38:22.1585903102.5151 [52.77.33.135][5e86f5][info] End bulk optimization process! Scope: media-library. Remain: 48
+03-04-2020 08:38:24.1585903104.2819 [52.77.33.135][5e86f5][info] Start bulk optimization process! Scope: media-library
+03-04-2020 08:38:24.1585903104.3218 [52.77.33.135][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/12/mobile-shop-free-img.jpg) to a remote server (server_1).
+03-04-2020 08:38:25.1585903105.0797 [52.77.33.135][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:38:25.1585903105.5793 [52.77.33.135][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/12/mobile-shop-free-img-150x150.jpg) to a remote server (server_1).
+03-04-2020 08:38:26.1585903106.3068 [52.77.33.135][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:38:26.1585903106.8037 [52.77.33.135][5e86f5][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/12/mobile-shop-free-img-300x266.jpg) to a remote server (server_1).
+03-04-2020 08:38:27.1585903107.537 [52.77.33.135][5e86f5][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:38:28.1585903108.0277 [52.77.33.135][5e86f5][debug] New queue created #47, attributes values: {"server_id":null,"object_id":"10144","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":21625,"final_size":21625,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":10914,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1585903108}
+03-04-2020 08:38:28.1585903108.0944 [52.77.33.135][5e86f5][info] End bulk optimization process! Scope: media-library. Remain: 47
+03-04-2020 08:38:33.1585903113.5597 [52.77.33.135][5e86f6][info] Start bulk optimization process! Scope: media-library
+03-04-2020 08:38:34.1585903114.2158 [52.77.33.135][5e86f6][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/12/working-clock-free-img.jpg) to a remote server (server_1).
+03-04-2020 08:38:35.1585903115.2287 [52.77.33.135][5e86f6][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:38:35.1585903115.9466 [52.77.33.135][5e86f6][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/12/working-clock-free-img-150x150.jpg) to a remote server (server_1).
+03-04-2020 08:38:36.1585903116.685 [52.77.33.135][5e86f6][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:38:37.1585903117.1718 [52.77.33.135][5e86f6][info] Preparing to upload a file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/12/working-clock-free-img-300x266.jpg) to a remote server (server_1).
+03-04-2020 08:38:37.1585903117.9261 [52.77.33.135][5e86f6][info] File successfully uploaded to remote server (server_1).
+03-04-2020 08:38:38.1585903118.4129 [52.77.33.135][5e86f6][debug] New queue created #48, attributes values: {"server_id":null,"object_id":"10145","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":32186,"final_size":32186,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":2,\"original_main_size\":16557,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1585903118}
+03-04-2020 08:38:39.1585903119.0709 [52.77.33.135][5e86f6][info] End bulk optimization process! Scope: media-library. Remain: 46
+03-04-2020 08:38:42.1585903122.7015 [52.77.33.135][5e86f6][info] Start bulk optimization process! Scope: media-library
+03-04-2020 08:38:43.1585903123.2601 [52.77.33.135][5e86f6][warning] Attachment #10146 doesn't have metadata.
+03-04-2020 08:38:43.1585903123.2601 [52.77.33.135][5e86f6][info] Try regenerate metadata for attachment #10146
+03-04-2020 08:38:43.1585903123.2992 [52.77.33.135][5e86f6][error] Failed regenerate meta data for attachment file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/12/quotes-1.png).
+03-04-2020 08:38:43.1585903123.3022 [52.77.33.135][5e86f6][debug] New queue created #49, attributes values: {"server_id":null,"object_id":"10146","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"error","processing_level":"normal","is_backed_up":false,"original_size":0,"final_size":0,"original_mime_type":"","final_mime_type":"","extra_data":"{\"error\":\"path\",\"error_msg\":\"Attachment cannot be optimized. Attachment #10146 doesn't have metadata, the image may be damaged.\",\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1585903123}
+03-04-2020 08:38:43.1585903123.3022 [52.77.33.135][5e86f6][error] Failed to find original attachment #10146 located in *empty path*. Skipping optimization. This may be caused due to bug in wp_get_attachment_metadata() function, which returns false for attachment meta
+03-04-2020 08:38:44.1585903124.2651 [52.77.33.135][5e86f6][info] End bulk optimization process! Scope: media-library. Remain: 45
+03-04-2020 08:42:59.1585903379.0172 [52.74.31.185][5e86f7][info] Start bulk optimization process! Scope: media-library
+03-04-2020 08:42:59.1585903379.0487 [52.74.31.185][5e86f7][debug] New queue created #50, attributes values: {"server_id":null,"object_id":"1454","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"error","processing_level":"normal","is_backed_up":false,"original_size":0,"final_size":0,"original_mime_type":"","final_mime_type":"","extra_data":"{\"error\":\"path\",\"error_msg\":\"Attachment cannot be optimized. File \\\"(\\\/home\\\/g0na2vu18mqm\\\/public_html\\\/wp-content\\\/uploads\\\/2017\\\/01\\\/cropped-favicon-1.png)\\\" doesn't exist\",\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1585903379}
+03-04-2020 08:42:59.1585903379.0488 [52.74.31.185][5e86f7][error] Failed to find original attachment #1454 located in *empty path*. Skipping optimization. This may be caused due to bug in wp_get_attachment_metadata() function, which returns false for attachment meta
+03-04-2020 08:42:59.1585903379.0978 [52.74.31.185][5e86f7][info] End bulk optimization process! Scope: media-library. Remain: 47
+03-04-2020 09:51:12.1585907472.2428 [52.77.33.135][5e8707][info] Start bulk optimization process! Scope: media-library
+03-04-2020 09:51:12.1585907472.2784 [52.77.33.135][5e8707][debug] New queue created #51, attributes values: {"server_id":null,"object_id":"1454","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"error","processing_level":"normal","is_backed_up":false,"original_size":0,"final_size":0,"original_mime_type":"","final_mime_type":"","extra_data":"{\"error\":\"path\",\"error_msg\":\"Attachment cannot be optimized. File \\\"(\\\/home\\\/g0na2vu18mqm\\\/public_html\\\/wp-content\\\/uploads\\\/2017\\\/01\\\/cropped-favicon-1.png)\\\" doesn't exist\",\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1585907472}
+03-04-2020 09:51:12.1585907472.2785 [52.77.33.135][5e8707][error] Failed to find original attachment #1454 located in *empty path*. Skipping optimization. This may be caused due to bug in wp_get_attachment_metadata() function, which returns false for attachment meta
+03-04-2020 09:51:12.1585907472.3436 [52.77.33.135][5e8707][info] End bulk optimization process! Scope: media-library. Remain: 47
+03-04-2020 09:51:16.1585907476.4967 [52.77.33.135][5e8707][info] Start bulk optimization process! Scope: media-library
+03-04-2020 09:51:16.1585907476.5272 [52.77.33.135][5e8707][debug] New queue created #52, attributes values: {"server_id":null,"object_id":"9744","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"error","processing_level":"normal","is_backed_up":false,"original_size":0,"final_size":0,"original_mime_type":"","final_mime_type":"","extra_data":"{\"error\":\"path\",\"error_msg\":\"Attachment cannot be optimized. File \\\"(\\\/home\\\/g0na2vu18mqm\\\/public_html\\\/wp-content\\\/uploads\\\/2016\\\/12\\\/pp-1.jpg)\\\" doesn't exist\",\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1585907476}
+03-04-2020 09:51:16.1585907476.5273 [52.77.33.135][5e8707][error] Failed to find original attachment #9744 located in *empty path*. Skipping optimization. This may be caused due to bug in wp_get_attachment_metadata() function, which returns false for attachment meta
+03-04-2020 09:51:16.1585907476.5817 [52.77.33.135][5e8707][info] End bulk optimization process! Scope: media-library. Remain: 46
+03-04-2020 09:51:21.1585907481.9336 [52.77.33.135][5e8707][info] Start bulk optimization process! Scope: media-library
+03-04-2020 09:51:23.1585907483.7593 [52.77.33.135][5e8707][warning] Attachment #10146 doesn't have metadata.
+03-04-2020 09:51:23.1585907483.7593 [52.77.33.135][5e8707][info] Try regenerate metadata for attachment #10146
+03-04-2020 09:51:23.1585907483.8024 [52.77.33.135][5e8707][error] Failed regenerate meta data for attachment file (/home/g0na2vu18mqm/public_html/wp-content/uploads/2019/12/quotes-1.png).
+03-04-2020 09:51:23.1585907483.8059 [52.77.33.135][5e8707][debug] New queue created #53, attributes values: {"server_id":null,"object_id":"10146","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"error","processing_level":"normal","is_backed_up":false,"original_size":0,"final_size":0,"original_mime_type":"","final_mime_type":"","extra_data":"{\"error\":\"path\",\"error_msg\":\"Attachment cannot be optimized. Attachment #10146 doesn't have metadata, the image may be damaged.\",\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1585907483}
+03-04-2020 09:51:23.1585907483.8059 [52.77.33.135][5e8707][error] Failed to find original attachment #10146 located in *empty path*. Skipping optimization. This may be caused due to bug in wp_get_attachment_metadata() function, which returns false for attachment meta
+03-04-2020 09:51:25.1585907485.4557 [52.77.33.135][5e8707][info] End bulk optimization process! Scope: media-library. Remain: 45
+03-04-2020 20:27:32.1585945652.1983 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/09/cropped-ewaste-1.jpg.
+03-04-2020 20:27:32.1585945652.2137 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/09/cropped-ewaste-1-150x150.jpg.
+03-04-2020 20:27:32.1585945652.2374 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/09/cropped-ewaste-1-300x300.jpg.
+03-04-2020 20:27:32.1585945652.2458 [52.77.33.135][5e879c][debug] Deleted queue item #2
+03-04-2020 20:27:32.1585945652.2662 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/10/cropped-ewaste1.png.
+03-04-2020 20:27:32.1585945652.2933 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/10/cropped-ewaste1-150x150.png.
+03-04-2020 20:27:32.1585945652.3274 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/10/cropped-ewaste1-300x300.png.
+03-04-2020 20:27:32.1585945652.3299 [52.77.33.135][5e879c][debug] Deleted queue item #3
+03-04-2020 20:27:32.1585945652.441 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11/WhatsApp-Image-2019-10-17-at-10.21.03-PM.jpeg.
+03-04-2020 20:27:32.1585945652.5266 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11/WhatsApp-Image-2019-10-17-at-10.21.03-PM-150x150.jpeg.
+03-04-2020 20:27:32.1585945652.5513 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11/WhatsApp-Image-2019-10-17-at-10.21.03-PM-300x169.jpeg.
+03-04-2020 20:27:32.1585945652.5541 [52.77.33.135][5e879c][debug] Deleted queue item #4
+03-04-2020 20:27:32.1585945652.7969 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11/WhatsApp-Image-2019-10-17-at-8.44.20-PM.jpeg.
+03-04-2020 20:27:33.1585945653.0357 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11/WhatsApp-Image-2019-10-17-at-8.44.20-PM-150x150.jpeg.
+03-04-2020 20:27:33.1585945653.0707 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11/WhatsApp-Image-2019-10-17-at-8.44.20-PM-300x225.jpeg.
+03-04-2020 20:27:33.1585945653.0745 [52.77.33.135][5e879c][debug] Deleted queue item #5
+03-04-2020 20:27:33.1585945653.2608 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11/WhatsApp-Image-2019-09-27-at-6.16.46-AM.jpeg.
+03-04-2020 20:27:33.1585945653.4147 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11/WhatsApp-Image-2019-09-27-at-6.16.46-AM-150x150.jpeg.
+03-04-2020 20:27:33.1585945653.4476 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11/WhatsApp-Image-2019-09-27-at-6.16.46-AM-169x300.jpeg.
+03-04-2020 20:27:33.1585945653.4522 [52.77.33.135][5e879c][debug] Deleted queue item #6
+03-04-2020 20:27:34.1585945654.0152 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11/ewaste1.png.
+03-04-2020 20:27:34.1585945654.5663 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11/ewaste1-150x150.png.
+03-04-2020 20:27:34.1585945654.6603 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11/ewaste1-300x300.png.
+03-04-2020 20:27:34.1585945654.6645 [52.77.33.135][5e879c][debug] Deleted queue item #7
+03-04-2020 20:27:34.1585945654.768 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/revslider/recycle3/green-wordpress-theme-orionthemes-3.jpg.
+03-04-2020 20:27:34.1585945654.7923 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/revslider/recycle3/green-wordpress-theme-orionthemes-3-150x150.jpg.
+03-04-2020 20:27:34.1585945654.8051 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/revslider/recycle3/green-wordpress-theme-orionthemes-3-300x169.jpg.
+03-04-2020 20:27:34.1585945654.8093 [52.77.33.135][5e879c][debug] Deleted queue item #8
+03-04-2020 20:27:34.1585945654.8478 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/revslider/recycle3/green-wordpress-theme-orionthemes-2.jpg.
+03-04-2020 20:27:34.1585945654.8862 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/revslider/recycle3/green-wordpress-theme-orionthemes-2-150x150.jpg.
+03-04-2020 20:27:34.1585945654.8948 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/revslider/recycle3/green-wordpress-theme-orionthemes-2-300x169.jpg.
+03-04-2020 20:27:34.1585945654.8982 [52.77.33.135][5e879c][debug] Deleted queue item #9
+03-04-2020 20:27:34.1585945654.9293 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/revslider/recycle3/green-wordpress-theme-orionthemes.jpg.
+03-04-2020 20:27:34.1585945654.9561 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/revslider/recycle3/green-wordpress-theme-orionthemes-150x150.jpg.
+03-04-2020 20:27:34.1585945654.9647 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/revslider/recycle3/green-wordpress-theme-orionthemes-300x169.jpg.
+03-04-2020 20:27:34.1585945654.968 [52.77.33.135][5e879c][debug] Deleted queue item #10
+03-04-2020 20:27:35.1585945655.0315 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11/cropped-ewaste1.png.
+03-04-2020 20:27:35.1585945655.1007 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11/cropped-ewaste1-150x150.png.
+03-04-2020 20:27:35.1585945655.1369 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11/cropped-ewaste1-300x300.png.
+03-04-2020 20:27:35.1585945655.1414 [52.77.33.135][5e879c][debug] Deleted queue item #11
+03-04-2020 20:27:35.1585945655.5047 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11/cropped-ewaste1-1.png.
+03-04-2020 20:27:35.1585945655.8586 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11/cropped-ewaste1-1-150x150.png.
+03-04-2020 20:27:35.1585945655.9489 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11/cropped-ewaste1-1-300x300.png.
+03-04-2020 20:27:35.1585945655.9521 [52.77.33.135][5e879c][debug] Deleted queue item #12
+03-04-2020 20:27:38.1585945658.8931 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11/IMG_1807-01-scaled.jpeg.
+03-04-2020 20:27:38.1585945658.9037 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11/IMG_1807-01-scaled-150x150.jpeg.
+03-04-2020 20:27:38.1585945658.9104 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11/IMG_1807-01-scaled-204x300.jpeg.
+03-04-2020 20:27:38.1585945658.9137 [52.77.33.135][5e879c][debug] Deleted queue item #13
+03-04-2020 20:27:38.1585945658.9247 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11/Average-agof-a-gamer-1.png.
+03-04-2020 20:27:38.1585945658.9339 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11/Average-agof-a-gamer-1-150x150.png.
+03-04-2020 20:27:38.1585945658.9385 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11/Average-agof-a-gamer-1-300x169.png.
+03-04-2020 20:27:38.1585945658.9422 [52.77.33.135][5e879c][debug] Deleted queue item #14
+03-04-2020 20:27:38.1585945658.9601 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11/Average-agof-a-gamer.png.
+03-04-2020 20:27:38.1585945658.9668 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11/Average-agof-a-gamer-150x150.png.
+03-04-2020 20:27:38.1585945658.9728 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11/Average-agof-a-gamer-300x169.png.
+03-04-2020 20:27:38.1585945658.9762 [52.77.33.135][5e879c][debug] Deleted queue item #15
+03-04-2020 20:27:38.1585945658.982 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11/IMG-20190925-WA0013.jpg.
+03-04-2020 20:27:38.1585945658.9964 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11/IMG-20190925-WA0013-150x150.jpg.
+03-04-2020 20:27:38.1585945658.9999 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11/IMG-20190925-WA0013-289x300.jpg.
+03-04-2020 20:27:39.1585945659.0037 [52.77.33.135][5e879c][debug] Deleted queue item #16
+03-04-2020 20:27:39.1585945659.0129 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11/IMG-20190925-WA0011.jpg.
+03-04-2020 20:27:39.1585945659.0165 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11/IMG-20190925-WA0011-150x150.jpg.
+03-04-2020 20:27:39.1585945659.0332 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11/IMG-20190925-WA0011-300x300.jpg.
+03-04-2020 20:27:39.1585945659.0365 [52.77.33.135][5e879c][debug] Deleted queue item #17
+03-04-2020 20:27:39.1585945659.0421 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11/IMG-20190925-WA0014.jpg.
+03-04-2020 20:27:39.1585945659.0476 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11/IMG-20190925-WA0014-150x150.jpg.
+03-04-2020 20:27:39.1585945659.0506 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11/IMG-20190925-WA0014-273x300.jpg.
+03-04-2020 20:27:39.1585945659.0542 [52.77.33.135][5e879c][debug] Deleted queue item #18
+03-04-2020 20:27:39.1585945659.068 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11/IMG-20190925-WA0012.jpg.
+03-04-2020 20:27:39.1585945659.0709 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11/IMG-20190925-WA0012-150x150.jpg.
+03-04-2020 20:27:39.1585945659.0738 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11/IMG-20190925-WA0012-300x246.jpg.
+03-04-2020 20:27:39.1585945659.0776 [52.77.33.135][5e879c][debug] Deleted queue item #19
+03-04-2020 20:27:39.1585945659.1161 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11/67836405_705165326599773_915623036789456896_n-scaled.jpg.
+03-04-2020 20:27:39.1585945659.8302 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11/67836405_705165326599773_915623036789456896_n-scaled-150x150.jpg.
+03-04-2020 20:27:39.1585945659.8615 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11/67836405_705165326599773_915623036789456896_n-scaled-300x169.jpg.
+03-04-2020 20:27:39.1585945659.8653 [52.77.33.135][5e879c][debug] Deleted queue item #20
+03-04-2020 20:27:39.1585945659.8933 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11/2b.png.
+03-04-2020 20:27:39.1585945659.9049 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11/2b-150x150.png.
+03-04-2020 20:27:39.1585945659.9258 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11/2b-300x84.png.
+03-04-2020 20:27:39.1585945659.9288 [52.77.33.135][5e879c][debug] Deleted queue item #21
+03-04-2020 20:27:39.1585945659.9361 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11/2c.png.
+03-04-2020 20:27:39.1585945659.9549 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11/2c-150x150.png.
+03-04-2020 20:27:39.1585945659.9657 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11/2c-178x300.png.
+03-04-2020 20:27:39.1585945659.9692 [52.77.33.135][5e879c][debug] Deleted queue item #22
+03-04-2020 20:27:39.1585945659.9899 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11/2d.png.
+03-04-2020 20:27:40.1585945660.0017 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11/2d-150x91.png.
+03-04-2020 20:27:40.1585945660.0094 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11/2d-300x30.png.
+03-04-2020 20:27:40.1585945660.0132 [52.77.33.135][5e879c][debug] Deleted queue item #23
+03-04-2020 20:27:40.1585945660.0638 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11/4b.png.
+03-04-2020 20:27:40.1585945660.1034 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11/4b-150x150.png.
+03-04-2020 20:27:40.1585945660.135 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11/4b-300x160.png.
+03-04-2020 20:27:40.1585945660.1389 [52.77.33.135][5e879c][debug] Deleted queue item #24
+03-04-2020 20:27:40.1585945660.1696 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11/4c.png.
+03-04-2020 20:27:40.1585945660.1851 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11/4c-150x150.png.
+03-04-2020 20:27:40.1585945660.2081 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11/4c-300x131.png.
+03-04-2020 20:27:40.1585945660.212 [52.77.33.135][5e879c][debug] Deleted queue item #25
+03-04-2020 20:27:40.1585945660.2345 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11/download.jpg.
+03-04-2020 20:27:40.1585945660.2474 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11/download-150x150.jpg.
+03-04-2020 20:27:40.1585945660.2509 [52.77.33.135][5e879c][debug] Deleted queue item #26
+03-04-2020 20:27:42.1585945662.985 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11/Gandhijilogo.png.
+03-04-2020 20:27:43.1585945663.0095 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11/Gandhijilogo-150x150.png.
+03-04-2020 20:27:43.1585945663.0365 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11/Gandhijilogo-300x215.png.
+03-04-2020 20:27:43.1585945663.0593 [52.77.33.135][5e879c][debug] Deleted queue item #27
+03-04-2020 20:27:43.1585945663.0926 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11/how_works2.gif.
+03-04-2020 20:27:43.1585945663.1339 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11/how_works2-150x150.gif.
+03-04-2020 20:27:43.1585945663.1527 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11/how_works2-300x66.gif.
+03-04-2020 20:27:43.1585945663.1592 [52.77.33.135][5e879c][debug] Deleted queue item #28
+03-04-2020 20:27:43.1585945663.2288 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11/pp.jpg.
+03-04-2020 20:27:43.1585945663.2908 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11/pp-150x150.jpg.
+03-04-2020 20:27:43.1585945663.3267 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11/pp-300x300.jpg.
+03-04-2020 20:27:43.1585945663.3651 [52.77.33.135][5e879c][debug] Deleted queue item #29
+03-04-2020 20:27:43.1585945663.3827 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/10/images-13.jpg.
+03-04-2020 20:27:43.1585945663.3937 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/10/images-13-150x150.jpg.
+03-04-2020 20:27:43.1585945663.4212 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/10/images-13-300x162.jpg.
+03-04-2020 20:27:43.1585945663.4251 [52.77.33.135][5e879c][debug] Deleted queue item #31
+03-04-2020 20:27:43.1585945663.4491 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/10/images-2.jpg.
+03-04-2020 20:27:43.1585945663.4765 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/10/images-2-150x150.jpg.
+03-04-2020 20:27:43.1585945663.5636 [52.77.33.135][5e879c][debug] Deleted queue item #32
+03-04-2020 20:27:43.1585945663.574 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/10/download-1.jpg.
+03-04-2020 20:27:43.1585945663.5781 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/10/download-1-150x150.jpg.
+03-04-2020 20:27:43.1585945663.656 [52.77.33.135][5e879c][debug] Deleted queue item #33
+03-04-2020 20:27:43.1585945663.8498 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/10/elwaste-e1523350816941.jpg.
+03-04-2020 20:27:44.1585945664.1149 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/10/elwaste-e1523350816941-150x150.jpg.
+03-04-2020 20:27:44.1585945664.1457 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/10/elwaste-e1523350816941-300x169.jpg.
+03-04-2020 20:27:44.1585945664.1496 [52.77.33.135][5e879c][debug] Deleted queue item #34
+03-04-2020 20:27:44.1585945664.2433 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/10/GettyImages-984719162.jpg.
+03-04-2020 20:27:44.1585945664.3186 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/10/GettyImages-984719162-150x150.jpg.
+03-04-2020 20:27:44.1585945664.3446 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/10/GettyImages-984719162-300x156.jpg.
+03-04-2020 20:27:44.1585945664.3589 [52.77.33.135][5e879c][debug] Deleted queue item #35
+03-04-2020 20:27:47.1585945667.3942 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/10/sequence-02-00_00_18_18-still002-1920x1080.png.
+03-04-2020 20:27:47.1585945667.4154 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/10/sequence-02-00_00_18_18-still002-1920x1080-150x150.png.
+03-04-2020 20:27:47.1585945667.4263 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/10/sequence-02-00_00_18_18-still002-1920x1080-300x169.png.
+03-04-2020 20:27:47.1585945667.43 [52.77.33.135][5e879c][debug] Deleted queue item #36
+03-04-2020 20:27:47.1585945667.44 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11/ARE-YOU-A-RESIDENTUAL-OR-INDIVIDUAL.png.
+03-04-2020 20:27:47.1585945667.4467 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11/ARE-YOU-A-RESIDENTUAL-OR-INDIVIDUAL-150x150.png.
+03-04-2020 20:27:47.1585945667.4759 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/11/ARE-YOU-A-RESIDENTUAL-OR-INDIVIDUAL-300x169.png.
+03-04-2020 20:27:47.1585945667.4788 [52.77.33.135][5e879c][debug] Deleted queue item #37
+03-04-2020 20:27:47.1585945667.488 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/./woocommerce-placeholder.png.
+03-04-2020 20:27:47.1585945667.492 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/./woocommerce-placeholder-150x150.png.
+03-04-2020 20:27:47.1585945667.5113 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/./woocommerce-placeholder-300x300.png.
+03-04-2020 20:27:47.1585945667.5144 [52.77.33.135][5e879c][debug] Deleted queue item #38
+03-04-2020 20:27:47.1585945667.5287 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/12/logo-regular-free-img.png.
+03-04-2020 20:27:47.1585945667.5345 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/12/logo-regular-free-img-150x53.png.
+03-04-2020 20:27:47.1585945667.5568 [52.77.33.135][5e879c][debug] Deleted queue item #39
+03-04-2020 20:27:47.1585945667.5607 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/12/atom01-free-img.png.
+03-04-2020 20:27:47.1585945667.5635 [52.77.33.135][5e879c][debug] Deleted queue item #40
+03-04-2020 20:27:47.1585945667.5675 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/12/dna-free-img.png.
+03-04-2020 20:27:47.1585945667.5703 [52.77.33.135][5e879c][debug] Deleted queue item #41
+03-04-2020 20:27:47.1585945667.5747 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/12/system-free-img.png.
+03-04-2020 20:27:47.1585945667.5773 [52.77.33.135][5e879c][debug] Deleted queue item #42
+03-04-2020 20:27:47.1585945667.5804 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/12/clip-free-img.png.
+03-04-2020 20:27:47.1585945667.6553 [52.77.33.135][5e879c][debug] Deleted queue item #43
+03-04-2020 20:27:47.1585945667.6593 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/12/magnify-free-img.png.
+03-04-2020 20:27:47.1585945667.662 [52.77.33.135][5e879c][debug] Deleted queue item #44
+03-04-2020 20:27:47.1585945667.6657 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/12/testtube-free-img.png.
+03-04-2020 20:27:47.1585945667.6682 [52.77.33.135][5e879c][debug] Deleted queue item #45
+03-04-2020 20:27:47.1585945667.6724 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/12/working-free-img.jpg.
+03-04-2020 20:27:47.1585945667.6757 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/12/working-free-img-150x150.jpg.
+03-04-2020 20:27:47.1585945667.688 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/12/working-free-img-300x266.jpg.
+03-04-2020 20:27:47.1585945667.6919 [52.77.33.135][5e879c][debug] Deleted queue item #46
+03-04-2020 20:27:47.1585945667.6978 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/12/mobile-shop-free-img.jpg.
+03-04-2020 20:27:47.1585945667.713 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/12/mobile-shop-free-img-150x150.jpg.
+03-04-2020 20:27:47.1585945667.7157 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/12/mobile-shop-free-img-300x266.jpg.
+03-04-2020 20:27:47.1585945667.7195 [52.77.33.135][5e879c][debug] Deleted queue item #47
+03-04-2020 20:27:47.1585945667.7425 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/12/working-clock-free-img.jpg.
+03-04-2020 20:27:47.1585945667.7616 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/12/working-clock-free-img-150x150.jpg.
+03-04-2020 20:27:47.1585945667.7884 [52.77.33.135][5e879c][info] Restored file: /home/g0na2vu18mqm/public_html/wp-content/uploads/wio_backup/2019/12/working-clock-free-img-300x266.jpg.
+03-04-2020 20:27:47.1585945667.7924 [52.77.33.135][5e879c][debug] Deleted queue item #48
+09-04-2020 14:22:53.1586442173.0182 [44.227.204.246][5e8f2f][info] Parent plugin start deactivation!
+09-04-2020 14:22:53.1586442173.0184 [44.227.204.246][5e8f2f][info] Parent plugin deactivation complete!

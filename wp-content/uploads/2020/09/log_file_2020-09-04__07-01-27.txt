@@ -1,0 +1,25 @@
+
+---Upload files---
+Customizer file was not uploaded. Error: No file provided.
+
+---Upload files---
+Redux file was not uploaded. Error: No file provided.
+
+---Upload files---
+The import files were successfully uploaded!
+Initial max execution time = 30
+Files info:
+Site URL = https://www.re4eco.com
+Data file = /home/re4eco5/public_html/wp-content/uploads/2020/09/eco-theme-wordpress-content.xml
+Widget file = /home/re4eco5/public_html/wp-content/uploads/2020/09/widget_demo_content.json
+Customizer file = not defined!
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+

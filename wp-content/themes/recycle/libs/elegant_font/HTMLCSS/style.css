@@ -1,0 +1,1159 @@
+@font-face {
+	font-family: 'ElegantIcons';
+	src:url('fonts/ElegantIcons.eot');
+	src:url('fonts/ElegantIcons.eot?#iefix') format('embedded-opentype'),
+		url('fonts/ElegantIcons.woff') format('woff'),
+		url('fonts/ElegantIcons.ttf') format('truetype'),
+		url('fonts/ElegantIcons.svg#ElegantIcons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-value]:before {
+	font-family: 'ElegantIcons';
+	content: attr(data-value);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="your-class-prefix"] {
+*/
+.eleganticons-arrow_up, .eleganticons-arrow_down, .eleganticons-arrow_left, .eleganticons-arrow_right, .eleganticons-arrow_left-up, .eleganticons-arrow_right-up, .eleganticons-arrow_right-down, .eleganticons-arrow_left-down, .eleganticons-arrow-up-down, .eleganticons-arrow_up-down_alt, .eleganticons-arrow_left-right_alt, .eleganticons-arrow_left-right, .eleganticons-arrow_expand_alt2, .eleganticons-arrow_expand_alt, .eleganticons-arrow_condense, .eleganticons-arrow_expand, .eleganticons-arrow_move, .eleganticons-arrow_carrot-up, .eleganticons-arrow_carrot-down, .eleganticons-arrow_carrot-left, .eleganticons-arrow_carrot-right, .eleganticons-arrow_carrot-2up, .eleganticons-arrow_carrot-2down, .eleganticons-arrow_carrot-2left, .eleganticons-arrow_carrot-2right, .eleganticons-arrow_carrot-up_alt2, .eleganticons-arrow_carrot-down_alt2, .eleganticons-arrow_carrot-left_alt2, .eleganticons-arrow_carrot-right_alt2, .eleganticons-arrow_carrot-2up_alt2, .eleganticons-arrow_carrot-2down_alt2, .eleganticons-arrow_carrot-2left_alt2, .eleganticons-arrow_carrot-2right_alt2, .eleganticons-arrow_triangle-up, .eleganticons-arrow_triangle-down, .eleganticons-arrow_triangle-left, .eleganticons-arrow_triangle-right, .eleganticons-arrow_triangle-up_alt2, .eleganticons-arrow_triangle-down_alt2, .eleganticons-arrow_triangle-left_alt2, .eleganticons-arrow_triangle-right_alt2, .eleganticons-arrow_back, .eleganticons-icon_minus-06, .eleganticons-icon_plus, .eleganticons-icon_close, .eleganticons-icon_check, .eleganticons-icon_minus_alt2, .eleganticons-icon_plus_alt2, .eleganticons-icon_close_alt2, .eleganticons-icon_check_alt2, .eleganticons-icon_zoom-out_alt, .eleganticons-icon_zoom-in_alt, .eleganticons-icon_search, .eleganticons-icon_box-empty, .eleganticons-icon_box-selected, .eleganticons-icon_minus-box, .eleganticons-icon_plus-box, .eleganticons-icon_box-checked, .eleganticons-icon_circle-empty, .eleganticons-icon_circle-slelected, .eleganticons-icon_stop_alt2, .eleganticons-icon_stop, .eleganticons-icon_pause_alt2, .eleganticons-icon_pause, .eleganticons-icon_menu, .eleganticons-icon_menu-square_alt2, .eleganticons-icon_menu-circle_alt2, .eleganticons-icon_ul, .eleganticons-icon_ol, .eleganticons-icon_adjust-horiz, .eleganticons-icon_adjust-vert, .eleganticons-icon_document_alt, .eleganticons-icon_documents_alt, .eleganticons-icon_pencil, .eleganticons-icon_pencil-edit_alt, .eleganticons-icon_pencil-edit, .eleganticons-icon_folder-alt, .eleganticons-icon_folder-open_alt, .eleganticons-icon_folder-add_alt, .eleganticons-icon_info_alt, .eleganticons-icon_error-oct_alt, .eleganticons-icon_error-circle_alt, .eleganticons-icon_error-triangle_alt, .eleganticons-icon_question_alt2, .eleganticons-icon_question, .eleganticons-icon_comment_alt, .eleganticons-icon_chat_alt, .eleganticons-icon_vol-mute_alt, .eleganticons-icon_volume-low_alt, .eleganticons-icon_volume-high_alt, .eleganticons-icon_quotations, .eleganticons-icon_quotations_alt2, .eleganticons-icon_clock_alt, .eleganticons-icon_lock_alt, .eleganticons-icon_lock-open_alt, .eleganticons-icon_key_alt, .eleganticons-icon_cloud_alt, .eleganticons-icon_cloud-upload_alt, .eleganticons-icon_cloud-download_alt, .eleganticons-icon_image, .eleganticons-icon_images, .eleganticons-icon_lightbulb_alt, .eleganticons-icon_gift_alt, .eleganticons-icon_house_alt, .eleganticons-icon_genius, .eleganticons-icon_mobile, .eleganticons-icon_tablet, .eleganticons-icon_laptop, .eleganticons-icon_desktop, .eleganticons-icon_camera_alt, .eleganticons-icon_mail_alt, .eleganticons-icon_cone_alt, .eleganticons-icon_ribbon_alt, .eleganticons-icon_bag_alt, .eleganticons-icon_creditcard, .eleganticons-icon_cart_alt, .eleganticons-icon_paperclip, .eleganticons-icon_tag_alt, .eleganticons-icon_tags_alt, .eleganticons-icon_trash_alt, .eleganticons-icon_cursor_alt, .eleganticons-icon_mic_alt, .eleganticons-icon_compass_alt, .eleganticons-icon_pin_alt, .eleganticons-icon_pushpin_alt, .eleganticons-icon_map_alt, .eleganticons-icon_drawer_alt, .eleganticons-icon_toolbox_alt, .eleganticons-icon_book_alt, .eleganticons-icon_calendar, .eleganticons-icon_film, .eleganticons-icon_table, .eleganticons-icon_contacts_alt, .eleganticons-icon_headphones, .eleganticons-icon_lifesaver, .eleganticons-icon_piechart, .eleganticons-icon_refresh, .eleganticons-icon_link_alt, .eleganticons-icon_link, .eleganticons-icon_loading, .eleganticons-icon_blocked, .eleganticons-icon_archive_alt, .eleganticons-icon_heart_alt, .eleganticons-icon_star_alt, .eleganticons-icon_star-half_alt, .eleganticons-icon_star, .eleganticons-icon_star-half, .eleganticons-icon_tools, .eleganticons-icon_tool, .eleganticons-icon_cog, .eleganticons-icon_cogs, .eleganticons-arrow_up_alt, .eleganticons-arrow_down_alt, .eleganticons-arrow_left_alt, .eleganticons-arrow_right_alt, .eleganticons-arrow_left-up_alt, .eleganticons-arrow_right-up_alt, .eleganticons-arrow_right-down_alt, .eleganticons-arrow_left-down_alt, .eleganticons-arrow_condense_alt, .eleganticons-arrow_expand_alt3, .eleganticons-arrow_carrot_up_alt, .eleganticons-arrow_carrot-down_alt, .eleganticons-arrow_carrot-left_alt, .eleganticons-arrow_carrot-right_alt, .eleganticons-arrow_carrot-2up_alt, .eleganticons-arrow_carrot-2dwnn_alt, .eleganticons-arrow_carrot-2left_alt, .eleganticons-arrow_carrot-2right_alt, .eleganticons-arrow_triangle-up_alt, .eleganticons-arrow_triangle-down_alt, .eleganticons-arrow_triangle-left_alt, .eleganticons-arrow_triangle-right_alt, .eleganticons-icon_minus_alt, .eleganticons-icon_plus_alt, .eleganticons-icon_close_alt, .eleganticons-icon_check_alt, .eleganticons-icon_zoom-out, .eleganticons-icon_zoom-in, .eleganticons-icon_stop_alt, .eleganticons-icon_menu-square_alt, .eleganticons-icon_menu-circle_alt, .eleganticons-icon_document, .eleganticons-icon_documents, .eleganticons-icon_pencil_alt, .eleganticons-icon_folder, .eleganticons-icon_folder-open, .eleganticons-icon_folder-add, .eleganticons-icon_folder_upload, .eleganticons-icon_folder_download, .eleganticons-icon_info, .eleganticons-icon_error-circle, .eleganticons-icon_error-oct, .eleganticons-icon_error-triangle, .eleganticons-icon_question_alt, .eleganticons-icon_comment, .eleganticons-icon_chat, .eleganticons-icon_vol-mute, .eleganticons-icon_volume-low, .eleganticons-icon_volume-high, .eleganticons-icon_quotations_alt, .eleganticons-icon_clock, .eleganticons-icon_lock, .eleganticons-icon_lock-open, .eleganticons-icon_key, .eleganticons-icon_cloud, .eleganticons-icon_cloud-upload, .eleganticons-icon_cloud-download, .eleganticons-icon_lightbulb, .eleganticons-icon_gift, .eleganticons-icon_house, .eleganticons-icon_camera, .eleganticons-icon_mail, .eleganticons-icon_cone, .eleganticons-icon_ribbon, .eleganticons-icon_bag, .eleganticons-icon_cart, .eleganticons-icon_tag, .eleganticons-icon_tags, .eleganticons-icon_trash, .eleganticons-icon_cursor, .eleganticons-icon_mic, .eleganticons-icon_compass, .eleganticons-icon_pin, .eleganticons-icon_pushpin, .eleganticons-icon_map, .eleganticons-icon_drawer, .eleganticons-icon_toolbox, .eleganticons-icon_book, .eleganticons-icon_contacts, .eleganticons-icon_archive, .eleganticons-icon_heart, .eleganticons-icon_profile, .eleganticons-icon_group, .eleganticons-icon_grid-2x2, .eleganticons-icon_grid-3x3, .eleganticons-icon_music, .eleganticons-icon_pause_alt, .eleganticons-icon_phone, .eleganticons-icon_upload, .eleganticons-icon_download, .eleganticons-social_facebook, .eleganticons-social_twitter, .eleganticons-social_pinterest, .eleganticons-social_googleplus, .eleganticons-social_tumblr, .eleganticons-social_tumbleupon, .eleganticons-social_wordpress, .eleganticons-social_instagram, .eleganticons-social_dribbble, .eleganticons-social_vimeo, .eleganticons-social_linkedin, .eleganticons-social_rss, .eleganticons-social_deviantart, .eleganticons-social_share, .eleganticons-social_myspace, .eleganticons-social_skype, .eleganticons-social_youtube, .eleganticons-social_picassa, .eleganticons-social_googledrive, .eleganticons-social_flickr, .eleganticons-social_blogger, .eleganticons-social_spotify, .eleganticons-social_delicious, .eleganticons-social_facebook_circle, .eleganticons-social_twitter_circle, .eleganticons-social_pinterest_circle, .eleganticons-social_googleplus_circle, .eleganticons-social_tumblr_circle, .eleganticons-social_stumbleupon_circle, .eleganticons-social_wordpress_circle, .eleganticons-social_instagram_circle, .eleganticons-social_dribbble_circle, .eleganticons-social_vimeo_circle, .eleganticons-social_linkedin_circle, .eleganticons-social_rss_circle, .eleganticons-social_deviantart_circle, .eleganticons-social_share_circle, .eleganticons-social_myspace_circle, .eleganticons-social_skype_circle, .eleganticons-social_youtube_circle, .eleganticons-social_picassa_circle, .eleganticons-social_googledrive_alt2, .eleganticons-social_flickr_circle, .eleganticons-social_blogger_circle, .eleganticons-social_spotify_circle, .eleganticons-social_delicious_circle, .eleganticons-social_facebook_square, .eleganticons-social_twitter_square, .eleganticons-social_pinterest_square, .eleganticons-social_googleplus_square, .eleganticons-social_tumblr_square, .eleganticons-social_stumbleupon_square, .eleganticons-social_wordpress_square, .eleganticons-social_instagram_square, .eleganticons-social_dribbble_square, .eleganticons-social_vimeo_square, .eleganticons-social_linkedin_square, .eleganticons-social_rss_square, .eleganticons-social_deviantart_square, .eleganticons-social_share_square, .eleganticons-social_myspace_square, .eleganticons-social_skype_square, .eleganticons-social_youtube_square, .eleganticons-social_picassa_square, .eleganticons-social_googledrive_square, .eleganticons-social_flickr_square, .eleganticons-social_blogger_square, .eleganticons-social_spotify_square, .eleganticons-social_delicious_square, .eleganticons-icon_printer, .eleganticons-icon_calulator, .eleganticons-icon_building, .eleganticons-icon_floppy, .eleganticons-icon_drive, .eleganticons-icon_search-2, .eleganticons-icon_id, .eleganticons-icon_id-2, .eleganticons-icon_puzzle, .eleganticons-icon_like, .eleganticons-icon_dislike, .eleganticons-icon_mug, .eleganticons-icon_currency, .eleganticons-icon_wallet, .eleganticons-icon_pens, .eleganticons-icon_easel, .eleganticons-icon_flowchart, .eleganticons-icon_datareport, .eleganticons-icon_briefcase, .eleganticons-icon_shield, .eleganticons-icon_percent, .eleganticons-icon_globe, .eleganticons-icon_globe-2, .eleganticons-icon_target, .eleganticons-icon_hourglass, .eleganticons-icon_balance, .eleganticons-icon_rook, .eleganticons-icon_printer-alt, .eleganticons-icon_calculator_alt, .eleganticons-icon_building_alt, .eleganticons-icon_floppy_alt, .eleganticons-icon_drive_alt, .eleganticons-icon_search_alt, .eleganticons-icon_id_alt, .eleganticons-icon_id-2_alt, .eleganticons-icon_puzzle_alt, .eleganticons-icon_like_alt, .eleganticons-icon_dislike_alt, .eleganticons-icon_mug_alt, .eleganticons-icon_currency_alt, .eleganticons-icon_wallet_alt, .eleganticons-icon_pens_alt, .eleganticons-icon_easel_alt, .eleganticons-icon_flowchart_alt, .eleganticons-icon_datareport_alt, .eleganticons-icon_briefcase_alt, .eleganticons-icon_shield_alt, .eleganticons-icon_percent_alt, .eleganticons-icon_globe_alt, .eleganticons-icon_clipboard {
+	font-family: 'ElegantIcons';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.eleganticons-arrow_up:before {
+	content: "\21";
+}
+.eleganticons-arrow_down:before {
+	content: "\22";
+}
+.eleganticons-arrow_left:before {
+	content: "\23";
+}
+.eleganticons-arrow_right:before {
+	content: "\24";
+}
+.eleganticons-arrow_left-up:before {
+	content: "\25";
+}
+.eleganticons-arrow_right-up:before {
+	content: "\26";
+}
+.eleganticons-arrow_right-down:before {
+	content: "\27";
+}
+.eleganticons-arrow_left-down:before {
+	content: "\28";
+}
+.eleganticons-arrow-up-down:before {
+	content: "\29";
+}
+.eleganticons-arrow_up-down_alt:before {
+	content: "\2a";
+}
+.eleganticons-arrow_left-right_alt:before {
+	content: "\2b";
+}
+.eleganticons-arrow_left-right:before {
+	content: "\2c";
+}
+.eleganticons-arrow_expand_alt2:before {
+	content: "\2d";
+}
+.eleganticons-arrow_expand_alt:before {
+	content: "\2e";
+}
+.eleganticons-arrow_condense:before {
+	content: "\2f";
+}
+.eleganticons-arrow_expand:before {
+	content: "\30";
+}
+.eleganticons-arrow_move:before {
+	content: "\31";
+}
+.eleganticons-arrow_carrot-up:before {
+	content: "\32";
+}
+.eleganticons-arrow_carrot-down:before {
+	content: "\33";
+}
+.eleganticons-arrow_carrot-left:before {
+	content: "\34";
+}
+.eleganticons-arrow_carrot-right:before {
+	content: "\35";
+}
+.eleganticons-arrow_carrot-2up:before {
+	content: "\36";
+}
+.eleganticons-arrow_carrot-2down:before {
+	content: "\37";
+}
+.eleganticons-arrow_carrot-2left:before {
+	content: "\38";
+}
+.eleganticons-arrow_carrot-2right:before {
+	content: "\39";
+}
+.eleganticons-arrow_carrot-up_alt2:before {
+	content: "\3a";
+}
+.eleganticons-arrow_carrot-down_alt2:before {
+	content: "\3b";
+}
+.eleganticons-arrow_carrot-left_alt2:before {
+	content: "\3c";
+}
+.eleganticons-arrow_carrot-right_alt2:before {
+	content: "\3d";
+}
+.eleganticons-arrow_carrot-2up_alt2:before {
+	content: "\3e";
+}
+.eleganticons-arrow_carrot-2down_alt2:before {
+	content: "\3f";
+}
+.eleganticons-arrow_carrot-2left_alt2:before {
+	content: "\40";
+}
+.eleganticons-arrow_carrot-2right_alt2:before {
+	content: "\41";
+}
+.eleganticons-arrow_triangle-up:before {
+	content: "\42";
+}
+.eleganticons-arrow_triangle-down:before {
+	content: "\43";
+}
+.eleganticons-arrow_triangle-left:before {
+	content: "\44";
+}
+.eleganticons-arrow_triangle-right:before {
+	content: "\45";
+}
+.eleganticons-arrow_triangle-up_alt2:before {
+	content: "\46";
+}
+.eleganticons-arrow_triangle-down_alt2:before {
+	content: "\47";
+}
+.eleganticons-arrow_triangle-left_alt2:before {
+	content: "\48";
+}
+.eleganticons-arrow_triangle-right_alt2:before {
+	content: "\49";
+}
+.eleganticons-arrow_back:before {
+	content: "\4a";
+}
+.eleganticons-icon_minus-06:before {
+	content: "\4b";
+}
+.eleganticons-icon_plus:before {
+	content: "\4c";
+}
+.eleganticons-icon_close:before {
+	content: "\4d";
+}
+.eleganticons-icon_check:before {
+	content: "\4e";
+}
+.eleganticons-icon_minus_alt2:before {
+	content: "\4f";
+}
+.eleganticons-icon_plus_alt2:before {
+	content: "\50";
+}
+.eleganticons-icon_close_alt2:before {
+	content: "\51";
+}
+.eleganticons-icon_check_alt2:before {
+	content: "\52";
+}
+.eleganticons-icon_zoom-out_alt:before {
+	content: "\53";
+}
+.eleganticons-icon_zoom-in_alt:before {
+	content: "\54";
+}
+.eleganticons-icon_search:before {
+	content: "\55";
+}
+.eleganticons-icon_box-empty:before {
+	content: "\56";
+}
+.eleganticons-icon_box-selected:before {
+	content: "\57";
+}
+.eleganticons-icon_minus-box:before {
+	content: "\58";
+}
+.eleganticons-icon_plus-box:before {
+	content: "\59";
+}
+.eleganticons-icon_box-checked:before {
+	content: "\5a";
+}
+.eleganticons-icon_circle-empty:before {
+	content: "\5b";
+}
+.eleganticons-icon_circle-slelected:before {
+	content: "\5c";
+}
+.eleganticons-icon_stop_alt2:before {
+	content: "\5d";
+}
+.eleganticons-icon_stop:before {
+	content: "\5e";
+}
+.eleganticons-icon_pause_alt2:before {
+	content: "\5f";
+}
+.eleganticons-icon_pause:before {
+	content: "\60";
+}
+.eleganticons-icon_menu:before {
+	content: "\61";
+}
+.eleganticons-icon_menu-square_alt2:before {
+	content: "\62";
+}
+.eleganticons-icon_menu-circle_alt2:before {
+	content: "\63";
+}
+.eleganticons-icon_ul:before {
+	content: "\64";
+}
+.eleganticons-icon_ol:before {
+	content: "\65";
+}
+.eleganticons-icon_adjust-horiz:before {
+	content: "\66";
+}
+.eleganticons-icon_adjust-vert:before {
+	content: "\67";
+}
+.eleganticons-icon_document_alt:before {
+	content: "\68";
+}
+.eleganticons-icon_documents_alt:before {
+	content: "\69";
+}
+.eleganticons-icon_pencil:before {
+	content: "\6a";
+}
+.eleganticons-icon_pencil-edit_alt:before {
+	content: "\6b";
+}
+.eleganticons-icon_pencil-edit:before {
+	content: "\6c";
+}
+.eleganticons-icon_folder-alt:before {
+	content: "\6d";
+}
+.eleganticons-icon_folder-open_alt:before {
+	content: "\6e";
+}
+.eleganticons-icon_folder-add_alt:before {
+	content: "\6f";
+}
+.eleganticons-icon_info_alt:before {
+	content: "\70";
+}
+.eleganticons-icon_error-oct_alt:before {
+	content: "\71";
+}
+.eleganticons-icon_error-circle_alt:before {
+	content: "\72";
+}
+.eleganticons-icon_error-triangle_alt:before {
+	content: "\73";
+}
+.eleganticons-icon_question_alt2:before {
+	content: "\74";
+}
+.eleganticons-icon_question:before {
+	content: "\75";
+}
+.eleganticons-icon_comment_alt:before {
+	content: "\76";
+}
+.eleganticons-icon_chat_alt:before {
+	content: "\77";
+}
+.eleganticons-icon_vol-mute_alt:before {
+	content: "\78";
+}
+.eleganticons-icon_volume-low_alt:before {
+	content: "\79";
+}
+.eleganticons-icon_volume-high_alt:before {
+	content: "\7a";
+}
+.eleganticons-icon_quotations:before {
+	content: "\7b";
+}
+.eleganticons-icon_quotations_alt2:before {
+	content: "\7c";
+}
+.eleganticons-icon_clock_alt:before {
+	content: "\7d";
+}
+.eleganticons-icon_lock_alt:before {
+	content: "\7e";
+}
+.eleganticons-icon_lock-open_alt:before {
+	content: "\e000";
+}
+.eleganticons-icon_key_alt:before {
+	content: "\e001";
+}
+.eleganticons-icon_cloud_alt:before {
+	content: "\e002";
+}
+.eleganticons-icon_cloud-upload_alt:before {
+	content: "\e003";
+}
+.eleganticons-icon_cloud-download_alt:before {
+	content: "\e004";
+}
+.eleganticons-icon_image:before {
+	content: "\e005";
+}
+.eleganticons-icon_images:before {
+	content: "\e006";
+}
+.eleganticons-icon_lightbulb_alt:before {
+	content: "\e007";
+}
+.eleganticons-icon_gift_alt:before {
+	content: "\e008";
+}
+.eleganticons-icon_house_alt:before {
+	content: "\e009";
+}
+.eleganticons-icon_genius:before {
+	content: "\e00a";
+}
+.eleganticons-icon_mobile:before {
+	content: "\e00b";
+}
+.eleganticons-icon_tablet:before {
+	content: "\e00c";
+}
+.eleganticons-icon_laptop:before {
+	content: "\e00d";
+}
+.eleganticons-icon_desktop:before {
+	content: "\e00e";
+}
+.eleganticons-icon_camera_alt:before {
+	content: "\e00f";
+}
+.eleganticons-icon_mail_alt:before {
+	content: "\e010";
+}
+.eleganticons-icon_cone_alt:before {
+	content: "\e011";
+}
+.eleganticons-icon_ribbon_alt:before {
+	content: "\e012";
+}
+.eleganticons-icon_bag_alt:before {
+	content: "\e013";
+}
+.eleganticons-icon_creditcard:before {
+	content: "\e014";
+}
+.eleganticons-icon_cart_alt:before {
+	content: "\e015";
+}
+.eleganticons-icon_paperclip:before {
+	content: "\e016";
+}
+.eleganticons-icon_tag_alt:before {
+	content: "\e017";
+}
+.eleganticons-icon_tags_alt:before {
+	content: "\e018";
+}
+.eleganticons-icon_trash_alt:before {
+	content: "\e019";
+}
+.eleganticons-icon_cursor_alt:before {
+	content: "\e01a";
+}
+.eleganticons-icon_mic_alt:before {
+	content: "\e01b";
+}
+.eleganticons-icon_compass_alt:before {
+	content: "\e01c";
+}
+.eleganticons-icon_pin_alt:before {
+	content: "\e01d";
+}
+.eleganticons-icon_pushpin_alt:before {
+	content: "\e01e";
+}
+.eleganticons-icon_map_alt:before {
+	content: "\e01f";
+}
+.eleganticons-icon_drawer_alt:before {
+	content: "\e020";
+}
+.eleganticons-icon_toolbox_alt:before {
+	content: "\e021";
+}
+.eleganticons-icon_book_alt:before {
+	content: "\e022";
+}
+.eleganticons-icon_calendar:before {
+	content: "\e023";
+}
+.eleganticons-icon_film:before {
+	content: "\e024";
+}
+.eleganticons-icon_table:before {
+	content: "\e025";
+}
+.eleganticons-icon_contacts_alt:before {
+	content: "\e026";
+}
+.eleganticons-icon_headphones:before {
+	content: "\e027";
+}
+.eleganticons-icon_lifesaver:before {
+	content: "\e028";
+}
+.eleganticons-icon_piechart:before {
+	content: "\e029";
+}
+.eleganticons-icon_refresh:before {
+	content: "\e02a";
+}
+.eleganticons-icon_link_alt:before {
+	content: "\e02b";
+}
+.eleganticons-icon_link:before {
+	content: "\e02c";
+}
+.eleganticons-icon_loading:before {
+	content: "\e02d";
+}
+.eleganticons-icon_blocked:before {
+	content: "\e02e";
+}
+.eleganticons-icon_archive_alt:before {
+	content: "\e02f";
+}
+.eleganticons-icon_heart_alt:before {
+	content: "\e030";
+}
+.eleganticons-icon_star_alt:before {
+	content: "\e031";
+}
+.eleganticons-icon_star-half_alt:before {
+	content: "\e032";
+}
+.eleganticons-icon_star:before {
+	content: "\e033";
+}
+.eleganticons-icon_star-half:before {
+	content: "\e034";
+}
+.eleganticons-icon_tools:before {
+	content: "\e035";
+}
+.eleganticons-icon_tool:before {
+	content: "\e036";
+}
+.eleganticons-icon_cog:before {
+	content: "\e037";
+}
+.eleganticons-icon_cogs:before {
+	content: "\e038";
+}
+.eleganticons-arrow_up_alt:before {
+	content: "\e039";
+}
+.eleganticons-arrow_down_alt:before {
+	content: "\e03a";
+}
+.eleganticons-arrow_left_alt:before {
+	content: "\e03b";
+}
+.eleganticons-arrow_right_alt:before {
+	content: "\e03c";
+}
+.eleganticons-arrow_left-up_alt:before {
+	content: "\e03d";
+}
+.eleganticons-arrow_right-up_alt:before {
+	content: "\e03e";
+}
+.eleganticons-arrow_right-down_alt:before {
+	content: "\e03f";
+}
+.eleganticons-arrow_left-down_alt:before {
+	content: "\e040";
+}
+.eleganticons-arrow_condense_alt:before {
+	content: "\e041";
+}
+.eleganticons-arrow_expand_alt3:before {
+	content: "\e042";
+}
+.eleganticons-arrow_carrot_up_alt:before {
+	content: "\e043";
+}
+.eleganticons-arrow_carrot-down_alt:before {
+	content: "\e044";
+}
+.eleganticons-arrow_carrot-left_alt:before {
+	content: "\e045";
+}
+.eleganticons-arrow_carrot-right_alt:before {
+	content: "\e046";
+}
+.eleganticons-arrow_carrot-2up_alt:before {
+	content: "\e047";
+}
+.eleganticons-arrow_carrot-2dwnn_alt:before {
+	content: "\e048";
+}
+.eleganticons-arrow_carrot-2left_alt:before {
+	content: "\e049";
+}
+.eleganticons-arrow_carrot-2right_alt:before {
+	content: "\e04a";
+}
+.eleganticons-arrow_triangle-up_alt:before {
+	content: "\e04b";
+}
+.eleganticons-arrow_triangle-down_alt:before {
+	content: "\e04c";
+}
+.eleganticons-arrow_triangle-left_alt:before {
+	content: "\e04d";
+}
+.eleganticons-arrow_triangle-right_alt:before {
+	content: "\e04e";
+}
+.eleganticons-icon_minus_alt:before {
+	content: "\e04f";
+}
+.eleganticons-icon_plus_alt:before {
+	content: "\e050";
+}
+.eleganticons-icon_close_alt:before {
+	content: "\e051";
+}
+.eleganticons-icon_check_alt:before {
+	content: "\e052";
+}
+.eleganticons-icon_zoom-out:before {
+	content: "\e053";
+}
+.eleganticons-icon_zoom-in:before {
+	content: "\e054";
+}
+.eleganticons-icon_stop_alt:before {
+	content: "\e055";
+}
+.eleganticons-icon_menu-square_alt:before {
+	content: "\e056";
+}
+.eleganticons-icon_menu-circle_alt:before {
+	content: "\e057";
+}
+.eleganticons-icon_document:before {
+	content: "\e058";
+}
+.eleganticons-icon_documents:before {
+	content: "\e059";
+}
+.eleganticons-icon_pencil_alt:before {
+	content: "\e05a";
+}
+.eleganticons-icon_folder:before {
+	content: "\e05b";
+}
+.eleganticons-icon_folder-open:before {
+	content: "\e05c";
+}
+.eleganticons-icon_folder-add:before {
+	content: "\e05d";
+}
+.eleganticons-icon_folder_upload:before {
+	content: "\e05e";
+}
+.eleganticons-icon_folder_download:before {
+	content: "\e05f";
+}
+.eleganticons-icon_info:before {
+	content: "\e060";
+}
+.eleganticons-icon_error-circle:before {
+	content: "\e061";
+}
+.eleganticons-icon_error-oct:before {
+	content: "\e062";
+}
+.eleganticons-icon_error-triangle:before {
+	content: "\e063";
+}
+.eleganticons-icon_question_alt:before {
+	content: "\e064";
+}
+.eleganticons-icon_comment:before {
+	content: "\e065";
+}
+.eleganticons-icon_chat:before {
+	content: "\e066";
+}
+.eleganticons-icon_vol-mute:before {
+	content: "\e067";
+}
+.eleganticons-icon_volume-low:before {
+	content: "\e068";
+}
+.eleganticons-icon_volume-high:before {
+	content: "\e069";
+}
+.eleganticons-icon_quotations_alt:before {
+	content: "\e06a";
+}
+.eleganticons-icon_clock:before {
+	content: "\e06b";
+}
+.eleganticons-icon_lock:before {
+	content: "\e06c";
+}
+.eleganticons-icon_lock-open:before {
+	content: "\e06d";
+}
+.eleganticons-icon_key:before {
+	content: "\e06e";
+}
+.eleganticons-icon_cloud:before {
+	content: "\e06f";
+}
+.eleganticons-icon_cloud-upload:before {
+	content: "\e070";
+}
+.eleganticons-icon_cloud-download:before {
+	content: "\e071";
+}
+.eleganticons-icon_lightbulb:before {
+	content: "\e072";
+}
+.eleganticons-icon_gift:before {
+	content: "\e073";
+}
+.eleganticons-icon_house:before {
+	content: "\e074";
+}
+.eleganticons-icon_camera:before {
+	content: "\e075";
+}
+.eleganticons-icon_mail:before {
+	content: "\e076";
+}
+.eleganticons-icon_cone:before {
+	content: "\e077";
+}
+.eleganticons-icon_ribbon:before {
+	content: "\e078";
+}
+.eleganticons-icon_bag:before {
+	content: "\e079";
+}
+.eleganticons-icon_cart:before {
+	content: "\e07a";
+}
+.eleganticons-icon_tag:before {
+	content: "\e07b";
+}
+.eleganticons-icon_tags:before {
+	content: "\e07c";
+}
+.eleganticons-icon_trash:before {
+	content: "\e07d";
+}
+.eleganticons-icon_cursor:before {
+	content: "\e07e";
+}
+.eleganticons-icon_mic:before {
+	content: "\e07f";
+}
+.eleganticons-icon_compass:before {
+	content: "\e080";
+}
+.eleganticons-icon_pin:before {
+	content: "\e081";
+}
+.eleganticons-icon_pushpin:before {
+	content: "\e082";
+}
+.eleganticons-icon_map:before {
+	content: "\e083";
+}
+.eleganticons-icon_drawer:before {
+	content: "\e084";
+}
+.eleganticons-icon_toolbox:before {
+	content: "\e085";
+}
+.eleganticons-icon_book:before {
+	content: "\e086";
+}
+.eleganticons-icon_contacts:before {
+	content: "\e087";
+}
+.eleganticons-icon_archive:before {
+	content: "\e088";
+}
+.eleganticons-icon_heart:before {
+	content: "\e089";
+}
+.eleganticons-icon_profile:before {
+	content: "\e08a";
+}
+.eleganticons-icon_group:before {
+	content: "\e08b";
+}
+.eleganticons-icon_grid-2x2:before {
+	content: "\e08c";
+}
+.eleganticons-icon_grid-3x3:before {
+	content: "\e08d";
+}
+.eleganticons-icon_music:before {
+	content: "\e08e";
+}
+.eleganticons-icon_pause_alt:before {
+	content: "\e08f";
+}
+.eleganticons-icon_phone:before {
+	content: "\e090";
+}
+.eleganticons-icon_upload:before {
+	content: "\e091";
+}
+.eleganticons-icon_download:before {
+	content: "\e092";
+}
+.eleganticons-social_facebook:before {
+	content: "\e093";
+}
+.eleganticons-social_twitter:before {
+	content: "\e094";
+}
+.eleganticons-social_pinterest:before {
+	content: "\e095";
+}
+.eleganticons-social_googleplus:before {
+	content: "\e096";
+}
+.eleganticons-social_tumblr:before {
+	content: "\e097";
+}
+.eleganticons-social_tumbleupon:before {
+	content: "\e098";
+}
+.eleganticons-social_wordpress:before {
+	content: "\e099";
+}
+.eleganticons-social_instagram:before {
+	content: "\e09a";
+}
+.eleganticons-social_dribbble:before {
+	content: "\e09b";
+}
+.eleganticons-social_vimeo:before {
+	content: "\e09c";
+}
+.eleganticons-social_linkedin:before {
+	content: "\e09d";
+}
+.eleganticons-social_rss:before {
+	content: "\e09e";
+}
+.eleganticons-social_deviantart:before {
+	content: "\e09f";
+}
+.eleganticons-social_share:before {
+	content: "\e0a0";
+}
+.eleganticons-social_myspace:before {
+	content: "\e0a1";
+}
+.eleganticons-social_skype:before {
+	content: "\e0a2";
+}
+.eleganticons-social_youtube:before {
+	content: "\e0a3";
+}
+.eleganticons-social_picassa:before {
+	content: "\e0a4";
+}
+.eleganticons-social_googledrive:before {
+	content: "\e0a5";
+}
+.eleganticons-social_flickr:before {
+	content: "\e0a6";
+}
+.eleganticons-social_blogger:before {
+	content: "\e0a7";
+}
+.eleganticons-social_spotify:before {
+	content: "\e0a8";
+}
+.eleganticons-social_delicious:before {
+	content: "\e0a9";
+}
+.eleganticons-social_facebook_circle:before {
+	content: "\e0aa";
+}
+.eleganticons-social_twitter_circle:before {
+	content: "\e0ab";
+}
+.eleganticons-social_pinterest_circle:before {
+	content: "\e0ac";
+}
+.eleganticons-social_googleplus_circle:before {
+	content: "\e0ad";
+}
+.eleganticons-social_tumblr_circle:before {
+	content: "\e0ae";
+}
+.eleganticons-social_stumbleupon_circle:before {
+	content: "\e0af";
+}
+.eleganticons-social_wordpress_circle:before {
+	content: "\e0b0";
+}
+.eleganticons-social_instagram_circle:before {
+	content: "\e0b1";
+}
+.eleganticons-social_dribbble_circle:before {
+	content: "\e0b2";
+}
+.eleganticons-social_vimeo_circle:before {
+	content: "\e0b3";
+}
+.eleganticons-social_linkedin_circle:before {
+	content: "\e0b4";
+}
+.eleganticons-social_rss_circle:before {
+	content: "\e0b5";
+}
+.eleganticons-social_deviantart_circle:before {
+	content: "\e0b6";
+}
+.eleganticons-social_share_circle:before {
+	content: "\e0b7";
+}
+.eleganticons-social_myspace_circle:before {
+	content: "\e0b8";
+}
+.eleganticons-social_skype_circle:before {
+	content: "\e0b9";
+}
+.eleganticons-social_youtube_circle:before {
+	content: "\e0ba";
+}
+.eleganticons-social_picassa_circle:before {
+	content: "\e0bb";
+}
+.eleganticons-social_googledrive_alt2:before {
+	content: "\e0bc";
+}
+.eleganticons-social_flickr_circle:before {
+	content: "\e0bd";
+}
+.eleganticons-social_blogger_circle:before {
+	content: "\e0be";
+}
+.eleganticons-social_spotify_circle:before {
+	content: "\e0bf";
+}
+.eleganticons-social_delicious_circle:before {
+	content: "\e0c0";
+}
+.eleganticons-social_facebook_square:before {
+	content: "\e0c1";
+}
+.eleganticons-social_twitter_square:before {
+	content: "\e0c2";
+}
+.eleganticons-social_pinterest_square:before {
+	content: "\e0c3";
+}
+.eleganticons-social_googleplus_square:before {
+	content: "\e0c4";
+}
+.eleganticons-social_tumblr_square:before {
+	content: "\e0c5";
+}
+.eleganticons-social_stumbleupon_square:before {
+	content: "\e0c6";
+}
+.eleganticons-social_wordpress_square:before {
+	content: "\e0c7";
+}
+.eleganticons-social_instagram_square:before {
+	content: "\e0c8";
+}
+.eleganticons-social_dribbble_square:before {
+	content: "\e0c9";
+}
+.eleganticons-social_vimeo_square:before {
+	content: "\e0ca";
+}
+.eleganticons-social_linkedin_square:before {
+	content: "\e0cb";
+}
+.eleganticons-social_rss_square:before {
+	content: "\e0cc";
+}
+.eleganticons-social_deviantart_square:before {
+	content: "\e0cd";
+}
+.eleganticons-social_share_square:before {
+	content: "\e0ce";
+}
+.eleganticons-social_myspace_square:before {
+	content: "\e0cf";
+}
+.eleganticons-social_skype_square:before {
+	content: "\e0d0";
+}
+.eleganticons-social_youtube_square:before {
+	content: "\e0d1";
+}
+.eleganticons-social_picassa_square:before {
+	content: "\e0d2";
+}
+.eleganticons-social_googledrive_square:before {
+	content: "\e0d3";
+}
+.eleganticons-social_flickr_square:before {
+	content: "\e0d4";
+}
+.eleganticons-social_blogger_square:before {
+	content: "\e0d5";
+}
+.eleganticons-social_spotify_square:before {
+	content: "\e0d6";
+}
+.eleganticons-social_delicious_square:before {
+	content: "\e0d7";
+}
+.eleganticons-icon_printer:before {
+	content: "\e103";
+}
+.eleganticons-icon_calulator:before {
+	content: "\e0ee";
+}
+.eleganticons-icon_building:before {
+	content: "\e0ef";
+}
+.eleganticons-icon_floppy:before {
+	content: "\e0e8";
+}
+.eleganticons-icon_drive:before {
+	content: "\e0ea";
+}
+.eleganticons-icon_search-2:before {
+	content: "\e101";
+}
+.eleganticons-icon_id:before {
+	content: "\e107";
+}
+.eleganticons-icon_id-2:before {
+	content: "\e108";
+}
+.eleganticons-icon_puzzle:before {
+	content: "\e102";
+}
+.eleganticons-icon_like:before {
+	content: "\e106";
+}
+.eleganticons-icon_dislike:before {
+	content: "\e0eb";
+}
+.eleganticons-icon_mug:before {
+	content: "\e105";
+}
+.eleganticons-icon_currency:before {
+	content: "\e0ed";
+}
+.eleganticons-icon_wallet:before {
+	content: "\e100";
+}
+.eleganticons-icon_pens:before {
+	content: "\e104";
+}
+.eleganticons-icon_easel:before {
+	content: "\e0e9";
+}
+.eleganticons-icon_flowchart:before {
+	content: "\e109";
+}
+.eleganticons-icon_datareport:before {
+	content: "\e0ec";
+}
+.eleganticons-icon_briefcase:before {
+	content: "\e0fe";
+}
+.eleganticons-icon_shield:before {
+	content: "\e0f6";
+}
+.eleganticons-icon_percent:before {
+	content: "\e0fb";
+}
+.eleganticons-icon_globe:before {
+	content: "\e0e2";
+}
+.eleganticons-icon_globe-2:before {
+	content: "\e0e3";
+}
+.eleganticons-icon_target:before {
+	content: "\e0f5";
+}
+.eleganticons-icon_hourglass:before {
+	content: "\e0e1";
+}
+.eleganticons-icon_balance:before {
+	content: "\e0ff";
+}
+.eleganticons-icon_rook:before {
+	content: "\e0f8";
+}
+.eleganticons-icon_printer-alt:before {
+	content: "\e0fa";
+}
+.eleganticons-icon_calculator_alt:before {
+	content: "\e0e7";
+}
+.eleganticons-icon_building_alt:before {
+	content: "\e0fd";
+}
+.eleganticons-icon_floppy_alt:before {
+	content: "\e0e4";
+}
+.eleganticons-icon_drive_alt:before {
+	content: "\e0e5";
+}
+.eleganticons-icon_search_alt:before {
+	content: "\e0f7";
+}
+.eleganticons-icon_id_alt:before {
+	content: "\e0e0";
+}
+.eleganticons-icon_id-2_alt:before {
+	content: "\e0fc";
+}
+.eleganticons-icon_puzzle_alt:before {
+	content: "\e0f9";
+}
+.eleganticons-icon_like_alt:before {
+	content: "\e0dd";
+}
+.eleganticons-icon_dislike_alt:before {
+	content: "\e0f1";
+}
+.eleganticons-icon_mug_alt:before {
+	content: "\e0dc";
+}
+.eleganticons-icon_currency_alt:before {
+	content: "\e0f3";
+}
+.eleganticons-icon_wallet_alt:before {
+	content: "\e0d8";
+}
+.eleganticons-icon_pens_alt:before {
+	content: "\e0db";
+}
+.eleganticons-icon_easel_alt:before {
+	content: "\e0f0";
+}
+.eleganticons-icon_flowchart_alt:before {
+	content: "\e0df";
+}
+.eleganticons-icon_datareport_alt:before {
+	content: "\e0f2";
+}
+.eleganticons-icon_briefcase_alt:before {
+	content: "\e0f4";
+}
+.eleganticons-icon_shield_alt:before {
+	content: "\e0d9";
+}
+.eleganticons-icon_percent_alt:before {
+	content: "\e0da";
+}
+.eleganticons-icon_globe_alt:before {
+	content: "\e0de";
+}
+.eleganticons-icon_clipboard:before {
+	content: "\e0e6";
+}
+
+
+	.glyph {
+		float: left;
+		text-align: center;
+		padding: .75em;
+		margin: .4em 1.5em .75em 0;
+		width: 6em;
+text-shadow: none;
+	}
+        .glyph_big {
+        font-size: 128px;
+        color: #59c5dc;
+        float: left;
+        margin-right: 20px;
+        }
+
+        .glyph div { padding-bottom: 10px;}
+
+	.glyph input {
+		font-family: consolas, monospace;
+		font-size: 12px;
+		width: 100%;
+		text-align: center;
+		border: 0;
+		box-shadow: 0 0 0 1px #ccc;
+		padding: .2em;
+                -moz-border-radius: 5px;
+                -webkit-border-radius: 5px;
+	}
+	.centered {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.glyph .fs1 {
+		font-size: 2em;
+	}
+
+	

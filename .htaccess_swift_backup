@@ -1,0 +1,24 @@
+# BEGIN SMART PUSH FAST BRIDGE
+RewriteEngine On
+RewriteRule ^push/([_0-9a-zA-Z-]+)/?(.*)?$ index.php?smpushcontrol=$1/$2&%{QUERY_STRING}
+RewriteCond %{QUERY_STRING} ^smpushcontrol=(get_archive|get_link|go)(.*)$
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ wp-content/plugins/smio-push-notification/bridge.php?%{QUERY_STRING} [L]
+# END SMART PUSH FAST BRIDGE
+#Redirection code starts
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+#Redirection code Ends
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
